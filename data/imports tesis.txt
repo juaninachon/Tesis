@@ -1,0 +1,62 @@
+bases_limpias/00_pks_submuestras.csv
+
+datos_procesados/00_ema.csv
+ 
+bases_limpias/02_docentes_demografía.csv"
+bases_limpias/03_obs_keys_jardines.csv"),
+../baked/obs/nrioa.csv
+j2023/obs/nrioa.csv") %>%
+j2023/obs/nrat.csv") %>% slice(1:394)
+../baked/obs/nrat.csv")
+bases_limpias/09_reporteswm.csv")
+bases_limpias/10_nux.csv")
+j2023/obs/nioa.csv")
+nrioa23 <- read.csv("../../../j2023/obs/nrioa.csv")
+nioa24 <- read.csv("../../../baked/obs/nioa.csv")
+nrioa24 <- read.csv("../../../baked/obs/nrioa.csv")
+cbq3 <- read.csv("../../../j2023/cbqe.csv")
+cbq4 <- read.csv("../../../baked/cbqe.csv")
+chaosj <- read.csv("../../../baked/chaosh.csv") %>%
+lecp3 <- read.csv("../../../j2023/chaosd.csv") %>%
+lecp4 <- read.csv("../../../baked/chaose.csv") %>%
+read.csv("../../../j2023/raw/keys3.csv"),
+  read.csv("../../../raw/keys4.csv")
+)
+ecp <- rbind(
+  read.csv("../../../j2023/raw/ecp_raw.csv"),
+  read.csv("../../../raw/Escala de comportamiento preescolar (respuestas) - Copia de Respuestas de formulario 1.csv")
+)
+read.csv("../../../0_material_tesis/bases_limpias/06_museo_props.csv")  
+  read.csv("../../../0_material_tesis/bases_limpias/11_elan.csv"),
+  read.csv("../../../0_material_tesis/bases_limpias/18_turnos_conv.csv")
+  
+  read.csv("../../../0_material_tesis/bases_limpias/11_elan.csv"),
+  read.csv("../../../0_material_tesis/bases_limpias/12_diarización.csv")
+  
+   read.csv("../../../0_material_tesis/bases_limpias/15_clan.csv") 
+     read.csv("../../../0_material_tesis/bases_limpias/13_propfeat.csv"),
+    read.csv("../../../0_material_tesis/bases_limpias/14_propgazelle.csv")
+    read.csv("../../../0_material_tesis/bases_limpias/09_reporteswm.csv") 
+    
+nuxm <- read.csv("../../../0_material_tesis/bases_limpias/10_nux.csv")
+
+a[[i]] <- read.csv(paste0("../../../../BORIS-scripts/baked/tss/", dups[i], "_ts.csv")) %>%
+    filter(fase  %in% fases) %>%
+    select(4:32)
+  b[[i]] <- read.csv(paste0("../../../../BORIS-scripts/baked/dups/tss/", dups[i], "_ts.csv")) %>%
+  
+  read.csv("../../../../BORIS-scripts/baked/props.csv")
+b <- read.csv("../../../../BORIS-scripts/baked/dups/props.csv") %>% 
+
+guide <- read.csv("../../../../C3/syncsub.csv") %>%
+  left_join(read.csv("../../../../C3/sync.csv"))
+elans <- guide$ID[which(guide$ELAN==1)]
+paths_elan <- list.files("../../../../BORIS-scripts/baked/elan/tss", full.names = TRUE)
+paths_pyannote <- list.files("../../../../C3/diarizations/dups", full.names = TRUE)
+mmegats <- read.csv("../../../0_material_tesis/bases_limpias/05_museo_mega_ts.csv")
+tsfeat <- read.csv("../../../0_material_tesis/bases_limpias/tsfeat2.csv")
+paths_gazelle <- list.files("../../../../gazelle/sync", full.names = TRUE)
+boris <- read.csv(paste0("../../../../BORIS-scripts/baked/tss/", Id, "_ts.csv")) %>%
+
+read.csv("../../../j2023/c3/baked/c3bq.csv") 
+ read.csv("../../../j2023/c3/baked/chaosc.csv") %

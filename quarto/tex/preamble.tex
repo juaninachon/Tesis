@@ -1,0 +1,86 @@
+\usepackage{setspace}
+\usepackage{etoolbox}
+\usepackage{tocloft}
+\usepackage{xurl}
+\usepackage{arydshln}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{titlesec}
+\usepackage{url}
+
+\usepackage[utf8]{inputenc}
+
+\def\UrlBreaks{\do\/\do\- \do\.\do\_}
+% -------------------
+% APA 7th Headings
+% -------------------
+
+% Level 1: Centered, Bold, Title Case
+\titleformat{\section}
+  {\normalfont\bfseries\centering}
+  {}{0pt}{}
+
+% Level 2: Flush Left, Bold, Title Case
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {}{0pt}{}
+
+% Level 3: Flush Left, Bold Italic, Title Case
+\titleformat{\subsubsection}
+  {\normalfont\bfseries\itshape}
+  {}{0pt}{}
+
+% Level 4: Indented, Bold, Title Case, Ending with a Period. 
+\titleformat{\paragraph}[runin]
+  {\normalfont\bfseries}
+  {}{0pt}{}[.] 
+
+% Level 5: Indented, Bold Italic, Title Case, Ending with a Period. 
+\titleformat{\subparagraph}[runin]
+  {\normalfont\bfseries\itshape}
+  {}{0pt}{}[.] 
+
+% Make sure paragraphs after run-in headings start on same line
+\titlespacing*{\paragraph}{\parindent}{1ex}{1em}
+\titlespacing*{\subparagraph}{\parindent}{1ex}{1em}
+
+
+\renewcommand{\arraystretch}{1.0}
+
+\newcommand{\listoffiguress}{
+  \begingroup
+  \setstretch{1}
+  \listoffigures
+  \endgroup
+}
+
+\newcommand{\listoftabless}{
+  \begingroup
+  \setstretch{1}
+  \listoftables
+  \endgroup
+}
+
+\newlistof{suppfig}{losf}{Índice de figuras suplementarias}
+\newcommand{\listofsuppfigures}{
+  \begingroup
+  \setstretch{1}
+  \renewcommand{\numberline}[1]{Supp~##1\quad}
+  \listof{suppfig}{}
+  \endgroup
+}
+
+\newlistof{supptab}{lost}{Índice de tablas suplementarias}
+\newcommand{\listofsupptables}{
+  \begingroup
+  \setstretch{1}
+  \renewcommand{\numberline}[1]{Supp~##1\quad}
+  \listof{supptab}{}
+  \endgroup
+}
