@@ -688,7 +688,7 @@ En base a los los cuestionarios respondidos por los adultos responsables de los 
 ```{r}
 #| label: t1_1
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t1_1,
   file = "", 
@@ -699,7 +699,7 @@ Hmisc::latex(
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 ```{r}
@@ -822,7 +822,7 @@ colnames(t2_2) <- c(
 ```{r}
 #| label: t2_1
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t2_1,
   file = "", 
@@ -833,13 +833,13 @@ Hmisc::latex(
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 ```{r}
 #| label: t2_2
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t2_2,
   file = "", 
@@ -851,6 +851,7 @@ Hmisc::latex(
   col.just = c("l", "l", "r", "r", "r"),
   lines.page = 4000
 )
+cat("\\normalsize\n")
 ```
 
 
@@ -919,7 +920,7 @@ t3 <- obsj |>
     ) |>
     rename(`Tipo de actividad` = Tipo.de.actividad)
 t3[] <- lapply(t3, as.character)
-  
+cat("\\scriptsize\n")  
 Hmisc::latex(
   t3,
   file = "", 
@@ -931,6 +932,7 @@ Hmisc::latex(
   col.just = c("c", "r", "r", "r"),
   lines.page = 4000
 )
+cat("\\normalsize\n")
 ```
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Sobre la distribución de los indicadores comportamentales (ver \hyperref[tab:4]{Tabla 4}), se encontró que, siguiendo la lógica de un modelo de valencia e intensidad, las expresiones faciales vinculadas a emociones neutras o positivas (i.e., sonrisas) se observaron con más frecuencia que las negativas (i.e., enojo, llanto, cansancio). La actividad con más expresiones afectivas salientes e interacciones prosociales con docentes fue el juego con números. Por otro lado, los momentos de exposición docente fueron aquellos en los que se registraron los niveles más bajos de involucramiento (i.e., mayor distractibilidad) y más instancias en las que los niños/as abandonaban la postura erguida, exhibían conductas de apaciguamiento (e.g., llevarse cosas a la boca, autoprensión) o mantenían interacciones disruptivas con las docentes (e.g., recibían llamados de atención). Los niveles más altos de involucramiento se registraron durante las actividades de artes plásticas. Durante el juego libre se observó la mayor cantidad de desplazamientos e interacciones con pares, tanto prosociales como disruptivas.
@@ -1029,7 +1031,7 @@ numeric_cols <- sapply(t4, is.numeric)
 t4[numeric_cols] <- lapply(t4[numeric_cols], function(x) formatC(x, digits = 2, format = "f"))
 
 t4$n <- as.character(as.integer(t4$n))
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t4,
   file = "", 
@@ -1041,7 +1043,7 @@ Hmisc::latex(
   col.just = c("l", "l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 #### 7.1.1.3 Distribución de las escalas de reporte y del desempeño en pruebas estandarizadas
@@ -1107,7 +1109,7 @@ numeric_cols <- sapply(t5, is.numeric)
 t5[numeric_cols] <- lapply(t5[numeric_cols], function(x) formatC(x, digits = 2, format = "f"))
 
 t5$n <- as.character(as.integer(t5$n))
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t5,
   file = "", 
@@ -1119,7 +1121,7 @@ Hmisc::latex(
   col.just = c("l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 
@@ -1245,7 +1247,7 @@ rownames(t6) <- c(
 
 numeric_cols <- sapply(t6, is.numeric)
 t6[numeric_cols] <- lapply(t6[numeric_cols], function(x) formatC(x, digits = 2, format = "f"))
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t6,
   file = "", 
@@ -1256,7 +1258,7 @@ Hmisc::latex(
   col.just = c("r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 ##### 7.1.1.4.2 Consistencia interna de las escalas
@@ -1482,7 +1484,7 @@ t7[numeric_cols] <- lapply(t7[numeric_cols], function(x) formatC(x, digits = 2, 
 
 t7$n <- as.character(as.integer(t7$n))
 colnames(t7)[1] <- "Variable"
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t7,
   file = "", 
@@ -1494,7 +1496,7 @@ Hmisc::latex(
   col.just = c("l", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 ##### 7.1.1.4.3 Homogeneidad de las submuestras
@@ -1557,7 +1559,7 @@ colnames(t8) <- c(
 )
 
 t8$Variable[17:29] <- make_clean_names(t8$Variable[17:29], case = "title")
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t8,
   file = "", 
@@ -1570,7 +1572,7 @@ Hmisc::latex(
   lines.page = 4000,
   numeric.dollar=FALSE, sanitize=TRUE
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1640,7 +1642,7 @@ for (i in colnames(select(n2j, -ID))){
 }
 
 colnames(t9) <- colnames(t8)
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t9,
   file = "", 
@@ -1653,6 +1655,7 @@ Hmisc::latex(
   lines.page = 4000,
   numeric.dollar=FALSE, sanitize=TRUE
 )
+cat("\\normalsize\n")
 ```
 
 ### 7.1.2 Análisis inferencial
@@ -1758,7 +1761,7 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, 1:9),
   file = "",
@@ -1774,7 +1777,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1782,7 +1785,7 @@ Hmisc::latex(
 ```{r}
 #| label: t10_2
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 10:18)),
   file = "",
@@ -1798,7 +1801,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1806,7 +1809,7 @@ Hmisc::latex(
 ```{r}
 #| label: t10_3
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 19:27)),
   file = "",
@@ -1822,7 +1825,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1830,7 +1833,7 @@ Hmisc::latex(
 ```{r}
 #| label: t10_4
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 28:35)),
   file = "",
@@ -1847,7 +1850,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1855,7 +1858,7 @@ Hmisc::latex(
 ```{r}
 #| label: t10_5
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 36:42)),
   file = "",
@@ -1872,7 +1875,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \end{landscape}
@@ -1928,7 +1931,7 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   corr_formatted,
   file = "",
@@ -1944,7 +1947,7 @@ Hmisc::latex(
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \scriptsize 
@@ -2031,7 +2034,7 @@ lmtable <- function(lmobj) {
     "95% CI",
     "\\emph{p}"
   )
-
+  cat("\\scriptsize\n")
   Hmisc::latex(
     final_table,
     file = "",
@@ -2049,6 +2052,7 @@ lmtable <- function(lmobj) {
     col.just = c("l", "r", "r", "r", "r", "r"),
     sanitize = FALSE
   )
+  cat("\\normalsize\n")
 }
 
 m1j <- lm(data = clean_names(mergej), compuesto_woodcock ~ no_encaja_puntaje + ecp_cooperatividad + obs_involucramiento_en_actividades)
@@ -2171,7 +2175,7 @@ for (i in seq_along(colnames(t16_1))){
 }
 
 t16_1$Modelo <- c("Nivel 1", "Nivel 2", "Nivel 3")
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t16_1,
   file = "",
@@ -2188,6 +2192,7 @@ Hmisc::latex(
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
+cat("\\normalsize\n")
 ```
 
 \scriptsize 
@@ -2207,7 +2212,7 @@ t16_2 <- anova(m2j, m3j, m4j) |>
 colnames(t16_2) <- c("Modelo", "Grados de libertad", "\\emph{RSS}", "\\emph{Chi2}", "\\emph{p}")
 
 t16_2[1] <- t16_1$Modelo
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t16_2,
   file = "",
@@ -2224,6 +2229,7 @@ Hmisc::latex(
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
+cat("\\normalsize\n")
 ```
 
 \scriptsize
@@ -2437,7 +2443,7 @@ colnames(t17_2) <- c(
 ```{r}
 #| label: t17_1
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t17_1,
   file = "", 
@@ -2448,12 +2454,13 @@ Hmisc::latex(
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 ```{r}
 #| label: t17_2
 #| results: 'asis'
+cat("\\scriptsize\n")
 Hmisc::latex(
   t17_2,
   file = "", 
@@ -2465,6 +2472,7 @@ Hmisc::latex(
   col.just = c("l", "l", "r", "r", "r"),
   lines.page = 4000
 )
+cat("\\normalsize\n")
 ```
 
 #### 7.2.2.2 Distribución de los indicadores comportamentales
@@ -2620,7 +2628,7 @@ t18$missing =  round((nrow(emam) - t18$n) / nrow(emam) *100, 2)
 colnames(t18)[10] <- "perdidos (%)"
 
 t18[] <- lapply(t18, as.character)
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   slice(t18, -c(29:36, 45:60, 77:80)),
   file = "", 
@@ -2632,7 +2640,7 @@ Hmisc::latex(
   col.just = c("l", "l", "l", rep("r",7)),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Se diarizaron manualmente 30 videos (271 minutos de audio). Se encontró que en todos los casos, los adultos hablaron más que los niños/as a lo largo de los registros, con una diferencia promedio de 86 emisiones o 161 segundos de habla (ver \hyperref[tab:19]{Tabla 19}). Las emisiones de las niñas/os tuvieron una duración media de 1407 ms y, considerando el tiempo que se le dedicó a cada actividad, la probabilidad de escucharlos hablar fue mayor durante el *piedra, papel o tijera* que durante el armado de cualquiera de las figuras. Las emisiones de los adultos fueron, también en promedio, 257 ms más largas y casi 3 veces más frecuentes que las de los niños/as. La cantidad de turnos conversacionales (i.e., emisiones de ambos participantes distanciadas por no más de 5 segundos, independientemente de quién las iniciara) fue de alrededor de 10 turnos por minuto por díada.
@@ -2817,7 +2825,7 @@ t19[] <- lapply(t19, as.character)
 t19[] <- lapply(t19, function(col) {
   if (is.character(col)) latex_escape(col) else col
 })
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t19,
   file = "",
@@ -2835,6 +2843,7 @@ Hmisc::latex(
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
 )
+cat("\\normalsize\n")
 ```
 
 ##### 7.2.2.2.2 Codificación asistida por IA
@@ -3014,7 +3023,7 @@ t20[] <- lapply(t20, as.character)
 t20[] <- lapply(t20, function(col) {
   if (is.character(col)) latex_escape(col) else col
 })
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t20,
   file = "",
@@ -3032,7 +3041,7 @@ Hmisc::latex(
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
 )
-
+cat("\\normalsize\n")
 ```
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los audios, una vez dializados, fueron transcritos con el modelo v3-large de Whisper [@radfordRobustSpeechRecognition2023]. Dado el volumen del material, no se hicieron transcripciones manuales para comprobar el nivel de confiabilidad, pero los resultados sí fueron filtrados para descartar instancias claras de alucinación (e.g., “suscribanse al canal”, “gracias por ver el video”, etc). Las transcripciones filtradas se procesaron con el programa Treetagger [@schmidProbabilisticPartofspeechTagging2013], aplicado a través del paquete koRpus [@michalkePackageKoRpus2021], con el que también se computaron índices de diversidad léxica (ver \hyperref[tab:21]{Tabla 21}). Los resultados indican que la cantidad de palabras (tokens) por minuto promedio para las niñas/os fue de 10 y de 66 para los adultos, considerando el total de la sesión. Para ambos miembros de la díada, el largo medio de las declaraciones (MLU) rondó las 6 palabras y fue levemente mayor durante la actividad del avioncito de papel. De los índices de diversidad léxica calculados, solo el de cantidad de palabras únicas sobre totales (TTR) fue más alto para los niños/as que para los adultos (0.6 a 0.36). En el resto de las medidas, los adultos evidenciaron mayor riqueza verbal que las niñas/os. Estos índices aportan información sobre la probabilidad de que una palabra tomada al azar del corpus sea única (HD-D), sobre la diversidad media calculada a lo largo de una ventana (MASS) y del punto crítico para la reducción de la diversidad (MLTD) [@mccarthyMTLDVocdDHDD2010]. En general, ambos miembros de la díada exhibieron mayor complejidad discursiva durante el armado de las figuras de papel que en el *piedra, papel o tijera*.
@@ -3179,7 +3188,7 @@ t21[] <- lapply(t21, as.character)
 t21[] <- lapply(t21, function(col) {
   if (is.character(col)) latex_escape(col) else col
 })
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t21,
   file = "",
@@ -3197,7 +3206,7 @@ Hmisc::latex(
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
 )
-
+cat("\\normalsize\n")
 ```
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso de las medidas obtenidas de imágenes, se procesaron los videos de las 69 díadas. Se optó por excluir de los análisis a aquellos videos donde la detección facial de alguno de los miembros de la díada hubiese fallado en más de un 25% de los fotogramas. El nivel de acuerdo entre las codificaciones manuales y la clasificación automática de las expresiones emocionales y de la sincronía atencional fue bajo (ver [Apartado de confiabilidad 7.2.2.4.2](#sec-7.2.2.4.2)), pero en algunos casos los algoritmos arribaron a resultados similares respecto del orden en la prevalencias de indicadores según actividad y miembro de la díada (ver \hyperref[tab:22]{Tabla 22}).
@@ -3311,7 +3320,7 @@ t22[] <- lapply(t22, as.character)
 t22[] <- lapply(t22, function(col) {
   if (is.character(col)) latex_escape(col) else col
 })
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t22,
   file = "",
@@ -3329,8 +3338,7 @@ Hmisc::latex(
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
 )
-
-
+cat("\\normalsize\n")
 ```
 
 #### 7.2.2.3 Distribución de las escalas de reporte y del desempeño en pruebas estandarizadas
@@ -3391,7 +3399,7 @@ numeric_cols <- sapply(t23, is.numeric)
 t23[numeric_cols] <- lapply(t23[numeric_cols], function(x) formatC(x, digits = 2, format = "f"))
 
 t23$n <- as.character(as.integer(t23$n))
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t23,
   file = "", 
@@ -3403,7 +3411,7 @@ Hmisc::latex(
   col.just = c("l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
-
+cat("\\normalsize\n")
 ```
 
 #### 7.2.2.4. Confiabilidad de los datos relevados
@@ -3490,7 +3498,7 @@ t24 <- cbind(
 numeric_cols <- sapply(t24, is.numeric)
 t24[numeric_cols] <- lapply(t24[numeric_cols], function(x) formatC(x, digits = 3, format = "f"))
 colnames(t24)[3:4] <- c("Kappa de Cohen", "Alfa de Krippendorf")
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t24,
   file = "", 
@@ -3501,7 +3509,8 @@ Hmisc::latex(
   #size = "scriptsize",
   col.just = c("l", "l","r", "r"),
   lines.page = 4000
-)  
+)
+cat("\\normalsize\n")
 ```
 
 ##### 7.2.2.4.2 Acuerdo en la codificación asistida {#sec-7.2.2.4.2}
@@ -3518,13 +3527,12 @@ El nivel de acuerdo, tanto para los indicadores emocionales y atencionales, resu
 #| label: t25 obsm ai ioa
 #| results: 'asis'
 
-
 guide <- read.csv("data/obsm/syncsub.csv") |>
   left_join(read.csv("data/obsm/sync.csv"))
 elans <- guide$ID[which(guide$ELAN==1)]
 paths_elan <- list.files("data/obsm/tselan", full.names = TRUE)
 paths_pyannote <- list.files("data/obsm/pyannotedups", full.names = TRUE)
-mmegats <- read.csv("data/obsm/museo_mega_ts.csv")
+mmegats <- do.call(rbind, lapply(paste0("data/obsm/museo_mega_ts", 1:4, ".csv"), read.csv))
 tsfeat <- read.csv("data/obsm/tsfeat2.csv")
 paths_gazelle <- list.files("data/obsm/gazellesync", full.names = TRUE)
 
@@ -3751,7 +3759,7 @@ t25 <- cbind(
 numeric_cols <- sapply(t25, is.numeric)
 t25[numeric_cols] <- lapply(t25[numeric_cols], function(x) formatC(x, digits = 3, format = "f"))
 colnames(t25)[3:4] <- c("Kappa de Cohen", "Alfa de Krippendorf")
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t25,
   file = "", 
@@ -3763,6 +3771,7 @@ Hmisc::latex(
   col.just = c("l", "l","r", "r"),
   lines.page = 4000
 )  
+cat("\\normalsize\n")
 ```
 
 ##### 7.2.2.4.3 Consistencia interna de las escalas
@@ -3870,7 +3879,7 @@ t26[numeric_cols] <- lapply(t26[numeric_cols], function(x) formatC(x, digits = 2
 
 t26$n <- as.character(as.integer(t26$n))
 colnames(t26)[1] <- "Variable"
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t26,
   file = "", 
@@ -3882,6 +3891,7 @@ Hmisc::latex(
   col.just = c("l", "r", "r"),
   lines.page = 4000,
 )
+cat("\\normalsize\n")
 ```
 
 ### 7.2.3 Análisis inferencial
@@ -4003,7 +4013,7 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, 1:8),
   file = "",
@@ -4019,7 +4029,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4027,7 +4037,7 @@ Hmisc::latex(
 ```{r}
 #| label: t27_2
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 9:15)),
   file = "",
@@ -4043,7 +4053,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4051,7 +4061,7 @@ Hmisc::latex(
 ```{r}
 #| label: t27_3
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 16:22)),
   file = "",
@@ -4067,7 +4077,7 @@ Hmisc::latex(
   insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-
+cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4075,7 +4085,7 @@ Hmisc::latex(
 ```{r}
 #| label: t27_4
 #| results: 'asis'
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 23:30)),
   file = "",
@@ -4093,7 +4103,7 @@ Hmisc::latex(
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \end{landscape}
@@ -4155,7 +4165,7 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   corr_formatted,
   file = "",
@@ -4173,7 +4183,7 @@ Hmisc::latex(
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-
+cat("\\normalsize\n")
 ```
 
 \scriptsize 
@@ -4313,7 +4323,7 @@ for (i in seq_along(colnames(t33_1))){
 }
 
 t33_1$Modelo <- c("Nivel 1", "Nivel 2", "Nivel 3")
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t33_1,
   file = "",
@@ -4330,6 +4340,7 @@ Hmisc::latex(
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
+cat("\\normalsize\n")
 ```
 
 \scriptsize 
@@ -4350,7 +4361,7 @@ t33_2 <- anova(m6m, m7m, m8m) |>
 colnames(t33_2) <- c("Modelo", "Grados de libertad", "RSS", "Chi2", "p")
 
 t33_2[1] <- t33_1$Modelo
-
+cat("\\scriptsize\n")
 Hmisc::latex(
   t33_2,
   file = "",
@@ -4367,6 +4378,7 @@ Hmisc::latex(
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
+cat("\\normalsize\n")
 ```
 
 \scriptsize
