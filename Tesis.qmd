@@ -19,10 +19,12 @@ format:
     linkcolor: black       
     urlcolor: black         
     citecolor: black
+    cite-method: biblatex
+    biblatexoptions: "style=apa,backend=biber,sorting=nyt"
     include-in-header: quarto/tex/preamble.tex
     template-partials:
       - quarto/tex/before-body.tex
-    toc: True #
+    toc: True
     toc-title: Índice
     toc-depth: 5
     lof: false
@@ -37,12 +39,6 @@ format:
       - outer=1in
       - top=1in
       - bottom=1in
-      # - headsep=22pt
-      # - headheight=11pt
-      # - footskip=33pt
-      # - ignorehead
-      # - ignorefoot
-      # - heightrounded
     papersize: a4
     indent: false
     keep-tex: true
@@ -77,7 +73,7 @@ El constructo *autorregulación* denomina a un conjunto de procesos y habilidade
 
 La presente propuesta plantea avanzar con el análisis del desarrollo autorregulatorio a partir de la comparación e integración de información individual sobre el desempeño en tareas de funciones ejecutivas, reportes parentales y de educadores del temperamento y las conductas de aprendizaje, las condiciones de vida del hogar y la observación directa de la conducta en contextos cotidianos. Más allá del valor predictivo que los instrumentos de laboratorio tienen sobre aspectos del desarrollo cognitivo y socioemocional a lo largo del ciclo vital, se verifica una brecha de conocimiento en cuanto a la expresión ecológica de estos fenómenos. Aún no existe una comprensión integral de cómo los procesos que se evalúan con procedimientos estandarizados se ponen en juego en el hogar y la escuela para dar cuenta de diferencias en la adaptación de las personas a sus contextos de desarrollo [@moffittGradientChildhoodSelfcontrol2011]. El estudio de los procesos autorregulatorios en contextos de socialización y de educación, así como también el análisis de la validez predictiva de diferentes tipos de medidas de evaluación sobre el desempeño académico y la consideración de factores moduladores de orden individual y contextual son los temas centrales de este trabajo. La escasez de este tipo de abordajes combinados, sumada a la consideración de la variabilidad cultural en el desarrollo de los procesos autorregulatorios, justifica que sean indagados en el ámbito local. El potencial beneficio que deriva de esta tentativa es el avance en las prácticas de evaluación que resultaría de comprender más integralmente cómo indicadores comportamentales relevados en situaciones cotidianas se asocian con medidas estructuradas del funcionamiento autorregulatorio. Adicionalmente, el análisis de las diferencias individuales en estas asociaciones podría llevar a la identificación de nuevas preguntas y blancos de intervención.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La tesis se organiza en doce apartados: el *resumen* &mdash;que anticipa el tema, los objetivos, métodos y resultados&mdash;, una breve sección de *agradecimientos*, la *introducción* &mdash;que racionaliza la propuesta y describe su recorrido&mdash;, el *marco teórico* &mdash;donde se exponen los conceptos centrales y se detallan los antecedentes empíricos relevantes que hacen al estado del arte&mdash;, el apartado donde se explicitan los *objetivos e hipótesis*, el apartado de *metodología* &mdash;donde se detallan los procedimientos, instrumentos y análisis que hacen a cada uno de los estudios&mdash;, los *resultados* obtenidos; la *discusión* &mdash;en la que se revén los resultados a la luz de los objetivos, hipótesis y antecedentes&mdash;, un apartado de *limitaciones y direcciones futuras,* el apartado de *conclusiones* &mdash;donde se sintetizan y valoran los hallazgos&mdash; y una sección de *materiales suplementarios* con anexos de instrumentos de evaluación, protocolos, cuestionarios, herramientas para la exploración de los datos, el código de los análisis estadísticos y documentación que respalda aspectos éticos y administrativos. En último lugar aparecen las referencias bibliográficas.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La tesis se organiza en doce apartados: el *resumen* &mdash;que anticipa el tema, los objetivos, métodos y resultados&mdash;, una breve sección de *agradecimientos*, la *introducción* &mdash;que racionaliza la propuesta y describe su recorrido&mdash;, el *marco teórico* &mdash;donde se exponen los conceptos centrales y se detallan los antecedentes empíricos relevantes que hacen al estado del arte&mdash;, el apartado donde se explicitan los *objetivos e hipótesis*, el apartado de *metodología* &mdash;donde se detallan los procedimientos, instrumentos y análisis que hacen a cada uno de los estudios&mdash;, los *resultados* obtenidos; la *discusión* &mdash;en la que se revén los resultados a la luz de los objetivos, hipótesis y antecedentes&mdash;, un apartado de *limitaciones y direcciones futuras,* el apartado de *conclusiones* &mdash;donde se sintetizan y valoran los hallazgos&mdash; y las referencias bibliográficas. En último lugar aparecen una sección de *materiales suplementarios* con enlaces a instrumentos de evaluación, protocolos, cuestionarios, herramientas para la exploración de los datos, el código de los análisis estadísticos y documentación que respalda aspectos éticos y administrativos
 
 \newpage
 
@@ -307,7 +303,7 @@ Se seleccionaron medidas para este estudio en función de su idoneidad para abor
 
 Con la intención de minimizar el tiempo de evaluación en las escuelas, se implementó una batería digital diseñada por miembros del equipo de investigaión en colaboración con investigadores de la Universidad de Delft (Países Bajos) y NeuroUX (India) para su uso remoto en computadoras y dispositivos con pantalla táctil. La misma cuenta con antecedentes en el ámbito local y en una muestra dentro del mismo rango etario [@segretinOnLineAssessmentSelfRegulatory2021]. Incluye ocho pruebas estandarizadas, segmentadas en dos sesiones de cuatro pruebas cada una, con una duración aproximada de 15 minutos por sesión (ver Anexos [C1](https://neuroux-una.getneuroux.com/?prismicId=ZFip6RMAACgAaZFq&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=1&channel=mail&language=es) y [C2](https://neuroux-una.getneuroux.com/?prismicId=ZFiqRxMAAC0AaZMT&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=2&channel=mail&language=es)). 
 
-##### 6.3.1.1.1 Toca botón
+**Toca botón**
 
 El subtest *Toca botón* evalúa procesos de control inhibitorio (ver \hyperref[fig:3]{Figura 3}). Consiste de 24 ensayos, sin criterio de corte, en los que se presenta uno de dos estímulos aleatoriamente, con la consigna de que los participantes toquen rápidamente uno de ellos (ensayos congruentes), pero que se abstengan de seleccionar al otro (ensayos incongruentes). Distribución: 70% congruentes 30% incongruentes. Tiempo de presentación de los estímulos: 2500 ms. Tiempo entre ensayos: aleatorio entre 700 y 1000 ms. Variables de interés: Cantidad de ensayos correctos y tiempo de reacción promedio en ensayos congruentes correctos e incongruentes incorrectos.
 
@@ -321,7 +317,7 @@ El subtest *Toca botón* evalúa procesos de control inhibitorio (ver \hyperref[
 
 ![](quarto/figuras/3tb.png){width=200 fig-align="center"}
 
-##### 6.3.1.1.2 No encaja
+**No encaja**
 
 La tarea *No encaja* evalúa procesos de resolución de problemas abstractos y el procesamiento fluido de la información, al estilo de una prueba de matrices [@kaufmanKaufmanAssessmentBattery1983; @ravenRavenProgressiveMatrices2003]. Consiste en 18 ensayos con estímulos geométricos que requieren que los participantes relacionen los estímulos y completen analogías (ver \hyperref[fig:4]{Figura 4}). En cada ensayo, los participantes deben comprender la relación implícita entre los estímulos y seleccionar aquel estímulo que no se relaciona con el resto de los estímulos, antes de que transcurran 20 segundos (la excepción a la regla, el que no encaja). Variables de interés: cantidad de ensayos correctos, tiempo de reacción promedio en ensayos correctos e incorrectos.
 
@@ -336,7 +332,7 @@ La tarea *No encaja* evalúa procesos de resolución de problemas abstractos y e
 ![](quarto/figuras/4ne.png){width=200 fig-align="center"}
 
 
-##### 6.3.1.1.3 Juego de Memoria 
+**Juego de Memoria**
 
 El subtest *Juego de Memoria* evalúa procesos de memoria de trabajo espacial utilizando estímulos numéricos y geométricos en forma de fichas (ver \hyperref[fig:5]{Figura 5}). Los participantes deben observar la posición de las mismas en la pantalla, que luego de un periodo entre tres y cuatro segundos se voltean, ocultando sus valores. Entonces, se le solicita a los participantes que recuerden la posición de uno de los estímulos antes de que transcurran 20 segundos. Se administran un total de 24 ensayos de dificultad creciente, incorporando un mayor número de estímulos y el desplazamiento de los mismos a lo largo de la pantalla luego del volteo. Variables de interés: cantidad de ensayos correctos, tiempo de reacción promedio en ensayos correctos e incorrectos.
 
@@ -351,7 +347,7 @@ El subtest *Juego de Memoria* evalúa procesos de memoria de trabajo espacial ut
 ![](quarto/figuras/5mt.png){width=200 fig-align="center"}
 
 
-##### 6.3.1.1.4 Bloques de Corsi 
+**Bloques de Corsi**
 
 La tarea de *Bloques de Corsi* evalúa procesos de memoria de trabajo espacial [@pickeringDevelopmentVisuospatialWorking2001]. En esta versión (ver \hyperref[fig:6]{Figura 6}), cada ensayo comienza con la aparición en orden sucesivo de bloques. Luego, se le indica al participante que seleccione los bloques en orden directo (en el mismo orden que aparecieron) o inverso (al revés, comenzando por el último que aparece). La prueba, que inicia con dos elementos, aumenta en dificultad (cantidad de elementos presentados, 24 como máximo) a medida que los niños/as aciertan la secuencia completa. El tiempo entre la presentación de cada estímulo comienza en un segundo y aumenta con la cantidad de bloques. El criterio de corte es de tres errores acumulados. La prueba en orden directo se administra en la sesión número uno, y la inversa en la número dos. Variables de interés: cantidad de ensayos correctos, cantidad máxima de ensayos correctos consecutivos, tiempo de reacción promedio en ensayos correctos e incorrectos (latencia hasta la primera selección).
 
@@ -365,7 +361,7 @@ La tarea de *Bloques de Corsi* evalúa procesos de memoria de trabajo espacial [
 
 ![](quarto/figuras/6corsi.png){width=200 fig-align="center"}
 
-##### 6.3.1.1.5 Simón
+**Simón**
 
 La prueba *Simón* también evalúa procesos de memoria de trabajo espacial (ver \hyperref[fig:7]{Figura 7}). Inspirado en el clásico juego de los ochenta, los participantes deben reproducir la secuencia de iluminaciones. La prueba, que comienza con un solo elemento, aumenta en dificultad (con secuencias más largas, 24 elementos como máximo) a medida que las niñas/os aciertan. El tiempo entre la presentación de cada estímulo comienza en un segundo y aumenta con el largo de la secuencia. El criterio de corte es de tres errores acumulados, con los dos primeros ensayos de práctica (no acumulan error). Variables de interés: cantidad de ensayos correctos, cantidad máxima de ensayos correctos consecutivos, tiempo de reacción promedio en ensayos correctos e incorrectos (latencia hasta la primera selección).
 
@@ -379,7 +375,7 @@ La prueba *Simón* también evalúa procesos de memoria de trabajo espacial (ver
 
 ![](quarto/figuras/7simon.png){width=200 fig-align="center"}
 
-##### 6.3.1.1.6 Cómo se siente
+**Cómo se siente**
 
 El test *Cómo se siente* evalúa el reconocimiento de emociones (ver \hyperref[fig:8]{Figura 8}). Cuenta con 15 ensayos en los cuales los participantes deben identificar el tipo de emoción expresada (felicidad, tristeza, enojo, miedo, neutro) en la foto de un rostro adulto (rostros aleatorios de 4 personas jóvenes, dos mujeres y dos varones).; y luego valorar la intensidad de la expresión en una escala Likert de siete niveles. Variables de interés: cantidad de ensayos correctos y tiempo de reacción promedio en ensayos correctos e incorrectos (sin contemplar la valoración de la intensidad).
 
@@ -391,7 +387,7 @@ El test *Cómo se siente* evalúa el reconocimiento de emociones (ver \hyperref[
 
 ![](quarto/figuras/8css.png){width=200 fig-align="center"}
 
-##### 6.3.1.1.7 Juego de magia
+**Juego de magia**
 
 La prueba *Juego de magia* (ver \hyperref[fig:9]{Figura 9}) evalúa el nivel de reactividad/proactividad en un procedimiento de control cognitivo modelado con en el paradigma AX-Continuous Performance Task [@gonthierEvidencingDevelopmentalShift2019; @kubotaConsistentUseProactive2020]. La misma consta de dos bloques de práctica de 18 ensayos y dos bloques de prueba de 30 ensayos, en los cuales se presentan dos de cuatro estímulos sucesivamente (espaciados por 1200 ms), y los participantes deben presionar una de dos flechas de acuerdo a la combinación de estímulos antes de que transcurran 2088 ms (la flecha izquierda si aparece la pareja varita-caldero [ensayo AX] y la flecha derecha para cualquier otra combinación). Variables de interés: cantidad de ensayos correctos, tiempo de reacción promedio en ensayos correctos e incorrectos, diferencia de tiempo de reacción promedio entre ensayos correctos AX y no AX. 
 
@@ -409,29 +405,29 @@ Como acercamiento al nivel de conocimientos y habilidades en lengua y matemátic
 
 #### 6.3.1.3 Reporte de familiares
 
-##### 6.3.1.3.1 Cuestionario del Comportamiento Infantil (CBQ)
+**Cuestionario del Comportamiento Infantil (CBQ)**
 
 Los adultos responsables completaron la versión en español abreviada del *Cuestionario del Comportamiento Infantil* para niños/as de tres a siete años [@putnamDevelopmentShortVery2006]. El cuestionario permite explorar la conducta habitual en la infancia según la perspectiva adulta, en tres dimensiones temperamentales: *extraversión* (altos niveles de actividad, sociabilidad e impulsividad; consistencia interna en estudios previos α = .73), *esfuerzo de control* (capacidad de AR cognitiva y emocional, altos niveles de control inhibitorio, control atencional y baja intensidad de placer; consistencia interna en estudios previos α = .72), y *afectividad negativa* (miedo, enojo, frustración, disconformidad y tristeza; consistencia interna en estudios previos α = .68). La persona entrevistada valora el grado de veracidad de 36 ítems respecto de la conducta del participante en los últimos seis meses en una escala Likert de siete niveles (“totalmente falso” = 1; “bastante falso” = 2; “poco falso” = 3; “ni falso, ni verdadero” = 4; “poco cierto” = 5; “bastante cierto” = 6; “totalmente cierto” = 7; y “no aplica” = NA), donde los puntajes más altos implican niveles más pronunciados del rasgo/dimensión temperamental (ver Anexo [C4](https://drive.google.com/file/d/1qes2NQsUHfqzp8U7FarY7vrGPlDydTt0/view?usp=drive_link)). Completar este cuestionario lleva cerca de diez minutos. Variables de interés: puntaje promedio para cada dimensión temperamental.
 
-##### 6.3.1.3.2 Cuestionario sociodemográfico y de antecedentes de vida
+**Cuestionario sociodemográfico y de antecedentes de vida**
 
 Al igual que en estudios previos del grupo de investigación [@pratsDesarrolloCognitivoInfantil2018; @segretinPredictorsCognitiveEnhancement2014], los adultos responsables respondieron preguntas sobre condiciones habitacionales, sus propios niveles de educación, ocupación, edad, y sobre las experiencias de vida y los antecedentes de salud de los participantes a su cargo. En esta oportunidad, el cuestionario fue autoadministrado a través de Google forms e incluyó 41 ítems con formato de escala, opción múltiple y respuesta corta. Completarlo demoraba cerca de 15 minutos (ver Anexo [C5](https://docs.google.com/forms/d/e/1FAIpQLSc2KPR7O-kRr4zUBWWaVYH9UOrw1kc3e0AqdQWk7U_MorSolA/viewform?usp=sharing)). Variables de interés: Nivel educativo de los adultos responsables (“primario incompleto” = 0; “primario en curso” = 1; “primario completo = 2; “secundario incompleto” = 3; “secundario en curso” = 4; “secundario completo = 5; “terciario incompleto” = 6 ; “terciario en curso” = 7; “terciario completo = 8; “universitario incompleto” = 9; “universitario en curso” = 10; “universitario completo = 11; “posgrado incompleto” = 12; “posgrado en curso” = 13; “posgrado completo = 14;”), ocupación (descripción libre), si es un trabajo formal (“no” = 0; “sí” = 1; “no aplica” = NA) , si trabaja en relación de dependencia (“no” = 0; “sí” = 1; “no aplica” = NA), edad (respuesta numérica), localidad de residencia (descripción libre), estatus migratorio (si es inmigrante y hace cuánto reside en el país), cantidad de libros infantiles en el hogar (“ninguno” = 0; “menos de 10” = 1; “entre 10 y 50” = 2; “entre 51 y 100” = 3 , “Más de 100” = 4), frecuencia de lectura semanal (“menos de 1 vez por semana” = 0; “1 vez por semana” = 1; “3 veces por semana” = 2; “todos los días” = 3), cantidad de menores y adultos en el hogar (respuesta numérica), configuración habitacional (“hogar monoparental”; “biparental”; “tenencia compartida”; “al cuidado de familiares”; “otras configuraciones”), antecedentes de riesgo perinatal (“no” = 0; “si” = 1; aclaración libre: “e.g., alta presión o medicación durante el embarazo, parto prematuro, etc.”), antecedentes crónicos de salud (“no” = 0; “si” = 1; aclaración libre: “e.g., meningitis, hidrocefalia, convulsiones, etc.”), años previos de escolaridad del participante (respuesta numérica), disponibilidad de materiales didácticos en el hogar (0-3, suma de respuestas afirmativas sobre “juguetes para construcción o rompecabezas”; “elementos para la libre expresión”; “ juegos de mesa o de reglas”; ), utilización de dispositivos electrónicos (“no/no tiene” = 0; “si” = 1) , realización de actividades deportivas (“no” = 0; “si” = 1; aclaración libre), realización de salidas recreativas en los últimos 12 meses (0-7, suma de respuestas afirmativas sobre: “¿ha festejado su ultimo cumpleaños?”; “¿ha concurrido a ver una película en un cine?”; “¿ha concurrido a ver una obra de teatro/circo?”; “¿ha ido al menos a una excursión escolar?”; "¿ha realizado al menos una salida o paseo en familia?”; “ha ido a la casa de amigos o los ha recibido en su casa”?; “¿frecuentemente lo llevan a la plaza o a espacios verdes”?), duración promedio del sueño nocturno ("menos de 7 horas" = 0; "entre 7 y 8 horas" = 1; "entre 8 y 9 horas" = 2; "entre 9 y 11 horas" = 3), tiempo para la conciliación del sueño ("más de 1 hora" = 0; "entre 45 y 60 minutos" = 1; "entre 30 y 45 minutos" = 2; "entre 15 y 30 minutos" = 3; "menos de 15 minutos" = 4), acceso a la vestimenta(0-3, suma de respuestas afirmativas sobre: “¿tiene al menos una muda completa nueva?”; “¿tiene más de un par de zapatos en buen estado”; “¿tiene al menos un abrigo de invierno”), percepción de la contaminación sonora en el barrio ( "muy tranquilo" = 4; "tranquilo" = 3; "ni muy ruidoso ni muy tranquilo" = 2; "ruidoso" = 1; "muy ruidoso" = 0), percepción de ingresos y recursos para la vida dign ("malos" = 0; "insuficientes" = 1; "suficientes" = 2; "buenos" = 3; "muy buenos" = 4), y frecuencia de experiencias estresantes ("nunca" = 4; "casi nunca" = 3; "de vez en cuando" = 2; "a menudo" = 1, "muy a menudo" =0).
 
-##### 6.3.1.3.3 Escala de Confusión, Bullicio y Orden en el Hogar (CHAOS)
+**Escala de Confusión, Bullicio y Orden en el Hogar (CHAOS)**
 
 Adicionalmente, los adultos completaron la versión en español de la *escala de Confusión, Bullicio y Orden en el Hogar* [@mathenyBringingOrderOut1995; @sanchez-mondragonAdaptacionValidacionEscala2019]. La misma cuenta con 15 ítems que evalúan el nivel de caos/clima negativo en el contexto hogareño en una escala Likert de una dimensión con cuatro niveles ("nunca" = 0; "ocasionalmente" = 1; "con bastante frecuencia" = 2; "siempre" = 3), donde niveles más altos implican mayor confusión, bullicio y desorden en el hogar (consistencia interna en estudios previos α = .73). Completarlo demora menos de cinco minutos. Variables de interés: puntaje promedio.
 
 #### 6.3.1.4 Reporte de docentes
 
-##### 6.3.1.4.1 Escalas de Comportamiento Preescolar (ECP)
+**Escalas de Comportamiento Preescolar (ECP)**
 
 Las docentes a cargo de las salas en los jardines participantes completaron las *escalas de Comportamiento Preescolar* [@carneyReliabilityComparabilitySpanishlanguage2002]. La misma, que cuenta con una validación realizada en Argentina que contempla el rango etario objetivo [@reynaPropiedadesPsicometricasEscala2009], se compone de 43 ítems de respuesta Likert de cuatro niveles ("nunca" = 0; "raramente" = 1; "algunas veces" = 2; "frecuentemente" = 3), divididas en dos escalas: *Habilidades Sociales* (*cooperatividad*, *independencia social* e *interacciones sociales*; consistencia interna en estudios previos α = .88) y *Problemas de Conducta* (*problemas internalizantes* y *problemas externalizantes*; consistencia interna en estudios previos α = .94). Los puntajes más altos implican mayor frecuencia de conductas en cada escala. Completar este cuestionario demora cerca de diez minutos (ver Anexo [C6](https://docs.google.com/forms/d/e/1FAIpQLSe86S0XI2hkf-rA2VGcaLphMhAjzFH68qK5kwlEmF29RFQdgQ/viewform?usp=sharing)). Variables de interés: puntaje promedio de cada subescala.
 
-##### 6.3.1.4.2 Escala de la Vida en Programas para la Primera Infancia (LECP)
+**Escala de la Vida en Programas para la Primera Infancia (LECP)**
 
 Las docentes completaron la *escala de la Vida en Programas para la Primera Infancia* [@kontosLifeEarlyChildhood2000; @wachsPredictorsPreschoolChildrens2004]. La misma, que fue traducida para este estudio, cuenta con 16 ítems que evalúan el nivel de caos/clima negativo en el contexto áulico en una escala Likert de una dimensión con cuatro niveles ("nunca" = 0; "raramente" = 1; "algunas veces" = 2; "frecuentemente" = 3) (consistencia interna en estudios previos α = .67). Los puntajes más altos implican mayores niveles de confusión, bullicio y desorden en el aula. Completar esta escala lleva menos de cinco minutos. Variables de interés: puntaje promedio.
 
-##### 6.3.1.4.3 Cuestionario de experiencia docente
+**Cuestionario de experiencia docente**
 
 Las docentes también respondieron un cuestionario con nueve preguntas acerca de su trayectoria. Completarlo demoraba menos de cinco minutos (ver Anexo [C7](https://docs.google.com/forms/d/e/1FAIpQLSfMn0zBJ16s05brFhUMAB0XOTUXTHU3MvsiwP5KNb9ENvThGg/viewform?usp=sharing)). Variables de interés: edad (años), antigüedad en el cargo (años), capacitaciones realizadas en los últimos dos años (“no” =0; “sí” = 1), taza de estudiantes sobre docentes en el aula (cantidad de niñas/os matriculados y cantidad de docentes por turno), antecedentes de docencia con el mismo grupo de niños/as (“no” =0; “sí” = 1). 
 
@@ -3515,7 +3511,7 @@ cat("\\normalsize\n")
 
 ##### 7.2.2.4.2 Acuerdo en la codificación asistida {#sec-7.2.2.4.2}
 
-El nivel de acuerdo, tanto para los indicadores emocionales y atencionales, resultó bajo, incluso inferior al esperable al azar (ver \hyperref[tab:25]{Tabla 25}). En el caso de las diarizaciones, la concordancia fue notablemente mayor, sobre todo en la detección de las voces de los adultos. Sin embargo, estos resultados dan a entender que existen limitaciones importantes en la confiabilidad de datos generados por los algoritmos de inteligencia artificial (ver [Apartado de limitaciones, 8.1](#sec-9)). Dado que la inclusión de de estas variables en los análisis inferenciales conllevaría un riesgo alto de espuriedad, no serán tenidas en cuenta para los modelos de regresión.
+El nivel de acuerdo, tanto para los indicadores emocionales y atencionales, resultó bajo, incluso inferior al esperable al azar (ver \hyperref[tab:25]{Tabla 25}). En el caso de las diarizaciones, la concordancia fue notablemente mayor, sobre todo en la detección de las voces de los adultos. Sin embargo, estos resultados dan a entender que existen limitaciones importantes en la confiabilidad de datos generados por los algoritmos de inteligencia artificial (ver [Apartado de limitaciones, 9](#sec-9)). Dado que la inclusión de de estas variables en los análisis inferenciales conllevaría un riesgo alto de espuriedad, no serán tenidas en cuenta para los modelos de regresión.
 
 \phantomsection
 \addcontentsline{lot}{table}{{25. Acuerdo entre jueces, codificación asistida - muestra museo}}
@@ -4544,15 +4540,24 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 \newpage
 
-# 11. Material suplementario
+# 11. Referencias bibliográficas
 
-## Anexo Ø: Planificación del proyecto
+\printbibliography
 
+\newpage
+
+# 12. Material suplementario
+
+\centering
+**Anexo Ø: Planificación del proyecto**
+\raggedright
 [Ø1 - Plan de tesis CONICET](https://drive.google.com/file/d/109NkXaps7HTcqsVNH5t_GmV_L8htGRAh/view?usp=sharing)
 
 [Ø2  - Plan de tesis UNC](https://docs.google.com/document/d/1-l0ONbftO635i6IQ-q-JN1PINcAx37N-mPgAcbwobEo/edit?usp=sharing)
 
-## Anexo A: Material de difusión
+\centering
+**Anexo A: Material de difusión**
+\raggedright
 
 [A1 - Panfleto la para convocatoria de operadores 2023](https://drive.google.com/file/d/1mO7OkvZQ7xjxT53L4IfgVZQ3LJzVcjbq/view?usp=drive_link)  
 
@@ -4562,7 +4567,9 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [A4 - Video de cierre y agradecimiento para los participantes del estudio 2](https://drive.google.com/file/d/1VRlmRcWbowR7OpT6QSgxpKtmozjSahE3/view?usp=sharing)
 
-## Anexo B: Documentación del comité de ética
+\centering
+**Anexo B: Documentación del comité de ética**
+\raggedright
 
 [B1 - Formulario de aprobación](https://drive.google.com/file/d/1KNlmeriZQrfGHRq1iL2-3mh8ZGRtOf1E/view?usp=drive_link)
 
@@ -4570,7 +4577,9 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [B3 - Hojas de información y consentimiento del Estudio 2](https://drive.google.com/file/d/1hpSRWFN1PoLlegRs_F9-F7LtSN6vmlOF/view?usp=sharing)  
 
-## Anexo C: Instrumentos de evaluación y reporte
+\centering
+**Anexo C: Instrumentos de evaluación y reporte**
+\raggedright
 
 [C1 - Batería NeuroUX, sesión 1](https://neuroux-una.getneuroux.com/?prismicId=ZFip6RMAACgAaZFq&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=1&channel=mail&language=es)
 
@@ -4586,7 +4595,9 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [C7 - Cuestionario de reporte de Docentes](https://docs.google.com/forms/d/e/1FAIpQLSfMn0zBJ16s05brFhUMAB0XOTUXTHU3MvsiwP5KNb9ENvThGg/viewform?usp=sharing)  
   
-## Anexo D: Observaciones en el Estudio 1
+\centering
+**Anexo D: Observaciones en el Estudio 1**
+\raggedright
 
 [D1 - Protocolo de la prueba piloto](https://docs.google.com/spreadsheets/d/1Go4616Kqs3nbnKBJuN-RWlaLMHK63u11/edit?usp=sharing&ouid=106082986569580237614&rtpof=true&sd=true)
 
@@ -4594,11 +4605,15 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [D3 -  Manual de las observaciones en jardines](https://docs.google.com/document/d/1JL4srV0bPszuv05Gem_R1k1DA9rB08naMCcEmNOjX-M/edit?usp=sharing  )
 
-## Anexo E: Instructivos enviados a las familias
+\centering
+**Anexo E: Instructivos enviados a las familias**
+\raggedright
 
 [E1 - Modelos de correos electronicos](https://docs.google.com/document/d/1H63q_dcJZ0LQ6xA9r4RZbN6Ngj6yAWPwZ_JQuhxg_NI/edit?usp=sharing)
 
-## Anexo F: Código y datos abiertos
+\centering
+**Anexo F: Código y datos abiertos**
+\raggedright
 
 [F1 - Análisis estadísticos](https://github.com/juaninachon/j2024/tree/main/0_material_tesis/Tesis.qmd) 
 
@@ -4608,7 +4623,9 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [F4 - Repositorio general del proyecto](https://github.com/juaninachon/j2024)
 
-## Anexo G: Observaciones en el Estudio 2
+\centering
+**Anexo G: Observaciones en el Estudio 2**
+\raggedright
 
 [G1 - Instructivo de actividades en el museo](https://docs.google.com/document/d/1kNaOj9b9cbY-Ts9F9OwoBQitA1LPuAabJ8xfCTHrE_E/edit?usp=sharing)  
 
@@ -4618,7 +4635,9 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 
 [G4 - Template ELAN](https://drive.google.com/file/d/1Tu9_wCsbaa-lFYwm6pAqMkCIxuMEzfOP/view?usp=sharing)  
 
-## Anexo H: Enlaces a modelos de acceso abierto para la codificación asistida de videos {#sec-H}
+\centering
+**Anexo H: Enlaces a modelos de acceso abierto para la codificación asistida de videos {#sec-H}**
+\raggedright
 
 [H1 - Segment anything 2](https://github.com/facebookresearch/sam2)
 
@@ -4629,7 +4648,3 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 [H4 - Pyannote](https://github.com/pyannote/pyannote-audio)
 
 [H5 - Whisper](https://github.com/openai/whisper)
-
-\newpage
-
-# 12. Referencias bibliográficas

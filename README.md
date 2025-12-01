@@ -1,3 +1,5 @@
-# Repositorio de los materiales de mi tesis doctoral
+# Repositorio de mi tesis doctoral
 
-Para cualquier consulta escribir a juaninachon@gmail.com
+Shinyapp: https://juaninachon.shinyapps.io/Tesis/
+
+Para cualquier consulta escribir a jnachon@cemic.edu.ar

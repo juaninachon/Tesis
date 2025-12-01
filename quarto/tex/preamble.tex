@@ -13,14 +13,54 @@
 \usepackage{placeins}
 \usepackage{titlesec}
 \usepackage{url}
-
-\usepackage[utf8]{inputenc}
-
 \def\UrlBreaks{\do\/\do\- \do\.\do\_}
+\usepackage[utf8]{inputenc}
+\usepackage{orcidlink}
+\raggedright
+\DeclareLanguageMapping{spanish}{spanish-apa}
+% --- Hanging indent + spacing ---
+\AtBeginBibliography{%
+  \setlength{\bibhang}{1.27cm}
+  \setlength{\bibitemsep}{0.5\baselineskip}
+}
+% --- Prevent auto headings ---
+\providecommand{\bibname}{}
+\providecommand{\refname}{}
+% --- Print bibliography exactly once, no heading ---
+\makeatletter
+\let\realprintbibliography\printbibliography
+\newif\ifbibprinted
+\renewcommand{\printbibliography}[1][]{%
+  \ifbibprinted
+    % skip duplicates
+  \else
+    \realprintbibliography[heading=none,#1]%
+    \global\bibprintedtrue
+  \fi
+}
+\makeatother
+% pagenumbers
+\usepackage{fancyhdr}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% Clear everything first
+\fancyhf{}
+% Page number top right
+%\fancyhead[L]{ABORDAJES EN EL ESTUDIO DE LA AUTORREGULACIÓN} 
+\fancyhead[R]{\thepage}
+% Remove footer rule and header rule if desired
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Force same style for all "front matter" pages (TOC, etc.)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[R]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
 % -------------------
 % APA 7th Headings
 % -------------------
-
 % Level 1: Centered, Bold, Title Case
 \titleformat{\section}
   {\normalfont\bfseries\centering}
