@@ -9,7 +9,7 @@ library(janitor)
 library(performance)
 library(magrittr)
 library(cowplot)
-datos <- read.csv("data/shiny_data.csv", check.names = FALSE)
+datos <- read.csv("data/shiny-app_data.csv", check.names = FALSE)
 # UI
 ui <- navbarPage(
   fluid = TRUE,
