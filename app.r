@@ -9,13 +9,13 @@ library(janitor)
 library(performance)
 library(magrittr)
 library(cowplot)
-datos <- read.csv("data/shiny.csv", check.names = FALSE)
+datos <- read.csv("data/shiny_data.csv", check.names = FALSE)
 # UI
 ui <- navbarPage(
   fluid = TRUE,
   theme = shinytheme("paper"),
   title = "Explore los datos",
-  
+
   # Tab 1
   tabPanel(
     "Distribución de las variables",

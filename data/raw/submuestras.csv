@@ -1,0 +1,283 @@
+ID,Muestra,Submuestra,Edad_años,Sexo_masculino,Supera_edad,Prematurez,Trastorno_ND,Otra_lengua_materna,inc3,incj,inc,ab,nid1,nid2,nux1vp,nux2vp
+AA101,Jardines,Jardines 2023,5.61,0,0,0,0,0,,1,1,,8e87ac47-7e59-43dd-9f60-7f9ad4131e29,,,
+AA102,Jardines,Jardines 2023,5.985,1,0,0,0,0,,1,1,,20970457-0f7d-4080-abf1-2a1237c5c62c,,,
+AA103,Jardines,Jardines 2023,5.303,1,0,0,0,0,,1,1,,9cc42e0b-97e4-4c33-87d3-3c00c6e6bd0c,,,
+AA104,Jardines,Jardines 2023,5.361,1,0,0,0,0,,1,1,,dd44582e-6f33-4e12-b401-ca26895262fb,,,
+AA105,Jardines,Jardines 2023,5.413,1,0,0,0,0,,1,1,,de5d3179-6e7e-487d-b576-fe52df82374f,,,
+AA106,Jardines,Jardines 2023,5.719,1,0,0,0,0,,1,1,,eb625c8f-d714-4ae8-bf20-a5fd1f488229,,,
+AA107,Jardines,Jardines 2023,5.517,0,0,0,0,0,,1,1,,d8cc1f02-ed77-49c1-a653-cabe8b62209e,,,
+AA108,Jardines,Jardines 2023,5.755,1,0,0,0,0,,1,1,,bedc2581-dda4-44fc-9549-794650b975be,,,
+AA202,Jardines,Jardines 2023,5.254,1,0,0,0,0,,1,1,,30ae122a-ab45-4787-a0be-ccf0dc5863fe,,,
+AA203,Jardines,Jardines 2023,6.19,0,0,0,0,0,,1,1,,61dcb949-af6a-4498-af34-8009d6445b5b,,,
+AA204,Jardines,Jardines 2023,5.311,0,0,0,0,0,,1,1,,d2f8e0b3-cd15-4f48-809d-6cb5e0a82ae0,,,
+AB101,Jardines,Jardines 2023,5.065,1,0,0,0,0,,1,1,,7672a199-e95a-46fc-b3b0-36cfb4e9932c,,,
+AB102,Jardines,Jardines 2023,5.492,1,0,0,0,0,,1,1,,afb7bbb3-9912-4605-9b3e-e942ca46867e,,,
+AB103,Jardines,Jardines 2023,4.997,0,0,0,0,0,,1,1,,e99c520c-18e0-4300-8832-1e99dac1b2ff,,,
+AB105,Jardines,Jardines 2023,4.977,1,0,1,0,0,,1,1,,ad7c86d2-fbb8-4633-9cac-ca742b26ea81,,,
+AB106,Jardines,Jardines 2023,5.295,0,0,0,0,0,,1,1,,f3f33a28-f1f9-4721-a301-f73a17735db7,,,
+AB107,Jardines,Jardines 2023,5.396,0,0,0,0,0,,1,1,,0c621e82-54fe-4c20-a659-0e70f19c83ae,,,
+AB108,Jardines,Jardines 2023,5.281,0,0,0,0,0,,1,1,,f2f3e5bf-f8f5-4914-a71c-8e621216c5fb,,,
+AB109,Jardines,Jardines 2023,5.889,0,0,0,0,0,,1,1,,1ef09f14-6d1f-4347-a543-4fb439599dfc,,,
+AB110,Jardines,Jardines 2023,5.268,1,0,0,0,0,,1,1,,11df1acd-bf93-4b59-8879-48dc0962f96f,,,
+AB201,Jardines,Jardines 2023,5.733,1,0,0,0,0,,1,1,,281eb546-9f74-4105-b83a-0a277d48ac4e,,,
+AB202,Jardines,Jardines 2023,5.536,0,0,0,0,0,,1,1,,5788cc75-41d7-4f97-8bd8-e6895152a49f,,,
+AB203,Jardines,Jardines 2023,5.733,1,0,0,0,0,,1,1,,7d9e8ad3-f3bd-4cd5-88e4-ecd8b03b23f6,,,
+AB204,Jardines,Jardines 2023,5.569,1,0,0,0,0,,1,1,,da186ecd-f7f4-4275-be75-867540612b88,,,
+AB205,Jardines,Jardines 2023,5.155,0,0,0,0,0,,1,1,,73f194c4-a4d8-4cfc-9403-13f538502120,,,
+AB206,Jardines,Jardines 2023,5.232,0,0,0,0,0,,1,1,,913849db-0182-4cd3-a314-73d9ce816fe4,,,
+AB207,Jardines,Jardines 2023,5.555,0,0,0,0,0,,1,1,,3a4319aa-0977-4c48-af1c-2c9adc696a16,,,
+BA101,Jardines,Jardines 2023,5.908,1,0,0,0,0,,1,1,,3d4d8dcd-fa9f-49c2-89b8-9146634c82b4,,,
+BA102,Jardines,Jardines 2023,5.769,0,0,0,0,0,,1,1,,b510de15-f176-434a-88ed-a3a76c358bb0,,,
+BA103,Jardines,Jardines 2023,5.016,1,0,0,0,0,,1,1,,2b486b47-a17f-495d-b867-5c1ad7c709da,,,
+BA104,Jardines,Jardines 2023,5.383,1,0,0,0,0,,1,1,,9f2042f1-531c-4a0a-a263-113164bdebc4,,,
+BA105,Jardines,Jardines 2023,5.199,0,0,0,0,0,,1,1,,324bba79-69ee-4bb0-ba52-5886083bf095,,,
+BA201,Jardines,Jardines 2023,5.58,0,0,0,0,0,,1,1,,c82fac20-9dd9-4ea4-8328-a5fdc2215685,,,
+BA202,Jardines,Jardines 2023,5.361,0,0,0,0,0,,1,1,,2cbbd169-1f6f-48ed-b918-ffc00167a311,,,
+BA203,Jardines,Jardines 2023,4.865,0,0,0,0,0,,1,1,,2e79d865-8887-4bec-9a88-c680ed5a67ba,,,
+BA204,Jardines,Jardines 2023,5.385,1,0,0,0,0,,1,1,,cb51c61d-b7e0-416b-bd7c-691af49eafbe,,,
+BA205,Jardines,Jardines 2023,5.722,0,0,0,0,0,,1,1,,b2277249-172e-492e-bef5-b208d9a457f5,,,
+BB01,Jardines,Jardines 2023,5.437,0,0,0,0,0,,1,1,,2373da07-380f-4b52-b287-8a389b71cedf,,,
+BB02,Jardines,Jardines 2023,5.826,1,0,0,0,0,,1,1,,be99dd0b-13a4-4cb3-b2a2-ec7537e80558,,,
+BB03,Jardines,Jardines 2023,5.413,1,0,0,0,0,,1,1,,b712af6b-99c0-4a4f-bfd9-15a0acaaaa09,,,
+BB04,Jardines,Jardines 2023,5.717,0,0,0,0,0,,1,1,,ac25b84e-4221-46cd-a54f-7a0b615338fa,,,
+BB05,Jardines,Jardines 2023,5.232,0,0,0,0,0,,1,1,,a390de9e-9598-40fd-afe3-0e3f3449d8bf,,,
+BB06,Jardines,Jardines 2023,4.999,1,0,0,0,0,,1,1,,0dd776df-83c0-49df-a91b-b7fe29666ba5,,,
+BB07,Jardines,Jardines 2023,5.112,0,0,0,0,0,,1,1,,61344c69-ef02-4374-9e43-1e1c3f987fea,,,
+BB08,Jardines,Jardines 2023,5.076,1,0,0,0,0,,1,1,,c39e7e5d-7cd8-4c32-bd2a-65847a8cd410,,,
+BB09,Jardines,Jardines 2023,5.325,1,0,0,0,0,,1,1,,88afa5c4-90fc-4989-83f7-c727c9e5875f,,,
+BB10,Jardines,Jardines 2023,5.834,0,0,0,0,0,,1,1,,9f7f6298-45ee-451f-a828-122f9e30f769,,,
+BB11,Jardines,Jardines 2023,5.624,1,0,0,0,0,,1,1,,a5894222-3290-4617-9e56-1895ded29557,,,
+BB12,Jardines,Jardines 2023,5.465,1,0,0,0,0,,1,1,,2e10067e-6402-417f-96f4-a5960a9043b2,,,
+BB13,Jardines,Jardines 2023,5.774,1,0,0,0,0,,1,1,,b55c6bf8-5cac-4fd5-be61-163ec1c43d3d,,,
+BB14,Jardines,Jardines 2023,4.966,0,0,0,0,0,,1,1,,d91163a5-4cc7-4783-9e98-d89653659500,,,
+BB15,Jardines,Jardines 2023,5.183,1,0,0,0,0,,1,1,,831fd34e-6de6-4734-af03-4521b191e50b,,,
+BB16,Jardines,Jardines 2023,5.07,0,0,0,0,0,,1,1,,2ce101e1-d598-4894-8c2f-27aa09673b0a,,,
+AA301,Jardines,Jardines 2024,4.857,1,0,0,0,0,,1,1,,fa033a1b-8bd4-42f4-a3cb-60e702dd6cd9,,p,p
+AA302,Jardines,Jardines 2024,5.736,1,0,1,0,0,,1,1,,226a762f-ecce-4575-8ac9-7a5a86dd49f8,,p,p
+AA303,Jardines,Jardines 2024,5.656,0,0,0,0,0,,1,1,,8779aff0-69f6-449f-b184-4a3551f52064,,p,p
+AA304,Jardines,Jardines 2024,5.128,1,0,0,0,0,,1,1,,45d213eb-cab5-4cd6-ad98-1f74b1acbd9f,,p,p
+AA305,Jardines,Jardines 2024,5.511,1,0,1,0,0,,1,1,,5b8bc049-c78a-43ab-a4e5-9a4c431078c9,,p,p
+AA306,Jardines,Jardines 2024,5.415,1,0,0,0,0,,1,1,,5b64c0f6-f237-4ec2-91e1-0823ac1c7d26,,p,p
+AA307,Jardines,Jardines 2024,5.829,0,0,0,0,0,,1,1,,4bd8290d-00ba-4bf1-a96b-db1b9fbd0f4b,,,
+AA308,Jardines,Jardines 2024,5.624,1,0,0,0,0,,1,1,,b3a5bb59-5263-4592-ac71-88f10986d47d,,p,p
+AA309,Jardines,Jardines 2024,4.961,1,0,0,0,0,,1,1,,5272abd4-3b0e-4458-9f4d-14b66b76ca63,,p,
+AA401,Jardines,Jardines 2024,5.703,1,0,0,0,0,,1,1,,35a7c8fb-2af7-47b9-85b8-9ca901383079,,p,p
+AA402,Jardines,Jardines 2024,5.821,0,0,0,0,0,,1,1,,cc2b79d2-7de5-441e-a9c6-b7a4e6b90eee,,,
+AA403,Jardines,Jardines 2024,5.659,0,0,0,0,0,,1,1,,d0093a8d-45f2-40bf-b543-a073510b5e86,,p,p
+AA404,Jardines,Jardines 2024,5.018,1,0,0,0,0,,1,1,,ca205c5a-df95-4092-b8f2-1c6af3c770ab,,p,p
+AA405,Jardines,Jardines 2024,5.736,1,0,1,0,0,,1,1,,762cc8e5-7e5b-4862-b8cf-3fd3053f2a1c,,p,p
+AA406,Jardines,Jardines 2024,5.487,1,0,0,0,0,,1,1,,cce3d821-8c55-4428-899a-65057d600eb3,,,
+AA407,Jardines,Jardines 2024,5.821,0,0,0,0,0,,1,1,,348944cb-1e52-4fba-8206-e929c6b5b8ba,,p,p
+AA408,Jardines,Jardines 2024,5.298,0,0,0,0,0,,1,1,,08ac1f2e-6b2e-4d3d-894f-6e8c3ebf3a84,,,
+AA409,Jardines,Jardines 2024,5.684,1,0,0,0,0,,1,1,,c33136f4-5633-4ffe-82f5-917db100278c,,p,p
+AA411,Jardines,Jardines 2024,5.21,0,0,0,0,0,,1,1,,8968b6f3-069e-45bf-ab6e-f5158e06f297,,p,p
+AA412,Jardines,Jardines 2024,5.336,0,0,0,0,0,,1,1,,9b6a826d-9439-4f2e-a7c5-dbfebed369db,,e,
+AB301,Jardines,Jardines 2024,5.711,1,0,0,0,0,,1,1,,aaaee032-df0a-4c7e-88bb-934e05627e53,,p,p
+AB302,Jardines,Jardines 2024,5.744,0,0,0,0,0,,1,1,,9c2ceeb4-49dc-4efa-b6ae-88129d97e2c4,,,
+AB303,Jardines,Jardines 2024,5.689,1,0,0,0,0,,1,1,,9ea44c47-ab9d-4dce-9ab8-e6bfb3a7bf03,,,
+AB304,Jardines,Jardines 2024,5.002,1,0,0,0,0,,1,1,,2b4b559d-fd43-4bb2-9c20-12f244e0bdec,,p,p
+AB305,Jardines,Jardines 2024,5.043,1,0,0,0,0,,1,1,,d8fcf6a0-ea75-45ec-9fcf-27391a47af17,,,
+AB306,Jardines,Jardines 2024,5.27,0,0,0,0,0,,1,1,,c8b3c4a2-2c83-4646-b04a-82f5ee1ccd67,,,
+AB307,Jardines,Jardines 2024,5.238,0,0,0,0,0,,1,1,,a0d8b00b-f5ff-4110-97b1-ac37f55ec280,,,
+AB308,Jardines,Jardines 2024,5.298,0,0,0,0,0,,1,1,,7cc0323a-6810-44d8-b0ef-cbd08e951e41,,p,p
+AB309,Jardines,Jardines 2024,5.352,0,0,0,0,0,,1,1,,922911c9-0545-4aa8-a958-4e89182ccb5d,,e,
+AB310,Jardines,Jardines 2024,5.845,0,0,0,0,0,,1,1,,ef516769-1bdb-4105-946f-f95aefc67509,,p,p
+AB311,Jardines,Jardines 2024,4.977,0,0,0,0,0,,1,1,,c13ec606-96df-4f3c-a905-16fc323604a2,,p,p
+AB312,Jardines,Jardines 2024,5.728,0,0,0,0,0,,1,1,,98fd1f12-7e6a-47a5-8a9b-88800a64a346,,,
+AB313,Jardines,Jardines 2024,5.514,0,0,0,0,0,,1,1,,394774f3-fcbd-4852-b212-8adbf18305cd,,p,p
+AB314,Jardines,Jardines 2024,5.388,1,0,0,0,0,,1,1,,84781dc3-f969-46d4-9f16-46d6bc95d558,,,
+AB315,Jardines,Jardines 2024,5.07,1,0,0,0,0,,1,1,,a554e8fa-9344-4b96-b5b4-037c7961da5d,,p,p
+AB401,Jardines,Jardines 2024,5.706,0,0,0,0,0,,1,1,,fbb6b066-cba0-4b15-8f33-279e65035615,,,p
+AB402,Jardines,Jardines 2024,5.021,0,0,0,0,0,,1,1,,41027cde-1be2-4f1b-bc76-f76d3f189a63,,,p
+AB403,Jardines,Jardines 2024,4.411,0,0,0,0,0,,1,1,,7324ec7d-3bf7-4a00-97c2-56fd482f3785,,,
+AB404,Jardines,Jardines 2024,5.043,1,0,0,0,0,,1,1,,dc53b47e-b7e9-4128-9f57-72dff5a5e6ff,,,
+AB405,Jardines,Jardines 2024,5.021,1,0,0,0,0,,1,1,,a1fe0d0a-9029-40a5-bb18-bc51f964e1b3,,,
+AB406,Jardines,Jardines 2024,5.207,1,0,0,1,0,,,,,553770f3-23f5-415d-8c9d-d32680a64cc2,,,
+AB407,Jardines,Jardines 2024,5.153,1,0,0,0,0,,1,1,,388fde1d-b38e-4b79-94b2-65c1c78f92d0,,,
+AB408,Jardines,Jardines 2024,4.945,0,0,0,0,0,,1,1,,9813a06e-8ad3-477d-b95d-1581ec0207dd,,p,p
+AB409,Jardines,Jardines 2024,5.687,1,0,0,0,0,,1,1,,c1ff11a2-6f57-4473-b070-83281d2a6a3c,,p,p
+AB410,Jardines,Jardines 2024,5.131,1,0,0,0,0,,1,1,,c127e24f-1061-49fc-9a98-500b90c3caec,,p,p
+BA301 ,Jardines,Jardines 2024,5.722,1,0,0,1,0,,,,,d9bf9833-bbb1-42f6-ba1d-60696ec7d743,,,
+BA302,Jardines,Jardines 2024,5.327,0,0,0,0,0,,1,1,,df82e56a-52e9-4faa-971d-d0d16dc50a7d,,,
+BA303,Jardines,Jardines 2024,5.133,0,0,0,0,0,,1,1,,4adf1ec7-ee47-4ec2-b5ce-4f8166e52d87,,,
+BA304,Jardines,Jardines 2024,5.752,0,0,0,0,0,,1,1,,4b8b82df-215c-40fa-b3a5-313e8d7a0177,,,p
+BA305,Jardines,Jardines 2024,5.06,1,0,0,0,0,,1,1,,ef7307de-7781-4206-993a-4351f85ae74c,,p,p
+BA306,Jardines,Jardines 2024,5.522,1,0,0,0,0,,1,1,,7125925a-1c90-49c0-8662-c5e8bf3b4800,,p,p
+BA307,Jardines,Jardines 2024,5.342,0,0,0,0,0,,1,1,,823cb188-117d-4f3c-bd8d-88fbb6773fe5,,,
+BA308,Jardines,Jardines 2024,5.506,0,0,0,0,0,,1,1,,0eede00f-b30e-413a-a4f9-9282c6fd8b09,,p,p
+BA309,Jardines,Jardines 2024,5.311,0,0,0,0,0,,1,1,,c9feb2eb-7b35-4cb7-8aaa-7c12e20d4f8d,,,
+BA310,Jardines,Jardines 2024,5.232,0,0,0,0,0,,1,1,,35e531fd-aa37-44db-b686-e396f26e6147,,,
+BA311,Jardines,Jardines 2024,5.758,1,0,0,0,0,,1,1,,d699364a-b65e-4b60-afc1-6c7f139f4b90,,p,p
+BA312,Jardines,Jardines 2024,5.812,0,0,0,0,0,,1,1,,b6bf8717-1b49-467a-8377-a96afb62c096,,,
+BA313,Jardines,Jardines 2024,5.591,1,0,0,1,0,,,,,c10ac716-fe13-4f8a-aa58-9752401213f3,,e,
+BA314,Jardines,Jardines 2024,5.533,1,0,0,1,0,,,,,f186603c-a7e0-4d62-a3e8-da77514432e0,,,
+BA316,Jardines,Jardines 2024,5.327,1,0,0,0,0,,1,1,,1208e578-6f13-4991-b942-b0705087bc47,,p,p
+BA317,Jardines,Jardines 2024,5.081,0,0,0,0,0,,1,1,,9a20f269-6f50-4635-b814-c7a174558f0b,,,
+BA318,Jardines,Jardines 2024,5.327,1,0,0,0,0,,1,1,,fd516a5b-56ba-4dd1-bef0-7aad97c86ce5,,,p
+BB201,Jardines,Jardines 2024,5.327,1,0,0,0,0,,1,1,,5c3731b4-6d99-4036-bc47-897cd2636e9c,,p,p
+BB202,Jardines,Jardines 2024,4.964,1,0,0,0,0,,1,1,,e97fb5b5-09a4-4cc5-b041-c9ef09c74c5f,,p,p
+BB203,Jardines,Jardines 2024,4.988,1,0,0,0,0,,1,1,,dd82c81f-1e87-4375-95ad-91061d084a1b,,,p
+BB204,Jardines,Jardines 2024,5.1389,1,0,0,0,0,,1,1,,abb8b424-2263-4f96-a0d5-454e07e5b397,,p,p
+BB205,Jardines,Jardines 2024,5.572,1,0,0,0,0,,1,1,,cae69454-c02c-4350-b717-7190a71110ec,,p,p
+BB206,Jardines,Jardines 2024,5.103,1,0,0,0,0,,1,1,,c4fbed97-19e6-485f-8b5a-af33c79474c2,,p,p
+BB207,Jardines,Jardines 2024,4.857,1,0,0,0,0,,1,1,,00380631-17ba-445f-a1e9-d0424eaca40b,,p,p
+BB208,Jardines,Jardines 2024,5.572,0,0,0,0,0,,1,1,,2cec902d-7abe-40ec-abdb-58d84978d8b8,,,
+BB209,Jardines,Jardines 2024,5.106,1,0,0,0,0,,1,1,,ea3561b0-abd0-4e5a-89bf-e0771e9e932c,,p,p
+BB210,Jardines,Jardines 2024,5.311,0,0,0,0,0,,1,1,,113f960c-74bd-4d4a-bd0b-3297e37c2b31,,,
+BB211,Jardines,Jardines 2024,5.555,1,0,0,0,0,,1,1,,084b028a-8369-4a48-8cbf-cd762868b5f5,,,
+BB212,Jardines,Jardines 2024,5.035,0,0,0,0,0,,1,1,,d65b6bb0-0137-4eab-8681-5731aedecf85,,,
+BB213,Jardines,Jardines 2024,4.882,1,0,0,0,0,,1,1,,386357d4-a537-4878-8a85-2eebe7f5040e,,p,p
+BB214,Jardines,Jardines 2024,5.659,0,0,0,0,0,,1,1,,84a4f366-0b21-4851-b321-c93f4945c60d,,p,p
+BB215,Jardines,Jardines 2024,4.958,1,0,0,0,0,,1,1,,10a61bfc-3e4d-414e-8efe-27861a3894d1,,,
+BB216,Jardines,Jardines 2024,5.142,0,0,0,0,0,,1,1,,a2ed1e6a-8883-4122-8f76-36342779d57d,,,
+BB217,Jardines,Jardines 2024,5.563,0,0,1,0,0,,1,1,,f2b24236-2a2f-49cd-9932-bf2aeb381a9b,,p,p
+BB219,Jardines,Jardines 2024,4.925,0,0,0,0,0,,1,1,,f08ab5e2-6347-4f22-8a1d-24ce93eaa4aa,,,
+BB220,Jardines,Jardines 2024,5.446,0,0,0,0,0,,1,1,,a1a009c0-2762-42b9-9b7d-86c1ad0a2730,,p,p
+BB221,Jardines,Jardines 2024,5.391,1,0,0,0,0,,1,1,,21c3d3cf-7f62-4839-99af-120519b7f2da,,p,p
+BB222,Jardines,Jardines 2024,5.292,1,0,0,0,0,,1,1,,e68e4d24-a645-4cb9-b407-4efea9bdd5f7,,p,p
+BC101,Jardines,Jardines 2024,4.914,0,0,0,0,0,,1,1,,fa573596-2460-49ed-ae29-a0a5efa59d15,,,
+BC102,Jardines,Jardines 2024,5.327,1,0,0,0,0,,1,1,,d7fd53e3-30bf-473e-8c88-61a6ca49e189,,p,p
+BC103,Jardines,Jardines 2024,5.582,1,0,0,0,0,,1,1,,68630f22-4294-4ffb-b477-7e69c8ed4d76,,,p
+BC104,Jardines,Jardines 2024,5.525,1,0,0,0,0,,1,1,,0d266e15-e187-4bee-9ec0-73575c29d2a1,,,
+BC105,Jardines,Jardines 2024,5.327,1,0,0,0,0,,1,1,,9dede60b-950a-47cb-848a-91ec3a4007ab,,e,
+BC106,Jardines,Jardines 2024,5.327,0,0,0,0,0,,1,1,,24da5070-c5c9-4742-b289-7b6f5d1ce1da,,p,p
+BC107,Jardines,Jardines 2024,5.459,0,0,0,0,0,,1,1,,00df4b91-2277-4503-811d-ee3232925bfe,,,
+BC108,Jardines,Jardines 2024,5.021,1,0,0,0,0,,1,1,,2171992e-f746-4006-9b94-863d1b5114da,,p,p
+BC109,Jardines,Jardines 2024,4.857,0,0,1,0,0,,1,1,,3c4f8a75-cf94-4a3d-a1e8-6771a18e7397,,,p
+BC110,Jardines,Jardines 2024,4.857,0,0,1,0,0,,1,1,,cf0b2694-600f-48e0-86dd-db90065e4448,,,p
+BC111 ,Jardines,Jardines 2024,5.09,1,0,0,1,0,,,,,ff8a1803-5523-4650-914e-43043d383f6c,,,
+BC112,Jardines,Jardines 2024,5.281,0,0,0,0,0,,1,1,,501e0c32-639b-48db-9cf0-3ed5eb1eab68,,,p
+BC113,Jardines,Jardines 2024,5.016,0,0,0,0,0,,1,1,,b9121376-84f7-4394-8690-91842ecc4828,,,
+BC115 ,Jardines,Jardines 2024,5.1,1,0,0,0,1,,,,,a494bfa0-4118-43f1-8796-372fc5b90b63,,p,p
+C3A01,Museo,Museo,5.24,1,0,0,0,0,,,,,77933dbb-fd62-4cf2-8845-4bac061279b4,,,
+C3A02,Museo,Museo,7.934,0,0,0,0,0,1,,1,1,4856b267-9f88-44e1-a93a-d7fc884cd316,,,
+C3A03,Museo,Museo,6.122,1,0,0,0,0,1,,1,1,cb5ac2d6-6dcb-44ff-bc32-4ccd546aa0d6,,,
+C3A04,Museo,Museo,6.475,0,0,0,0,0,1,,1,1,5710f925-3de4-4ef9-ac9b-d773d60e3737,,,
+C3A05,Museo,Museo,8.104,0,0,0,0,0,,,,,7a603a86-7177-4339-b4a3-8d94d302ee1a,,,
+C3A06,Museo,Museo,7.526,0,0,0,0,0,,,,,35ab4e99-ad68-455c-84b6-66fe44b43c99,,,
+C3A07,Museo,Museo,5.963,0,0,0,0,0,1,,1,1,8a2c8235-439c-4c23-9df6-90e21088f0fe,,,
+C3A08,Museo,Museo,5.963,1,0,0,0,0,,,,,a7d41d84-bc0e-4c62-84ea-f4aabb4b0a6c,,,
+C3A09,Museo,Museo,5.963,0,0,0,0,0,,,,,,,,
+C3A10,Museo,Museo,7.075,1,0,0,0,0,,,,,,,,
+C3B01,Museo,Museo,6.163,0,0,0,0,0,,,,,f06ca4bc-5c6c-40fd-9d60-ca6ec8fee7c0,,,
+C3B02,Museo,Museo,4.977,1,0,0,0,0,,,,,638faff8-27fe-4cce-82eb-6a9cc0430883,,,
+C3B03,Museo,Museo,5.402,0,0,0,0,0,,,,,1baf72a4-e11f-4214-89b1-df1bb9e46ee7,,,
+C3B04,Museo,Museo,7.077,1,0,0,0,0,1,,1,1,a1cc72dc-af8c-44a8-8fcf-9e9ed4dd4d5e,,,
+C3B05,Museo,Museo,6.508,1,0,0,1,0,,,,,b3424e22-2c7e-4c75-84c9-bff1d11174b1,,,
+C3B06,Museo,Museo,5.845,1,0,0,0,0,,,,,2fe758fe-bebd-4604-81b1-318306e5134d,,,
+C3B07,Museo,Museo,5.681,1,0,0,0,0,,,,,89e28d50-74f3-413e-8428-6094970bbaf8,,,
+C3B08,Museo,Museo,7.702,1,0,0,0,0,,,,,ef575680-1af7-4c86-8860-54bae062b210,,,
+C3B09,Museo,Museo,7.54,0,0,0,0,0,1,,1,1,dce300dc-cf71-4b29-b9ca-b6a38ca7b30b,,,
+C3B10,Museo,Museo,7.702,1,0,0,0,0,,,,,44766f77-dccc-422c-8a83-bfd74955e79e,,,
+C3B11,Museo,Museo,8.11,1,0,0,0,0,,,,,f3f46ee8-a74e-4fd4-b91d-12317907137a,,,
+C3B12,Museo,Museo,7.953,1,0,0,0,0,1,,1,1,ba597cf1-7af7-4289-bf99-46fa3426d490,,,
+C3B13,Museo,Museo,6.185,1,0,0,0,0,,,,,4a6b42da-3b1c-416b-a33f-ff4dea8a35d8,,,
+C3B14,Museo,Museo,6.226,0,0,0,0,0,1,,1,1,dc04b804-1cef-4ba8-8eab-44fc95be987e,,,
+C3B15,Museo,Museo,5.719,1,0,0,0,0,,,,,895b49c7-40a8-492c-97b6-3281a34ae1fe,,,
+C3C01,Museo,Museo,7.86,0,0,0,0,1,,,,,8fc8e8ab-50ad-4005-9a3a-2d2f476fcad9,,,
+C3C02,Museo,Museo,5.591,1,0,0,0,0,1,,1,1,f96b9a20-2ec7-411a-b0fe-cdc5aa83e9df,,,
+C3C03,Museo,Museo,6.502,1,0,0,0,0,,,,,f298365d-fb9b-4e9c-952c-1da479d3ff6a,,,
+C3C04,Museo,Museo,5.602,1,0,0,0,0,1,,1,1,79725c9e-3af5-4e5b-bfe4-f5ddb8bd8ed7,,,
+C3C05,Museo,Museo,5.424,0,0,0,0,0,,,,,1b0f537c-8626-48e3-b3e4-cf0965fff429,54277204-9b0f-4675-b66b-eee3a0387aae,,
+C3C06,Museo,Museo,7.19,1,0,1,0,0,,,,,222776db-fe6c-4383-8c63-417b70820c1b,,,
+C3C07,Museo,Museo,5.196,1,0,0,0,0,,,,,NA,,,
+C3C08,Museo,Museo,9,0,1,0,0,0,,,,,2bea6194-ee95-4a39-9afc-b47782507832,,,
+C3C09,Museo,Museo,6.842,1,0,0,0,0,,,,,1e602928-2309-49a4-8165-a6d580a42994,,,
+C3C10,Museo,Museo,8.487,0,0,0,0,0,,,,,1e602928-2309-49a4-8165-a6d580a42994,df10e513-2dea-4ce8-b3d0-8355f9e721b3,,
+C3C11,Museo,Museo,8.104,0,0,0,0,0,,,,,dad2d1f0-e34c-4faf-bd80-aa2e8590a5c8,,,
+C3C12,Museo,Museo,5.298,1,0,0,0,0,,,,,d399f05f-08a5-4b49-afc0-8348deb467ed,39e1e14a-d7af-43be-86fd-5cec4a938a79,,
+C3C13,Museo,Museo,5.084,1,0,0,0,0,,,,,f61d235e-962d-4c1f-af61-8a1a7d0c31ba,,,
+C3C14,Museo,Museo,6.431,1,0,0,0,0,,,,,c39b34aa-21ce-4e0c-bbb2-04435f4e9707,,,
+C3C15,Museo,Museo,5.911,0,0,0,0,0,,,,,43658363-9947-4e20-b193-69fd0aaad889,,,
+C3C16,Museo,Museo,7.934,0,0,0,0,0,,,,,8c3a33ba-a556-417f-a552-dffac4a36e87,,,
+C3C17,Museo,Museo,7.767,0,0,0,0,0,,,,,1e536329-a0a7-43da-a3b3-14b5d2768a3d,,,
+C3D01,Museo,Museo,8.274,0,0,0,0,0,,,,,4d113c49-fb80-474f-b918-cbb788a2cbb5,,,
+C3D02,Museo,Museo,7.784,1,0,0,0,0,1,,1,1,2ab8c3bd-b323-4f37-aabe-859c897decff,,,
+C3D03,Museo,Museo,6.031,1,0,0,0,0,,,,,85db9687-7c82-4e36-a0a9-e140dffca1bc,3eb99e96-b49f-4ed4-aeb4-d486d004760a,,
+C3D04,Museo,Museo,7.389,0,0,0,0,0,1,,1,1,645fc180-a023-4488-9ae5-dc9b06784892,,,
+C3D05,Museo,Museo,7.619,1,0,0,0,0,1,,1,1,a7977732-3f7d-4bb3-8f80-8a226f5ce2e6,,,
+C3D06,Museo,Museo,6.828,0,0,1,0,0,1,,1,1,f0f39a87-4efe-46fb-98da-985f4a9ec90d,,,
+C3D07,Museo,Museo,6.828,1,0,1,0,0,1,,1,1,0e38f382-5a49-4cb0-b7f8-7a965bc24568,,,
+C3D08,Museo,Museo,6.234,1,0,0,0,0,1,,1,1,2a45b77f-eb92-4533-a2af-dfe9cf1f1466,,,
+C3D09,Museo,Museo,8.093,0,0,0,0,0,,,,,0ec11a84-8935-41fa-8c07-b81bbd225f7e,,,
+C3D10,Museo,Museo,8.079,1,0,0,0,0,,,,,d69315a1-1ebe-43aa-93b1-ee12e26393dd,,,
+C3D11,Museo,Museo,6.47,1,0,0,0,0,1,,1,1,939eb6e4-efca-4a28-9544-4e518ddff41e,,,
+C3D12,Museo,Museo,5.103,0,0,0,0,0,1,,1,1,e2de3426-a29e-4e73-87c9-7195691ff276,,,
+C3D13,Museo,Museo,7.313,1,0,0,0,0,1,,1,1,3c0d04af-ce26-4142-a509-4f25e45a2990,,,
+C3E01,Museo,Museo,5.194,0,0,0,0,0,1,,1,1,15c5fd57-54a6-4402-b4eb-fc6cb3db69e1,a40ddada-a057-4e4f-bfb6-f0db1b615516,,
+C3E02,Museo,Museo,6.79,0,0,0,0,0,,,,,e579aa77-5e2e-4ac0-a902-a4247408c0eb,,,
+C3E03,Museo,Museo,5.791,0,0,0,0,0,1,,1,1,b0662e99-a411-476a-a552-4053d0b98359,,,
+C3E04,Museo,Museo,5.703,1,0,0,0,0,1,,1,1,d0ec0c1d-7301-477e-b9ba-8a3740978967,,,
+C3E05,Museo,Museo,5.196,1,0,0,0,0,1,,1,1,f801eefc-cf68-4730-8e3a-d1dba81c4f5c,,,
+C3E06,Museo,Museo,5.224,1,0,0,0,0,1,,1,1,e714f4db-30be-4ac5-be0b-2dff267cdd84,,,
+C3E07,Museo,Museo,8.298,1,0,0,0,0,,,,,556a9df2-6909-45e8-b6db-ce178c0be2ae,9dc42d7a-793c-4505-ada0-c0b5efa996dd,,
+C3E08,Museo,Museo,6.428,0,0,0,0,0,1,,1,1,dfc301fd-269c-4b8b-9183-3484df1f2c00,,,
+C3E09,Museo,Museo,5.506,0,0,0,0,0,1,,1,1,688ea9e3-204c-4e37-a783-2e543c989dd3,,,
+C3E10,Museo,Museo,5.572,1,0,0,0,0,1,,1,1,4408cb0e-9d2a-4cc5-9637-cc7e76352f8b,,,
+C3F01,Museo,Museo,5.777,0,0,1,0,0,1,,1,1,bbd4b043-dc35-4505-9895-3a35bb4335c4,,,
+C3F02,Museo,Museo,7.102,0,0,0,0,0,1,,1,1,f4151c31-9267-496d-a601-0432ddcd7665,,,
+C3F03,Museo,Museo,8.523,1,0,0,0,0,,,,,fee6f4a2-b7f0-43da-902d-2d87a3791f6e,,,
+C3F04,Museo,Museo,7.061,1,0,1,0,0,,,,,28a73a7d-2c65-4a76-ba69-9b82f7a5903c,7d5177ed-efbf-48f9-883a-eb8deb8a493b,,
+C3F05,Museo,Museo,8.307,1,0,0,1,0,,,,,387681f0-3538-476e-a97b-ba1602a5d571,04cbba07-cdfd-41f4-8f52-4c3020cb8714,,
+C3F06,Museo,Museo,9.081,0,1,0,0,0,,,,,aabdcd1c-df6c-407a-91a3-d49f783ca27b,,,
+C3F07,Museo,Museo,6.877,1,0,0,0,0,1,,1,1,07486fd5-d0a6-4aec-ac74-66255b4751ac,,,
+C3F08,Museo,Museo,5.577,0,0,0,0,0,1,,1,1,9b4c8c73-2e56-4015-a150-7145cd142eaf,,,
+C3F09,Museo,Museo,5.279,1,0,1,0,0,1,,1,1,9099ca71-f05c-4e60-a5e7-6da047036db5,,,
+C3F10,Museo,Museo,8.066,0,0,0,0,0,,,,,b7ce6010-5677-4cb8-9379-43156be84df8,83aa7920-236b-4c3b-973c-453bdffb327e,,
+C3F11,Museo,Museo,8.876,1,0,0,0,0,,,,,c1d27331-f100-4fa0-a1b2-8028a63cb63e,,,
+C3F12,Museo,Museo,6.598,0,0,0,0,0,1,,1,1,6abce3f7-e6b1-41a8-a70d-4187187f072c,1fa74d42-4da1-4e74-af0a-00e15a6e84bd,,
+C3F13,Museo,Museo,6.705,0,0,0,0,0,,,,,cf71eb5e-4cac-4b1e-b26d-2e1f1cdce841,,,
+C3F14,Museo,Museo,5.191,1,0,0,0,0,1,,1,1,aebaa02f-10b8-4a64-9d0a-4591bf6b1fd6,,,
+C3F15,Museo,Museo,7.439,1,0,0,1,0,,,,,NA,,,
+C3F16,Museo,Museo,8.657,0,0,0,0,0,,,,,615a25c2-95e2-4bd0-8249-2bb2b01173a7,,,
+C3F17,Museo,Museo,8.244,1,0,0,0,0,,,,,cbcbfa8f-a67f-4f91-a38b-7724963af70a,,,
+C3F18,Museo,Museo,9.41,1,1,0,0,0,,,,,233f771d-5854-45fb-9996-6a98b265d8da,,,
+C3F19,Museo,Museo,5.777,0,0,0,0,0,1,,1,1,ea9870bd-151d-4ca6-8fcd-2f6da8413780,,,
+C3F20,Museo,Museo,7.195,1,0,0,0,0,1,,1,1,64ab50fb-96b6-4a98-baef-b7e2e9998a2b,,,
+C3F21,Museo,Museo,6.738,1,0,0,0,0,1,,1,1,cd28ec51-adf3-445a-869e-3dd9c4d52d96,dcee3b87-fd62-4651-a38e-b3ad665b8324,,
+C3G01,Museo,Museo,6.798,0,0,0,0,0,1,,1,1,9ddfa406-329c-46b5-a2d6-0dc29b8677e5,,,
+C3G02,Museo,Museo,6.272,0,0,0,0,0,1,,1,1,21a8089f-70ca-47b1-8b66-a7604928f497,,,
+C3G03,Museo,Museo,7.918,1,0,0,0,0,,,,,28c0bb95-93b8-4d7f-bb99-a84f416cc492,,,
+C3G04,Museo,Museo,6.078,0,0,0,0,0,1,,1,1,59041583-5814-441d-b20c-5f65b9acf61b,,,
+C3G05,Museo,Museo,6.012,1,0,0,0,0,1,,1,1,d257d659-7803-41ed-87fd-8e2ed2f7e27c,,,
+C3G06,Museo,Museo,8.367,0,0,0,0,0,,,,,e2315516-58e7-4aa9-98bd-d3b098523fbe,,,
+C3G07,Museo,Museo,5.421,0,0,0,0,0,1,,1,1,deda83cd-e17a-4661-ab1c-354528388cf0,,,
+C3G08,Museo,Museo,6.924,1,0,0,0,0,1,,1,1,028f85e7-7dbc-4a42-bf68-5c0f8693e563,,,
+C3G10,Museo,Museo,5.027,0,0,0,0,0,1,,1,1,e6430ba7-2ef3-466c-9fa5-867f4c751427,,,
+C3G11,Museo,Museo,7.715,0,0,0,0,0,1,,1,1,6b30b183-ef7a-4d05-b16c-36866af2dd07,,,
+C3G12,Museo,Museo,8.496,0,0,0,0,0,,,,,f57bb9cd-0c7d-4379-9229-87c2517f59fa,,,
+C3G13,Museo,Museo,6.971,1,0,0,0,0,,,,,8b69c0cd-498a-4ccd-9c9f-af26cf07ab3b,814e54e6-937f-46de-869d-44eda0f5e0c0,,
+C3H01,Museo,Museo,5.12,0,0,0,0,0,1,,1,1,e6ac6989-1065-4082-9d8b-64a0a3d3731c,23f28204-ba51-45cf-a253-a48780787ae5,,
+C3H02,Museo,Museo,6.379,1,0,0,1,0,,,,,f53a838f-0755-45a3-8a85-15c70b72f729,,,
+C3H03,Museo,Museo,6.56,1,0,0,0,0,1,,1,1,04c1b4a6-2c14-4350-84c3-f47bd11fc158,a68d982b-5db5-4563-8a0f-42354d7bf837,,
+C3H04,Museo,Museo,5.415,1,0,0,0,0,,,,,d0b330c3-c6cb-4da5-b9cb-fb95ecb5f915,,,
+C3H05,Museo,Museo,5.248,0,0,0,0,0,1,,1,1,68ded912-edb2-42fc-81f4-bde7f45eae8f,55a0741a-8930-4617-8d58-403167d9c5c5,,
+C3H06,Museo,Museo,6.163,1,0,0,0,0,1,,1,1,40121c5c-fe8f-4b39-a8b4-435646c578cc,e982477b-554a-4d65-884b-6298241171e9,,
+C3H07,Museo,Museo,5.604,1,0,0,0,0,1,,1,1,813f9381-0e66-438e-afa3-9b972dd74eb9,,,
+C3H08,Museo,Museo,4.947,1,0,0,0,0,1,,1,1,a0db6bc5-1cfc-4473-8f16-b52ac0a53084,aab7805e-e0d5-4011-a7f7-0bc73dc8e9d4,,
+C3H09,Museo,Museo,8.03,1,0,0,0,0,,,,,298b41b4-b097-45dc-b6ea-9bfc4bd14c39,,,
+C3H10,Museo,Museo,8.246,0,0,0,0,0,,,,,3736a341-bc50-4cd9-8e87-01b85f23a524,,,
+C3H11,Museo,Museo,8.37,0,0,0,0,0,,,,,422a30c2-c3b3-40cb-8482-e5ffe0421b1a,,,
+C3H12,Museo,Museo,6.546,0,0,0,1,0,,,,,51e9571c-92e0-4994-9b54-1763d6bbdc8c,,,
+C3H13,Museo,Museo,6.434,0,0,0,0,0,1,,1,1,1a1050bb-be00-4316-a9a4-d7d12bfd3164,,,
+C3H14,Museo,Museo,5.938,1,0,0,0,0,1,,1,1,4ea06f51-783a-4fff-85c9-dc3599268198,,,
+C3H15,Museo,Museo,4.578,1,0,0,0,0,1,,1,1,19c1e0f2-41dd-4c9e-ab8f-c8fca3e580cc,,,
+C3H16,Museo,Museo,4.578,0,0,0,0,0,1,,1,1,627bf545-7fc6-4ae2-924c-10226fc22582,7a3c0c14-006e-4a5f-8d66-e4c09c04d0a1,,
+C3I01,Museo,Museo,8.939,0,0,0,0,0,,,,,5f28cccf-e486-43c6-a33a-59172d302c17,a9cd3310-07e7-4037-b680-3fb67cb5db98,,
+C3I02,Museo,Museo,7.603,1,0,0,0,0,1,,1,1,cc12b864-4a6a-4357-b29d-8f62fb5fd796,,,
+C3I03,Museo,Museo,5.862,0,0,0,0,0,1,,1,1,79a3db48-7258-44c6-bac7-0c1471f6184e,,,
+C3I04,Museo,Museo,5.04,1,0,0,0,0,1,,1,1,cb4bf8c2-a763-41e3-a8f8-2db1b6def437,,,
+C3I05,Museo,Museo,6.089,0,0,0,0,0,1,,1,1,468d8986-a1b1-42dd-a150-452ea2086531,,,
+C3I06,Museo,Museo,5.717,1,0,0,0,0,1,,1,1,9dfc79e5-f683-45dd-9225-62d82933dea3,,,
+C3I07,Museo,Museo,7.326,0,0,0,0,0,1,,1,1,6187814a-8054-43c4-8aa8-848e4953a322,2dcac613-6a3c-4a96-9ca6-478f68a9cdef,,
+C3I08,Museo,Museo,6.888,1,0,0,0,0,,,,,e47dd74d-1d07-4a2b-bd7d-9ea3aff181d7,,,
+C3I09,Museo,Museo,7.792,1,0,0,0,0,1,,1,1,5f64fbcf-7662-475d-8ca8-5e98f569e693,fc72e97e-54ed-4c3a-9ee1-748619dad23d,,
+C3I10,Museo,Museo,7.718,1,0,0,0,0,1,,1,1,8433faa3-0aff-47ec-ae80-a16e62b4cc2b,,,
+C3I11,Museo,Museo,6.661,0,0,0,0,0,1,,1,1,f2e13ade-b5b3-4336-9734-fb54a9e0365f,,,
+C3I12,Museo,Museo,4.611,1,0,0,0,0,1,,1,1,f6373944-c62f-482a-a15d-5b0797b9d261,,,
+C3I13,Museo,Museo,5.12,0,0,0,0,0,,,,,fc5fa921-b96d-4671-97d0-b93c95b98b6e,,,
+C3I14,Museo,Museo,4.282,0,0,0,0,0,1,,1,1,ccdb832b-6ea0-4560-beb5-00046785626c,7b213deb-a278-4b16-92ab-f2d27fe950fb,,
+C3I15,Museo,Museo,8.356,0,0,0,0,0,,,,,d3cc4c9f-c1d0-48db-8803-371790dc41c0,ad37673e-7d1a-4583-8279-066da76150ca,,
+C3I16,Museo,Museo,6.793,0,0,0,0,0,1,,1,1,ed3d4728-d86d-4c39-a35d-fe7eaba77a54,,,
+C3I18,Museo,Museo,6.374,1,0,0,0,0,1,,1,1,1a50330e-b7bc-4c24-b6cf-27083df0aeff,,,
+C3I20,Museo,Museo,6.004,0,0,1,0,0,1,,1,1,76b5fa59-5a27-466e-af06-6044e35a4e14,,,

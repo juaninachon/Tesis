@@ -55,7 +55,7 @@ execute:
 
 # 1. Resumen
 
-El constructo *autorregulación* denomina a un conjunto de procesos y habilidades que posibilitan la adaptación de los niños y las niñas a sus entornos de crianza. Durante los primeros años de escolarización, el aumento en las demandas sobre la autonomía de las niñas y los niños le confiere especial interés al estudio de estos procesos, que generalmente se abordan con medidas de reporte, pruebas estandarizadas y observaciones naturalistas. Los avances técnicos de los últimos años posibilitan la creciente automatización de las técnicas observacionales y la recoleción de datos a gran escala. Esta acumulación de fuentes complementarias de información podría lograr articular el conocimiento que existe acerca de procesos de orden cognitivo y sus manifestaciones cotidianas. 
+El constructo *autorregulación* denomina a un conjunto de procesos y habilidades que posibilitan la adaptación de los niños y las niñas a sus entornos de crianza. Durante los primeros años de escolarización, el aumento en las demandas sobre la autonomía de las niñas y los niños le confiere especial interés al estudio de estos procesos, que generalmente se abordan con medidas de reporte, pruebas estandarizadas y observaciones naturalistas. Los avances técnicos de los últimos años posibilitan la creciente automatización de las técnicas observacionales y la recolección de datos a gran escala. Esta acumulación de fuentes complementarias de información podría lograr articular el conocimiento que existe acerca de procesos de orden cognitivo y sus manifestaciones cotidianas. 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En esta tesis se presentan resultados de dos estudios que exploran la utilidad de métodos observacionales en situaciones naturalistas, su convergencia con medidas controladas y de reporte, su asociación con el desempeño académico y con factores sociodemográficos. En el primer estudio, se codificó en vivo a 144 niños/as de jardines de infantes. En el segundo, se filmó a 127 díadas durante actividades semiestructuradas de juego y aprendizaje en un museo. 69 videos fueron anotados manualmente y con la ayuda de modelos de reconocimiento. En ambos contextos, se administró una batería de funciones ejecutivas, se evaluó el desempeño académico y los cuidadores respondieron cuestionarios sobre la conducta habitual y las características sociodemográficas de los participantes.
 
@@ -123,7 +123,7 @@ Esta propuesta plantea analizar el desarrollo autorregulatorio de grupos de niñ
 
 ## 5.1 Objetivo general
 
-Analizar la asociación entre medidas del desarrollo autorregulatorio y el desempeño académico durante la etapa de transición a la escolaridad primaria, así como su posible modulación por factores individuales y contextuales.
+Analizar las asociaciones entre distintos abordajes de evaluación del funcionamiento autorregulatorio (i.e., tareas de laboratorio, reportes de adultos y observaciones ecológicas) y el desempeño académico durante la transición a la escolaridad primaria, y explorar su modulación por factores individuales y contextuales.
 
 ## 5.2 Objetivos específicos
 
@@ -135,11 +135,11 @@ Analizar la asociación entre medidas del desarrollo autorregulatorio y el desem
 
 ## 5.3 Hipótesis
 
-(1) Se encontrarán asociaciones convergentes entre las distintas fuentes de información del funcionamiento autorregulatorio.
+(1) Se encontrarán asociaciones convergentes leves entre las distintas fuentes de información del funcionamiento autorregulatorio.
 
-(2) Las medidas individuales del funcionamiento autorregulatorio serán predictores significativos del desempeño académico y se asociarán con condiciones socioambientales favorables.
+(2) Las medidas del funcionamiento autorregulatorio serán predictores significativos del desempeño académico y se asociarán con condiciones socioambientales favorables.
 
-(3) Se espera que las aspectos individuales (e.g., edad) y contextuales (e.g., nivel socioeconómico) modulen la asociación entre funcionamiento autorregulatorio y desempeño académico. 
+(3) Se espera que las aspectos individuales (e.g., edad) y contextuales (e.g., nivel socioeconómico) modulen la magnitud de la asociación entre funcionamiento autorregulatorio y desempeño académico. 
 
 \newpage
 
@@ -174,7 +174,7 @@ pckgs <- c(
 invisible(capture.output(lapply(pckgs, require, character.only = TRUE)))
 len <- base::length
 
-pk <- read.csv("data/submuestras.csv") |>
+pk <- read.csv("data/raw/submuestras.csv") |>
  filter(inc == 1)
  
 mj <- filter(pk, Muestra == "Jardines") |>
@@ -551,7 +551,7 @@ Se emplearon los mismos procedimientos estadísticos que en el estudio 1 (ver [A
 # 7. Resultados
 ```{r}
 #| label: ema
-ema <- read.csv("data/socdemo.csv")
+ema <- read.csv("data/raw/socdemo.csv")
 colnames(ema) <- gsub("_", " ", colnames(ema))
 emaj  <- left_join(mj, ema, by = "ID")
 emam  <- left_join(mm, ema, by = "ID")
@@ -730,7 +730,7 @@ cat("\\normalsize\n")
 #| results: 'asis'
 
 docentes <- read.csv(
-  "data/docentes_demografía.csv",
+  "data/raw/docentes_demografía.csv",
   check.names = FALSE
 ) |> select(-c(1:3))
 
@@ -858,7 +858,7 @@ cat("\\normalsize\n")
 
 obsj <- left_join(
   mj,
-  read.csv("data/obsj/obs_keys_jardines.csv"),
+  read.csv("data/raw/obsj/obs_keys_jardines.csv"),
   by = "ID"
 )
 ciclos <- len(unique(obsj$Ciclo))
@@ -872,9 +872,9 @@ mdnn <- obsj |>
 dups <- left_join(
   mj,
   bind_rows(
-    (read.csv("data/obsj/nrioa24.csv") |>
+    (read.csv("data/raw/obsj/nrioa24.csv") |>
       mutate(ID = str_split_i(IDNA, "_", i=3))),
-    (read.csv("data/obsj/nrioa23.csv") |>
+    (read.csv("data/raw/obsj/nrioa23.csv") |>
       mutate(ID = str_split_i(IDNA, "_", i=4)))
   ),
   by = "ID"
@@ -943,8 +943,8 @@ cat("\\normalsize\n")
 #| label: t4 dist obs x act j
 #| results: 'asis'
 
-nrat23 <- read.csv("data/obsj/nrat23.csv") |> slice(1:394)
-nrat24 <- read.csv("data/obsj/nrat24.csv") |> slice(1:653)
+nrat23 <- read.csv("data/raw/obsj/nrat23.csv") |> slice(1:394)
+nrat24 <- read.csv("data/raw/obsj/nrat24.csv") |> slice(1:653)
 nrat <- rbind(nrat23, nrat24) |>
  select(
   IDN, 
@@ -1056,7 +1056,7 @@ A continuación se presentan en formato de tabla las medidas de tendencia centra
 #| label: t5 desc reporte desempeño j
 #| results: 'asis'
 
-repj <- read.csv("data/reportesywm.csv") |>
+repj <- read.csv("data/raw/reportesywm.csv") |>
   filter(ID  %in% mj$ID)
 wmj <- repj |> select(1:3)
 wmj$DA <- scale((scale(wmj$PA) + scale(wmj$CO)) / 2)
@@ -1068,7 +1068,7 @@ colnames(repj)[2:13] <- c(
   "ECP - Problemas de Conducta", "ECP - Problemas externalizantes", "ECP - Problemas internalizantes", "LECP"
 )
 
-nuxj <- read.csv("data/nux.csv") |>
+nuxj <- read.csv("data/raw/nux.csv") |>
   filter(ID %in% mj$ID) |>
   select(-c(
     tb_errors, ne_errors, mt_errors, jm_tot_test_trials, 
@@ -1136,10 +1136,10 @@ Se calcularon coeficientes de confiabilidad entre dos observadores (ver \hyperre
 #| label: t6 kappas j
 #| results: 'asis'
 
-nioa23 <- read.csv("data/obsj/nioa23.csv")
-nrioa23 <- read.csv("data/obsj/nrioa23.csv")
-nioa24 <- read.csv("data/obsj/nioa24.csv")
-nrioa24 <- read.csv("data/obsj/nrioa24.csv")
+nioa23 <- read.csv("data/raw/obsj/nioa23.csv")
+nrioa23 <- read.csv("data/raw/obsj/nrioa23.csv")
+nioa24 <- read.csv("data/raw/obsj/nioa24.csv")
+nrioa24 <- read.csv("data/raw/obsj/nrioa24.csv")
 nioa <- rbind(nioa23, nioa24)
 nrioa <- rbind(nrioa23, nrioa24)
 varname <- c()
@@ -1271,35 +1271,35 @@ Con la excepción de dos de las subescalas del CBQ, todos los instrumentos alcan
 #| label: t7 consistencia interna j 
 #| results: 'asis'
 
-cbq3 <- read.csv("data/cbqe23.csv")
-cbq4 <- read.csv("data/cbqe24.csv")
+cbq3 <- read.csv("data/raw/cbqe23.csv")
+cbq4 <- read.csv("data/raw/cbqe24.csv")
 cbqj <- rbind(cbq3, cbq4) |>
   select(1:37) |>
   filter(ID %in% mj$ID) |>
   arrange(ID) |>
   filter(!duplicated(ID)) 
   
-chaosj <- read.csv("data/chaosh.csv") |>
+chaosj <- read.csv("data/raw/chaosh.csv") |>
   filter(ID %in% mj$ID) |>
   arrange(ID) |>
   filter(!duplicated(ID)) |>
   select(-CHAOSC)
 
-lecp3 <- read.csv("data/chaosd23.csv") |>
+lecp3 <- read.csv("data/raw/chaosd23.csv") |>
   select(-c(X, Check, ID_x, CHAOSD))
-lecp4 <- read.csv("data/chaosd24.csv") |>
+lecp4 <- read.csv("data/raw/chaosd24.csv") |>
   select(-c(X, ID, CHAOSE))
 colnames(lecp4) <- colnames(lecp3)
 lecp <- rbind(lecp3, lecp4) |>
   filter(!duplicated(ID_y)) 
 
 keys <- rbind(
-  read.csv("data/keysd23.csv"),
-  read.csv("data/keysd24.csv")
+  read.csv("data/raw/keysd23.csv"),
+  read.csv("data/raw/keysd24.csv")
 )
 ecp <- rbind(
-  read.csv("data/ecp_raw23.csv"),
-  read.csv("data/ecp_raw24.csv")
+  read.csv("data/raw/ecp_raw23.csv"),
+  read.csv("data/raw/ecp_raw24.csv")
 )
 ecp <- left_join(
   keys,
@@ -2320,7 +2320,7 @@ lmtable(m10j)
 
 #### 7.2.1.1 Características sociodemográficas de los participantes
 
-Sobre los participantes de la muestra del museo, cabe destacar que, en contraste con la muestra de los jardines, estos y sus madres eran de mayor edad, con una menor proporción de ellos provenientes de hogares biparentales o migrantes de primera generación. Además, sus padres se autopercibían como de mayores ingresos y con trabajos más formales o estables. Además, estas familias tendieron a reportar tener vidas sociales mas activas y mejor calidad de sueño (ver \hyperref[tab:17]{Tabla 17}).
+Sobre los participantes de la muestra del museo, cabe destacar que, en contraste con la muestra de los jardines, estos y sus madres eran de mayor edad, con una menor proporción de ellos provenientes de hogares biparentales o migrantes de primera generación. Además, sus padres se autopercibían como de mayores ingresos y con trabajos más formales o estables. Además, estas familias tendieron a reportar tener vidas sociales más activas y mejor calidad de sueño (ver \hyperref[tab:17]{Tabla 17}).
 
 \phantomsection
 \addcontentsline{lot}{table}{{17. Características sociodemográficas - muestra museo}}
@@ -2477,7 +2477,7 @@ cat("\\normalsize\n")
 
 ```{r}
 #| label: desc obs m 
-obsm <- read.csv("data/obsm/museo_props.csv")  |>
+obsm <- read.csv("data/raw/obsm/museo_props.csv")  |>
   filter(ID %in% mm$ID)
 
 minutos <- round(sum(obsm$nframes_tot)/1800, 0)
@@ -2653,7 +2653,7 @@ cat("\\normalsize\n")
 
 mdiar <- left_join(
   mm,
-  read.csv("data/obsm/elan.csv"),
+  read.csv("data/raw/obsm/elan.csv"),
   by = "ID"
 ) |> 
   left_join(
@@ -2685,12 +2685,12 @@ mdiar <- left_join(
 
 #sum((mdiar$tot_Total_Adultx-mdiar$tot_Total_Niñx)>0, na.rm=T)/30
 
-mturnos <- read.csv("data/obsm/turnos_conv.csv") |>
+mturnos <- read.csv("data/raw/obsm/turnos_conv.csv") |>
 filter(ID %in% mm$ID)
 
 turnosm <- mturnos |>
   filter(ID %in% unlist(select(
-    read.csv("data/obsm/elan.csv"),
+    read.csv("data/raw/obsm/elan.csv"),
     ID
   ))) |>
   left_join(
@@ -2860,7 +2860,7 @@ Se volvieron a diarizarar los mismos 30 videos con el modelo speaker-diarization
 
 mpyannote <- left_join(
   mm,
-  read.csv("data/obsm/diarización.csv"),
+  read.csv("data/raw/obsm/diarización.csv"),
   by = "ID"
 ) |> select(-c(2,3)) |>
   left_join(
@@ -3052,7 +3052,7 @@ cat("\\normalsize\n")
 #| label: t21 whisper clan
 #| results: 'asis'
 
-mclan <- read.csv("data/obsm/clan.csv") |>
+mclan <- read.csv("data/raw/obsm/clan.csv") |>
   filter(ID %in% mm$ID)
 mclanid <- mclan$ID
 mclan[] <- lapply(mclan, as.numeric)
@@ -3222,8 +3222,8 @@ cat("\\normalsize\n")
 mfeatgaze <- reduce(
   c(list(
     select(mm,ID),
-    read.csv("data/obsm/propfeat.csv"),
-    read.csv("data/obsm/propgazelle.csv")
+    read.csv("data/raw/obsm/propfeat.csv"),
+    read.csv("data/raw/obsm/propgazelle.csv")
   )),
   left_join, by = "ID"
 )
@@ -3348,7 +3348,7 @@ cat("\\normalsize\n")
 #| label: t23 desc reporte desempeño m
 #| results: 'asis'
 
-repm <- read.csv("data/reportesywm.csv") |>
+repm <- read.csv("data/raw/reportesywm.csv") |>
   filter(ID  %in% mm$ID)
 wmm <- repm |> select(1:3)
 wmm$DA <- scale((scale(wmm$PA) + scale(wmm$CO)) / 2)
@@ -3358,7 +3358,7 @@ colnames(repm)[2:5] <- c(
   "CBQ - Extraversion", "CBQ - Esfuerzo de control", "CBQ - Afectividad negativa", "Caos"
 )
 
-nuxm <- read.csv("data/nux.csv") |>
+nuxm <- read.csv("data/raw/nux.csv") |>
   filter(ID %in% mm$ID) |>
   select(-c(
     tb_errors, ne_errors, mt_errors, jm_tot_test_trials, 
@@ -3436,10 +3436,10 @@ a <- list()
 b <- list()
 
 for (i in seq_along(dups)){
-  a[[i]] <- read.csv(paste0("data/obsm/tsboris/", dups[i], "_ts.csv")) |>
+  a[[i]] <- read.csv(paste0("data/raw/obsm/tsboris/", dups[i], "_ts.csv")) |>
     filter(fase  %in% fases) |>
     select(4:32)
-  b[[i]] <- read.csv(paste0("data/obsm/tsboris/", dups[i], "_ts.csv")) |>
+  b[[i]] <- read.csv(paste0("data/raw/obsm/tsboris/", dups[i], "_ts.csv")) |>
     filter(fase  %in% fases) |>
     select(4:32)
 }
@@ -3461,8 +3461,8 @@ for (i in seq_along(colnames(a))){
 imk <- data.frame(variable, kappa) |>
   slice(20, 25, 21, 26, 24, 27, 23, 28, 13, 18)
 
-a <- read.csv("data/obsm/propsboris.csv")
-b <- read.csv("data/obsm/propsborisdups.csv") |> 
+a <- read.csv("data/raw/obsm/propsboris.csv")
+b <- read.csv("data/raw/obsm/propsborisdups.csv") |> 
   filter(id  %in% a$id)
 a <- a |>
   filter(id  %in%  b$id) |>
@@ -3523,14 +3523,14 @@ El nivel de acuerdo, tanto para los indicadores emocionales y atencionales, resu
 #| label: t25 obsm ai ioa
 #| results: 'asis'
 
-guide <- read.csv("data/obsm/syncsub.csv") |>
-  left_join(read.csv("data/obsm/sync.csv"))
+guide <- read.csv("data/raw/obsm/syncsub.csv") |>
+  left_join(read.csv("data/raw/obsm/sync.csv"))
 elans <- guide$ID[which(guide$ELAN==1)]
-paths_elan <- list.files("data/obsm/tselan", full.names = TRUE)
-paths_pyannote <- list.files("data/obsm/pyannotedups", full.names = TRUE)
-mmegats <- do.call(rbind, lapply(paste0("data/obsm/museo_mega_ts", 1:4, ".csv"), read.csv))
-tsfeat <- read.csv("data/obsm/tsfeat2.csv")
-paths_gazelle <- list.files("data/obsm/gazellesync", full.names = TRUE)
+paths_elan <- list.files("data/raw/obsm/tselan", full.names = TRUE)
+paths_pyannote <- list.files("data/raw/obsm/pyannotedups", full.names = TRUE)
+mmegats <- do.call(rbind, lapply(paste0("data/raw/obsm/museo_mega_ts", 1:4, ".csv"), read.csv))
+tsfeat <- read.csv("data/raw/obsm/tsfeat2.csv")
+paths_gazelle <- list.files("data/raw/obsm/gazellesync", full.names = TRUE)
 
 aai <- data.frame()
 
@@ -3538,7 +3538,7 @@ for (i in 1:len(elans)) {
   tryCatch(
     {
       Id <- elans[i]
-      boris <- read.csv(paste0("data/obsm/tsboris/", Id, "_ts.csv")) |> select(fase)
+      boris <- read.csv(paste0("data/raw/obsm/tsboris/", Id, "_ts.csv")) |> select(fase)
       elan <- read.csv(paths_elan[which(grepl(Id, paths_elan))]) 
       if(nrow(boris)<=nrow(elan)){
         elan <- cbind(
@@ -3783,12 +3783,12 @@ Los instrumentos de reporte alcanzaron niveles similares a los del estudio 1 (ve
 #| label: t26 consistencia interna m
 #| results: 'asis'
 
-cbqm <- read.csv("data/cbqm.csv") |>
+cbqm <- read.csv("data/raw/cbqm.csv") |>
   filter(ID %in% mm$ID) |>
   arrange(ID) |>
   filter(!duplicated(ID)) 
   
-chaosm <- read.csv("data/chaoshm.csv") |>
+chaosm <- read.csv("data/raw/chaoshm.csv") |>
   filter(ID %in% mm$ID) |>
   arrange(ID) |>
   filter(!duplicated(ID)) |>
@@ -4381,7 +4381,7 @@ cat("\\normalsize\n")
 \textit{Nota}: RSS = Suma Residual de Cuadrados.
 \normalsize
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Finalmente, en los modelos de inteacciones simples entre el predictor más fuerte de cada tipo de instrumento, la edad de los niños/as y el nivel de educación materna (ver tablas 34 a 39), no se verificaron efectos de moderación, únicamente atenuación del efecto del puntaje en la prueba de memoria de trabajo y del reporte de esfuerzo de control por inclusión de la edad de los niños/as como covariable. 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Finalmente, en los modelos de interacciones simples entre el predictor más fuerte de cada tipo de instrumento, la edad de los niños/as y el nivel de educación materna (ver tablas 34 a 39), no se verificaron efectos de moderación, únicamente atenuación del efecto del puntaje en la prueba de memoria de trabajo y del reporte de esfuerzo de control por inclusión de la edad de los niños/as como covariable. 
 
 ```{r}
 #| label: t34 modelos de interacciones simples
