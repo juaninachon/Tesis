@@ -17,2150 +17,2795 @@
       "name": "Estudio",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Woodcock-Muñoz – Problemas Aplicados",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Woodcock-Muñoz – Comprensión de Oraciones",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Woodcock-Muñoz – Compuesto (estudios separados)",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Woodcock-Muñoz – Compuesto (estudios combinados)",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX - Toca botón - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Toca botón - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Toca botón - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – No encaja - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – No encaja - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – No encaja - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de memoria - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de memoria - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de memoria - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden directo) - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden directo) - Aciertos consecutivos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden directo) - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden directo) - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden inverso) - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden inverso) - Aciertos consecutivos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden inverso) - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Bloques de Corsi (orden inverso) - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Simón - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Simón - Aciertos consecutivos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Simón - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Simón - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Cómo se siente - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Cómo se siente - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Cómo se siente - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de magia - Puntaje",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de magia - TR correctos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "NeuroUX – Juego de magia - TR incorrectos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "NeuroUX – Juego de magia - Proactividad Distancia TR AX",
+      "name": "NeuroUX – Juego de magia - Proactividad Distancia TR AX ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "CBQ - Extraversion",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "CBQ - Esfuerzo de control",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "CBQ - Afectividad negativa",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Caos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Habilidades Sociales",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Cooperatividad",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Interacciones sociales",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Independencia social",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Problemas de Conducta",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Problemas externalizantes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "ECP - Problemas internalizantes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "LECP",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad negativa_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad positiva_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Afectividad neutra_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Involucramiento en actividades_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Recostado_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Desplazamiento_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Mano en boca_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Fidgeting_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con pares_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Prosocial con docentes_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo en solitario_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con pares_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes_Dibujo pintura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes_Exposición docente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes_Juego libre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes_Lectoescritura",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Jardines - Disruptivo con docentes_Juego con números",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Edad años",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Sexo masculino",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Años previos de escolaridad",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Usa dispositivos electrónicos cotidianamente",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Libros en el hogar",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Frecuencia de lectura compartida",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Materiales didácticos en el hogar",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Acceso a vestimenta",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Hace deporte",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Vida social",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Calidad de sueño",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Edad de la madre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Edad del padre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Educación de la madre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Educación del padre",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Hogar biparental",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Cohabitantes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Son inmigrantes",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Mudanzas desde el nacimiento",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Madre trabaja en blanco",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Padre trabaja en blanco",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Madre estabilidad laboral",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Padre estabilidad laboral",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Barrio tranquilo",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Percepción de ingresos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Percepción de recursos",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Percepción de calma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Cantidad de frames - total",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Cantidad de frames - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Cantidad de frames - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Cantidad de frames - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Cantidad de frames - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Afectividad positiva Niño/a",
+      "name": "Observación Museo - Afectividad positiva Niño/a ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Niño/a - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Niño/a - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Niño/a - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Niño/a - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo – Afectividad negativa Niño/a",
+      "name": "Observación Museo – Afectividad negativa Niño/a ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Niño/a  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Niño/a  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Niño/a  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Niño/a  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Afectividad neutra Niño/a",
+      "name": "Observación Museo - Afectividad neutra Niño/a ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Niño/a  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Niño/a  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Niño/a  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Niño/a  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Involucramiento Niño/a",
+      "name": "Observación Museo - Involucramiento Niño/a ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Niño/a  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Niño/a  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Niño/a  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Niño/a  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Afectividad positiva Adulto",
+      "name": "Observación Museo - Afectividad positiva Adulto ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Adulto  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Adulto  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Adulto  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad positiva Adulto  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Afectividad negativa Adulto",
+      "name": "Observación Museo - Afectividad negativa Adulto ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Adulto  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Adulto  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Adulto  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad negativa Adulto  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Afectividad neutra Adulto",
+      "name": "Observación Museo - Afectividad neutra Adulto ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Adulto - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Adulto - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Adulto - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Afectividad neutra Adulto - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Involucramiento Adulto",
+      "name": "Observación Museo - Involucramiento Adulto ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Adulto  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Adulto  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Adulto  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Involucramiento Adulto  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Sincronía afectiva positiva",
+      "name": "Observación Museo - Sincronía afectiva positiva ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva positiva - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva positiva - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva positiva - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva positiva - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Sincronía afectiva total",
+      "name": "Observación Museo - Sincronía afectiva total ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva total  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva total  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva total  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva total  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
-      "name": "Observación Museo - Sincronía afectiva neutra",
+      "name": "Observación Museo - Sincronía afectiva neutra ",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva neutra  - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva neutra  - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva neutra  - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía afectiva neutra  - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo - Sincronía atencional",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía atencional - ppt",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía atencional - avioncito",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía atencional - paloma",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     },
     {
       "@type": "PropertyValue",
       "name": "Observación Museo – Sincronía atencional - armado de figuras",
       "description": null,
       "measurementTechnique": null,
-      "measurementScale": null,
       "unitText": null,
+      "minValue": null,
+      "maxValue": null,
+      "valuePattern": null,
       "propertyID": null,
-      "dataFile": "data/shiny_data.csv"
+      "alternateName": null,
+      "dataFile": "data/shiny-app_data.csv"
     }
   ]
 }
