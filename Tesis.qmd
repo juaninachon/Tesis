@@ -175,7 +175,8 @@ pckgs <- c(
   "performance",
   "parameters",
   "broom",
-  "gvlma"
+  "gvlma",
+  "factoextra"
 )
 invisible(capture.output(lapply(pckgs, require, character.only = TRUE)))
 len <- base::length
@@ -235,7 +236,6 @@ Dado que los primeros años previstos para la recolección de datos se vieron af
 #| label: f2 Edad y sexo por muestra
 #| fig-align: 'center'
 #| fig.height: 5
-
 
 histo <- pk |>
   ggplot() +
@@ -467,11 +467,13 @@ Durante la primera mitad de los ciclos lectivos 2023 y 2024 (un ciclo por cohort
 
 ### 6.3.3 Análisis estadístico {#sec-6.3.3}
 
-Todos los estadísticos se computaron en R (versión 4.5.2, ver \hyperref[fig:11]{Figura 11} y Anexo [F1](https://github.com/juaninachon/j2024/tree/main/0_material_tesis/Tesis.qmd)). Se efectuó la descripción univariada de todas las variables mediante el cálculo del tamaño muestral, media, mediana, desvío, rango y proporción de casos perdidos. Complementariamente, se visualizaron las distribuciones con histogramas de frecuencia. Los análisis bivariados consistieron en correlaciones de orden cero con los métodos de Pearson y Spearman, visualizadas en gráficos de dispersión, con el fin de explorar la asociación entre las distintas medidas e informar la construcción de modelos multivariados. En ningún caso se imputaron datos perdidos. 
+Todos los estadísticos se computaron en R (versión 4.4.1, ver \hyperref[fig:11]{Figura 11} y Anexo [F1](https://github.com/juaninachon/j2024/tree/main/0_material_tesis/Tesis.qmd)). Se efectuó la descripción univariada de todas las variables mediante el cálculo del tamaño muestral, media, mediana, desvío, rango y proporción de casos perdidos. Complementariamente, se visualizaron las distribuciones con histogramas de frecuencia. Los análisis bivariados consistieron en correlaciones de orden cero con los métodos de Pearson y Spearman, visualizadas en gráficos de dispersión, con el fin de explorar la asociación entre las distintas medidas e informar la construcción de modelos multivariados. En ningún caso se imputaron datos perdidos. 
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La consistencia interna de las escalas se estimó con el coeficiente Alfa de Cronbach y, para calcular la confiabilidad de las medidas observacionales, se usaron los coeficientes Kappa de Cohen y Alfa de Krippendorf. Adicionalmente, se verificó la homogeneidad de las cohortes y de los grupos que completaron las pruebas de manera presencial y remota con la prueba U de Mann-Whitney y el método de Levene.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Buscando constatar la convergencia entre las distintas fuentes de información, condensar la gran extensión de la matriz de datos y poner a prueba las hipótesis de asociación con el desempeño académico y moderación por factores sociodemográficos, se ajustaron modelos de regresión lineal multivariada. El proceso de formulación de los modelos siguió una lógica de decantación, a partir de la cual se seleccionaron covariables (predictores candidatos) para cada tipo de instrumento que hubieran mostrado resultados estadísticamente significativos en los análisis bivariados con las medidas de desempeño académico (p < 0.01). En caso de encontrar predictores que estuvieran altamente correlacionados entre sí (ρ > 0.5), se filtraron las variables con menor valor predictivo y cantidad de observaciones, para evitar multicolinealidad y baja potencia estadística en los modelos. Como regla general, se evitó incluir un número excesivo de variables independientes de modo que los modelos tuvieran al menos de 10 observaciones (n) por cada parámetro estimado. Los supuestos de linealidad de los predictores, homocedasticidad y normalidad de los residuos se pusieron a prueba individualmente para cada modelo y, en caso de hallar contravenciones, se abandonó el modelo si estas no podían corregirse manipulando la escala de las variables independientes (estandarizándolas o aplicándoles transformaciones logarítmicas).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Buscando constatar la convergencia entre las distintas fuentes de información, condensar la gran extensión de la matriz de datos y poner a prueba las hipótesis de asociación con el desempeño académico y moderación por factores sociodemográficos, se ajustaron modelos de regresión lineal multivariada. El proceso de formulación de los modelos siguió una lógica de decantación, a partir de la cual se seleccionaron covariables &mdash;predictores candidatos&mdash; para cada tipo de instrumento que hubieran mostrado resultados estadísticamente significativos en los análisis bivariados con las medidas de desempeño académico (p < 0.01). En caso de encontrar predictores que estuvieran altamente correlacionados entre sí (ρ > 0.5), se filtraron las variables con menor valor predictivo y cantidad de observaciones, para evitar multicolinealidad y baja potencia estadística en los modelos. Como regla general, se evitó incluir un número excesivo de variables independientes de modo que los modelos tuvieran al menos de 10 observaciones (n) por cada parámetro estimado. Los supuestos de linealidad de los predictores, homocedasticidad y normalidad de los residuos se pusieron a prueba individualmente para cada modelo y, en caso de hallar contravenciones, se abandonó el modelo si estas no podían corregirse manipulando la escala de las variables independientes (estandarizándolas o aplicándoles transformaciones logarítmicas).
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso particular de los puntajes de la batería de FFEE, se exploró el análisis de componentes principales para extraer una medida compuesta, siguiendo el método de scree para determinar el número de componentes apropiados (i.e., aquellos con eigenvalues mayores a 1). Sin embargo, debido a la alta proporción de casos perdidos, únicamente se tuvo en cuenta el desempeño en las pruebas de la sesión 1.
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En segunda instancia, se compararon modelos anidados con el método de análisis de varianza para determinar el conjunto de predictores más robusto para los datos disponibles. En cada caso, los modelos anidados tuvieron como variable dependiente al puntaje compuesto de desempeño académico y variables independientes fueron agrupadas en tres niveles con la misma cantidad de predictores, en la medida que el tamaño muestral lo permitiese. Los niveles de anidamiento se corresponden con las categorías *abordajes de laboratorio* (i.e., pruebas computarizadas de FFEE), *potenciales moderadores socioambientales* (e.g., edad, nivel educativo de los padres) y *abordajes ecológicos* (i.e., medidas de reporte e indicadores de las observaciones no participantes). El orden aditivo de los niveles reflejó la intención de verificar si la introducción de los potenciales moduladores socioambientales, seguido de las medidas ecológicas, producen mejoras significativas en los índices de ajuste y en el porcentaje de varianza explicado de un modelo de base cuyos únicos predictores son las variables independientes del nivel de abordajes de laboratorio. Por último, para poner a prueba efectos de moderación, se especificaron modelos de interacciones simples entre los potenciales moderadores socioambientales y los indicadores vinculados a la AR (i.e., puntaje compuesto de desempeño académico como variable dependiente, más dos variables independientes con su respectiva interacción). En esta instancia, las variables fueron centradas por sus valores promedios.
 
@@ -1665,7 +1667,7 @@ cat("\\normalsize\n")
 #### 7.1.2.1 Asociaciones entre las distintas fuentes de información del funcionamiento autorregulatorio
 
 ```{r}
-#| label: merge j
+#| label: merge j + pca
 
 mergej <- reduce(list(
   wmj, 
@@ -1680,7 +1682,29 @@ mergej <- reduce(list(
   ), full_join) |>
   filter(!duplicated(ID)) |>
   select(-ID)
-cnmx <- colnames(mergej) |> as.data.frame()
+
+scols <- c(4, 7, 10, 13) # c(4:5, 7:8, 10:11, 13, 15) #
+srows <- mergej |>
+  select(all_of(scols)) |>
+  complete.cases()
+x <- mergej |>
+  select(all_of(scols)) %>%
+  filter(complete.cases(.))
+
+x_scaled <- scale(x)
+x_mat <- as.matrix(x_scaled)
+pca <- prcomp(x_scaled, center = TRUE, scale. = TRUE)
+sfac <- which(pca$sdev^2>1) #eigenvalues > 1
+pvar <- round(sum((pca$sdev^2/len(pca$sdev))[sfac])*100, 0)  # proporción de varianza explicada por esos factores
+
+for (i in rev(sfac)) {
+  vlab <- paste0("NUX_PCA", i)
+    mergej <- add_column(
+      mergej,
+      !!vlab := ifelse(srows, pca$x[, i], NA),
+      .after = 3
+    )
+}
 
 res <- rcorr(as.matrix(mergej), type = "spearman")
 
@@ -1701,7 +1725,48 @@ for (i in seq_len(nrow(rr))) {
 
 ```
 
-Los análisis de correlación mostraron que las asociaciones más significativas entre las distintas fuentes de información (p < 0.001) fueron aquellas entre las escalas de reporte docente y las medidas observacionales de involucramiento, prosocialidad y disruptividad (ver \hyperref[tab:10]{Tabla 10} y Anexo [F2](https://docs.google.com/spreadsheets/d/1-Tp8uRE9F3eze7nm-MwBx4CnbuMV209OzMqoAs5ozTc/edit?usp=sharing)). El tamaño de estos efectos fue moderado (0.30 ≤ |$\rho$| ≤ 0.50) y variado según el tipo de actividad observada. En segundo plano, se identificó un grupo de asociaciones menos pronunciadas (0.001 ≤ p < 0.01, 0.20 ≤ |$\rho$| ≤ 0.35) entre los puntajes y los tiempos medios de reacción de algunas de las pruebas de FFEE y las escalas de reporte materno y docente.
+En primer lugar, se realizó un análisis de componentes principales con los puntajes de las pruebas *Toca botón*, *No encaja*, *Juego de memoria* y *Bloques de corsi (orden directo)*, del cual se obtuvieron dos componentes que de manera combinada explican el `r pvar`% de la varianza en los puntajes de estas pruebas (37% y 26%, respectivamente) (ver Figuras ta y da).
+
+\phantomsection
+\addcontentsline{lof}{figure}{{x.Gráfico de scree del análisis de componentes principales - muestra jardines}}
+\label{fig:x}
+
+**Figura x**  
+*Gráfico de scree del análisis de componentes principales - muestra jardines.*
+```{r}
+#| label: scree j
+#| fig-align: 'center'
+#| fig.height: 5
+#| results: 'asis'
+
+sp <- fviz_eig(pca, choice = "eigenvalue", addlabels=TRUE)
+
+sp +
+  geom_hline(yintercept = 1, linetype = "dashed", color = "black") +
+  labs(x="Dimensiones") + 
+  ggtitle(NULL) 
+```
+
+\phantomsection
+\addcontentsline{lof}{figure}{{y. Gráfico de dispersión (biplot) de los componentes principales - muestra jardines}}
+\label{fig:y}
+
+**Figura y**  
+*Gráfico de dispersión (biplot) de los componentes principales - muestra jardines.*
+
+```{r}
+#| label: biplot j
+#| fig-align: 'center'
+#| fig.height: 5
+#| results: 'asis'
+
+bp <- fviz_pca_biplot(pca, label = "var")
+bp + ggtitle(NULL)
+```
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los análisis de correlación mostraron que las asociaciones más significativas entre las distintas fuentes de información (p < 0.001) fueron aquellas entre las escalas de reporte docente y las medidas observacionales de involucramiento, prosocialidad y disruptividad (ver \hyperref[tab:10]{Tabla 10} y Anexo [F2](https://docs.google.com/spreadsheets/d/1-Tp8uRE9F3eze7nm-MwBx4CnbuMV209OzMqoAs5ozTc/edit?usp=sharing)). El tamaño de estos efectos fue moderado (0.30 ≤ |$\rho$| ≤ 0.50) y variado según el tipo de actividad observada. En segundo plano, se identificó un grupo de asociaciones menos pronunciadas (0.001 ≤ p < 0.01, 0.20 ≤ |$\rho$| ≤ 0.35) entre los puntajes y los tiempos medios de reacción de algunas de las pruebas de FFEE y las escalas de reporte materno y docente. 
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los valores de las dos dimensiones obtenidas del análisis componentes principales no se asociaron significativamente con ninguna de las variables de interés, de modo que no se tuvieron en cuenta en los análisis posteriores. 
 
 \phantomsection
 \addcontentsline{lot}{table}{{10. Matriz de correlaciones reducida sobre indicadores del funcionamiento autorregulatorio -  muestra jardines}}
@@ -1727,9 +1792,12 @@ mergej <- reduce(list(
     )
   ), full_join) |>
   filter(!duplicated(ID)) |>
+  add_column(
+    mergej[, 4:5]
+  ) |>
   select(-ID)
 
-res <- rcorr(as.matrix(select(mergej, -c(1:3, 35, 43, 57:83))), type = "spearman")
+res <- rcorr(as.matrix(select(mergej, -c(1:3, 35, 43, 57:85))), type = "spearman")
 
 rr <- res$r
 pp <- res$P
@@ -1886,7 +1954,7 @@ cat("\\normalsize\n")
 
 #### 7.1.2.2 Asociaciones entre el funcionamiento autorregulatorio y el desempeño académico
 
-También como parte de los análisis de correlación, se destaca que las asociaciones más salientes (p < 0.001, 0.30 ≤ |$\rho$| ≤ 0.50) de los puntajes del Woodcock-Muñoz fueron con la eficacia en las pruebas de inteligencia fluida, memoria de trabajo visoespacial y control inhibitorio, seguidos por el reporte docente de cooperatividad y habilidades sociales y con los niveles de involucramiento observados en clase (ver \hyperref[tab:11]{Tabla 11}).
+También como parte de los análisis de correlación, se destaca que las asociaciones más salientes (p < 0.001, 0.30 ≤ |$\rho$| ≤ 0.50) de los puntajes del Woodcock-Muñoz fueron con la eficacia en las pruebas de inteligencia fluida, memoria de trabajo visoespacial y control inhibitorio, seguidos por el reporte docente de cooperatividad y habilidades sociales y con los niveles de involucramiento observados en clase (ver \hyperref[tab:11]{Tabla 11}). Ninguna de las dimensiones del PCA mostró asociaciones significativas con las variables de desempeño académico.
 
 \phantomsection
 \addcontentsline{lot}{table}{{11. Asociaciones significativas entre indicadores del funcionamiento autorregulatorio y del desempeño académico - muestra jardines}}
@@ -1896,10 +1964,10 @@ También como parte de los análisis de correlación, se destaca que las asociac
 académico - muestra jardines.*
 
 ```{r}
-#| label: t11 correlograma de j
+#| label: t11 correlograma da j
 #| results: 'asis'
 
-res <- rcorr(as.matrix(select(mergej, -c(35, 43, 57:83))), type = "spearman")
+res <- rcorr(as.matrix(select(mergej, -c(35, 43, 57:85))), type = "spearman")
 
 rr <- res$r[,1:3]
 pp <- res$P[,1:3]
@@ -3900,9 +3968,8 @@ cat("\\normalsize\n")
 	
 #### 7.2.3.1 Asociaciones entre las distintas fuentes de información del funcionamiento autorregulatorio
 
-
 ```{r}
-#| label: merge m
+#| label: merge m + pca
 
 mergem <- reduce(list(
   wmm, 
@@ -3940,6 +4007,32 @@ colnames(mergem)[c(
   "Obs - Sincronía afectiva (neutra)",
   "Obs - Sincronía atencional"
 )
+
+scols <- c(4, 7, 10, 13) # c(4:5, 7:8, 10:11, 13, 15) #
+srows <- mergem |>
+  select(all_of(scols)) |>
+  complete.cases()
+x <- mergem |>
+  select(all_of(scols)) %>%
+  filter(complete.cases(.))
+
+x_scaled <- scale(x)
+x_mat <- as.matrix(x_scaled)
+pca <- prcomp(x_scaled, center = TRUE, scale. = TRUE)
+sfac <- which(pca$sdev^2>1) #eigenvalues > 1
+pvar <- round(sum((pca$sdev^2/len(pca$sdev))[sfac])*100, 0) # proporción de varianza explicada por esos factores
+
+for (i in rev(sfac)) {
+  vlab <- paste0("NUX_PCA", i)
+    mergem <- add_column(
+      mergem,
+      !!vlab := ifelse(srows, pca$x[, i], NA),
+      #.after = 3
+    )
+}
+
+colnames(mergem)[163] <- "NeuroUX - PCA"
+
 cmmx <- colnames(mergem) |> as.data.frame()
 
 res <- rcorr(as.matrix(mergem), type = "spearman")
@@ -3960,7 +4053,48 @@ for (i in seq_len(nrow(rr))) {
 #write.csv(corr_fullm, "corrm.csv")  
 ```
 
-Dentro de los hallazgos entre métricas derivadas de la codificación manual de los videos del museo y otras fuentes de información del funcionamiento autorregulatorio (ver \hyperref[tab:27]{Tabla 27}), se destacan aquellas entre el desempeño en la pruebas de *Corsi* , *No encaja* y aspectos de la expresividad emocional de la díada durante las interacciones. La predominancia del tono afectivo neutro y la cantidad de tiempo en el que ambos miembros de la díada compartían este estado, se vio asociado positivamente con los puntajes de las niñas/os en las pruebas de razonamiento fluido y memoria de trabajo visoespacial. Adicionalmente, el desempeño en la prueba de *Corsi* se asoció positivamente con el nivel de involucramiento de los niños/as a lo largo de la sesión de juego diádico. Este indicador también mostró asociaciones significativas con la prevalencia del tono afectivo neutro en las niñas/os y se vió fuertemente vinculado con el grado de sincronía del foco atencional de la díada.
+En este caso, el análisis de componentes principales de los puntajes de la sesión 1 de la batería de FFEE derivó en una única dimensión que explica el `r pvar`% de la varianza en esta muestra (ver Figuras pa y ca).
+
+\phantomsection
+\addcontentsline{lof}{figure}{{x.Gráfico de scree del análisis de componentes principales - muestra museo}}
+\label{fig:x}
+
+**Figura z**  
+*Gráfico de scree del análisis de componentes principales - muestra museo.*
+```{r}
+#| label: scree m
+#| fig-align: 'center'
+#| fig.height: 5
+#| results: 'asis'
+
+sp <- fviz_eig(pca, choice = "eigenvalue", addlabels=TRUE)
+
+sp +
+  geom_hline(yintercept = 1, linetype = "dashed", color = "black") +
+  labs(x="Dimensiones") + 
+  ggtitle(NULL) 
+```
+
+\phantomsection
+\addcontentsline{lof}{figure}{{y. Gráfico de dispersión (biplot) de los componentes principales - muestra museo}}
+\label{fig:y}
+
+**Figura a**  
+*Gráfico de dispersión (biplot) de los componentes principales - muestra museo.*
+
+```{r}
+#| label: biplot m
+#| fig-align: 'center'
+#| fig.height: 5
+#| #| results: 'asis'
+
+bp <- fviz_pca_biplot(pca, label = "var")
+bp + ggtitle(NULL)
+```
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Dentro de los hallazgos entre métricas derivadas de la codificación manual de los videos del museo y otras fuentes de información del funcionamiento autorregulatorio (ver \hyperref[tab:27]{Tabla 27}), se destacan aquellas entre el desempeño en la pruebas de *Corsi* , *No encaja* y aspectos de la expresividad emocional de la díada durante las interacciones. La predominancia del tono afectivo neutro y la cantidad de tiempo en el que ambos miembros de la díada compartían este estado, se vio asociado positivamente con los puntajes de las niñas/os en las pruebas de razonamiento fluido y memoria de trabajo visoespacial. Adicionalmente, el desempeño en la prueba de *Corsi* se asoció positivamente con el nivel de involucramiento de los niños/as a lo largo de la sesión de juego diádico. Este indicador también mostró asociaciones significativas con la prevalencia del tono afectivo neutro en las niñas/os y se vió fuertemente vinculado con el grado de sincronía del foco atencional de la díada.
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En contraposición a los resultados del estudio 1, la dimensión obtenida del PCA presentó niveles de asociación similares a los de sus pruebas constitutivas con los indicadores observacionales y con las medidas de desempeño académico (solo que en dirección inversa, por el sentido de las cargas del componente). Por este motivo, se la tuvo en cuenta en los análisis subsiguientes.
 
 \phantomsection
 \addcontentsline{lot}{table}{{27. Matriz de correlaciones reducida sobre indicadores del funcionamiento autorregulatorio -  muestra museo}}
@@ -3977,6 +4111,7 @@ museo.*
 #| results: 'asis'
 
 res <- rcorr(as.matrix(select(mergem, c(
+  163,
   4:34, 
   41, 46, 51, 61,
   76, 81, 86, 96,
@@ -4009,12 +4144,8 @@ for (i in seq_len(nrow(rr))) {
 
 lower_tri <- corr_formatted
 lower_tri[upper.tri(lower_tri, diag = FALSE)] <- NA
-
-colnames(lower_tri) <- seq_len(ncol(lower_tri))
-lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before = 1) 
-
-rownames(lower_tri) <- 1:nrow(lower_tri)
-colnames(lower_tri)[1] <- "."
+lower_tri <- as.data.frame(lower_tri)
+lower_tri <- tibble::rownames_to_column(lower_tri, var = ".")
 cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, 1:8),
@@ -4089,7 +4220,7 @@ cat("\\normalsize\n")
 #| results: 'asis'
 cat("\\scriptsize\n")
 Hmisc::latex(
-  select(lower_tri, c(1, 23:30)),
+  select(lower_tri, c(1, 23:32)),
   file = "",
   caption = NULL,
   rowlabel = "",
@@ -4114,7 +4245,7 @@ cat("\\normalsize\n")
 
 #### 7.2.3.2 Asociaciones entre funcionamiento autorregulatorio y el desempeño académico
 
-En cuanto a las asociaciones entre las pruebas de desempeño académico y las medidas de funcionamiento autorregulatorio (ver \hyperref[tab:28]{Tabla 28}), los puntajes en los subtests del Woodcock Muñoz (principalmente el de *Problemas aplicados*), se asociaron positivamente con los puntajes de la batería de FFEE y negativamente con sus tiempos de reacción. También se registraron asociaciones significativas entre el puntaje de *Problemas aplicados*, el reporte materno del *Esfuerzo de control*, los niveles de afectividad neutra e involucramiento de los niños/as durante las interacciones y el grado de sincronía afectiva y atencional de la díada.
+En cuanto a las asociaciones entre las pruebas de desempeño académico y las medidas de funcionamiento autorregulatorio (ver \hyperref[tab:28]{Tabla 28}), los puntajes en los subtests del Woodcock Muñoz (principalmente el de *Problemas aplicados*), se asociaron positivamente con los puntajes de la batería de FFEE (incluyendo a la dimensión del PCA) y negativamente con sus tiempos de reacción. También se registraron asociaciones significativas entre el puntaje de *Problemas aplicados*, el reporte materno del *Esfuerzo de control*, los niveles de afectividad neutra e involucramiento de los niños/as durante las interacciones y el grado de sincronía afectiva y atencional de la díada.
 
 \phantomsection
 \addcontentsline{lot}{table}{{28. Asociaciones significativas entre indicadores del funcionamiento autorregulatorio y del desempeño académico - muestra museo}}
@@ -4124,11 +4255,13 @@ En cuanto a las asociaciones entre las pruebas de desempeño académico y las me
 académico - muestra museo.*
 
 ```{r}
-#| label: t28 correlograma de m
+#| label: t28 correlograma da m
 #| results: 'asis'
 
 res <- rcorr(as.matrix(select(mergem, c(
-  1:34, 
+  1:3,
+  163,
+  4:34, 
   41, 46, 51, 61,
   76, 81, 86, 96,
   111, 116, 121, 126,
@@ -4193,7 +4326,7 @@ cat("\\normalsize\n")
 Formato: [Rho de Spearman, (p), n].
 \normalsize
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Pasando a un modelo multivariado en la que se toma una sola variable candidata por cada tipo de instrumento (debido al menor tamaño muestral de este estudio) se encuentra que tanto el desempeño en pruebas de FFEE (β = .419, p < .001) como la conducta durante las interacciones diádicas (β = .316, p = .003) son predictores significativos del desempeño académico (ver \hyperref[tab:29]{Tabla 29}).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Pasando a un modelo multivariado en la que se toma una sola variable candidata por cada tipo de instrumento (debido al menor tamaño muestral de este estudio) se encuentra que únicamente el desempeño en pruebas de FFEE (β = -.563, p < .001) predice significativamente el desempeño académico (ver \hyperref[tab:29]{Tabla 29}).
 
 \newpage
 
@@ -4207,18 +4340,18 @@ Formato: [Rho de Spearman, (p), n].
 #| label: t29 modelo lineal 3 m
 #| results: 'asis'
 
-m5m <- lm(data = clean_names(mergem), compuesto_woodcock ~ juego_de_memoria_puntaje + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a)
+m5m <- lm(data = clean_names(mergem), compuesto_woodcock ~ neuro_ux_pca + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a)
 lmtable(m5m)
 ```
 
 #### 7.2.3.3 Modulación de las asociaciones entre medidas del funcionamiento autorregulatorio y del desempeño académico por aspectos individuales y contextuales
 
-Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3.3](#sec-6.3.3) y [7.1.2.3](#sec-7.1.2.3)), se definió una estructura de modelos anidados tomando de base la prueba de desempeño con mayor tamaño de efecto (debido a las limitaciones del tamaño muestral) (ver \hyperref[tab:30]{Tabla 30}) y añadiendo términos para los factores socioambientales (edad de la niña/o y educación materna) (ver \hyperref[tab:31]{Tabla 31}) y los indicadores comportamentales (reporte del temperamento e indicadores observacionales relevados del juego semiestructurado). 
+Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3.3](#sec-6.3.3) y [7.1.2.3](#sec-7.1.2.3)), se definió una estructura de modelos anidados tomando de base a la dimensión principal obtenida del análisis de componentes de la batería de FFEE (ver \hyperref[tab:30]{Tabla 30}) y añadiendo términos para los factores socioambientales (edad de la niña/o y educación materna) (ver \hyperref[tab:31]{Tabla 31}) y los indicadores comportamentales (reporte del temperamento y observables relevados del juego semiestructurado). 
 
 ```{=latex}
 \begin{center}
 ```
-**Nivel 1**: *Desempeño Académico ~ Puntaje Juego de memoria*
+**Nivel 1**: *Desempeño Académico ~ Dimensión 1 - PCA NeuroUX*
 ```{=latex}
 \end{center}
 ```
@@ -4227,7 +4360,7 @@ Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3
 ```{=latex}
 \begin{center}
 ```
-**Nivel 2**: *Desempeño Académico ~ (Puntaje Juego de memoria) + (Edad del niño/a + Nivel educativo de la madre)*
+**Nivel 2**: *Desempeño Académico ~ (Dimensión 1 - PCA NeuroUX) + (Edad del niño/a + Nivel educativo de la madre)*
 ```{=latex}
 \end{center}
 ```
@@ -4235,12 +4368,12 @@ Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3
 ```{=latex}
 \begin{center}
 ```
-**Nivel 3**: *Desempeño Académico ~ (Puntaje Juego de memoria) + (Edad del niño/a + Nivel educativo de la madre) + (Reporte de esfuerzo de control + Afectividad neutra del niño/a)*
+**Nivel 3**: *Desempeño Académico ~ (Dimensión 1 - PCA NeuroUX) + (Edad del niño/a + Nivel educativo de la madre) + (Reporte de esfuerzo de control + Afectividad neutra del niño/a)*
 ```{=latex}
 \end{center}
 ```
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso del modelo de tercer orden, los únicos predictores que conservaron su significancia fueron las variables socioambientales (β = .481 , p < .001; β = .255 , p = .005) (ver \hyperref[tab:32]{Tabla 32}).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso del modelo de tercer orden, los únicos predictores que conservaron su significancia fueron la edad de los niños/as (β = .44 , p < .001), el puntaje del PCA (β = -.303, p = .003) y el nivel educativo materno (β = .202 , p < .015) (ver \hyperref[tab:32]{Tabla 32}).
 
 \phantomsection
 \addcontentsline{lot}{table}{{30. Modelo lineal anidado (nivel 1) - muestra museo}}
@@ -4254,23 +4387,23 @@ Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3
 
 bam <- clean_names(mergem) |>
   select(
-    compuesto_woodcock, juego_de_memoria_puntaje, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
+    compuesto_woodcock, neuro_ux_pca, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
   )
 bam <- filter(bam, complete.cases(bam))
 
 m6m <- lm(
   data = bam,
-  compuesto_woodcock ~ juego_de_memoria_puntaje
+  compuesto_woodcock ~ neuro_ux_pca
 )
 
 m7m <- lm(
   data = bam,
-  compuesto_woodcock ~ juego_de_memoria_puntaje + edad_anos + educacion_de_la_madre
+  compuesto_woodcock ~ neuro_ux_pca + edad_anos + educacion_de_la_madre
 )
 
 m8m <- lm(
   data = bam,
-  compuesto_woodcock ~ juego_de_memoria_puntaje + edad_anos + educacion_de_la_madre + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a
+  compuesto_woodcock ~ neuro_ux_pca + edad_anos + educacion_de_la_madre + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a
 )
 
 lmtable(m6m)
@@ -4302,7 +4435,7 @@ lmtable(m7m)
 lmtable(m8m)
 ```
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La comparación de los modelos anidados señala que la inclusión de ambos términos mejora significativamente el ajuste de cada nivel que lo antecede (ver \hyperref[tab:33]{Tabla 33}).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La comparación de los modelos anidados señala que la inclusión de ambos términos mejora el ajuste de cada nivel que lo antecede, pero el cambio con la introducción del nivel de la conducta en contexto ecológico no alcanza a ser significativo (ver \hyperref[tab:33]{Tabla 33}).
 
 \phantomsection
 \addcontentsline{lot}{table}{{33. Ajuste y comparación de modelos anidados - muestra museo.}}
@@ -4387,7 +4520,7 @@ cat("\\normalsize\n")
 \textit{Nota}: RSS = Suma Residual de Cuadrados.
 \normalsize
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Finalmente, en los modelos de interacciones simples entre el predictor más fuerte de cada tipo de instrumento, la edad de los niños/as y el nivel de educación materna (ver tablas 34 a 39), no se verificaron efectos de moderación, únicamente atenuación del efecto del puntaje en la prueba de memoria de trabajo y del reporte de esfuerzo de control por inclusión de la edad de los niños/as como covariable. 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Finalmente, en los modelos de interacciones simples entre el predictor más fuerte de cada tipo de instrumento, la edad de los niños/as y el nivel de educación materna (ver tablas 34 a 39), no se verificaron efectos de moderación, únicamente atenuación del reporte de esfuerzo de control por inclusión de la edad de los niños/as como covariable (ver tabla). 
 
 ```{r}
 #| label: t34 modelos de interacciones simples
@@ -4396,19 +4529,19 @@ cat("\\normalsize\n")
 bmi <- sapply(
   clean_names(mergem) |>
   select(
-    compuesto_woodcock, juego_de_memoria_puntaje, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
+    compuesto_woodcock, neuro_ux_pca, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
   ),
   function(x) scale(x, scale = FALSE)
   ) |>
   as.data.frame()
 
 m5m <- lm(
-  formula = compuesto_woodcock ~ juego_de_memoria_puntaje + edad_anos + juego_de_memoria_puntaje * edad_anos,
+  formula = compuesto_woodcock ~ neuro_ux_pca + edad_anos + neuro_ux_pca * edad_anos,
   data = bmi
-) # casi
+) 
 
 m6m <- lm(
-  formula = compuesto_woodcock ~ juego_de_memoria_puntaje + educacion_de_la_madre + juego_de_memoria_puntaje * educacion_de_la_madre,
+  formula = compuesto_woodcock ~ neuro_ux_pca + educacion_de_la_madre + neuro_ux_pca * educacion_de_la_madre,
   data = bmi
 )
 
@@ -4487,10 +4620,12 @@ lmtable(m10m)
 #     )
 #   ), full_join) |>
 #   filter(!duplicated(ID)) |>
+#   add_column(
+#     mergej[, 84:85]
+#   ) |>
 #   select(-ID)
 # datos <- bind_rows(jardines = mergej, museo = mergem, .id = "Estudio")
-# rm(list = setdiff(ls(), c("datos")))
-#save.image("Tesis.RData")
+# write.csv(datos, "data/shiny.csv")
 ```
 # 8. Discusión
 
@@ -4518,9 +4653,9 @@ Este trabajo tuvo como finalidad estudiar el desarrollo autorregulatorio durante
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Con respecto a la validez predictiva de los enfoques de medición de la AR sobre las pruebas de desempeño académico, en el estudio de los jardines los predictores significativos fueron los puntajes de las pruebas *Toca botón*, *No encaja*, *Corsi* y *Simón*; el reporte docente de habilidades sociales (principalmente las subescalas de *Cooperatividad* e *Independencia social*); y las observación directa del involucramiento y las interacciones prosociales con docentes, sobre todo durante las actividades estructuradas en torno a la exposición docente. Asimismo, en el estudio del museo, los predictores significativos fueron los puntajes en las pruebas *Toca botón*, *No encaja*, *Juego de memoria*, *Corsi* y *Simón*; los registros observacionales individuales y diádicos de expresiones afectivas neutras durante *Avioncito* y el nivel de involucramiento que los niños/as exhibieron durante *Paloma*. En la última década se han publicado trabajos meta-analíticos que respaldan la postura de que las tareas de FFEE &mdash;en particular las que evalúan memoria de trabajo&mdash;, predicen el desempeño académico en áreas de lengua y matemática, con un tamaño de efecto que ronda $\rho$ ≃ 0.3 [@cortespascualRelationshipExecutiveFunctions2019; @spiegelRelationsExecutiveFunctions2021]. De manera similar, existe evidencia a favor del vínculo entre el reporte docente de aspectos sociales y comportamentales de la AR y el desempeño académico [@bryceRelationshipsExecutiveFunctions2015; @fitzpatrickToddlerWorkingMemory2012; @rimm-kaufmanContributionChildrensSelfregulation2009; @sudkampAccuracyTeachersJudgments2012]. Por otra parte, también hay antecedentes que corroboran la asociación entre el nivel de involucramiento y el desempeño académico [@moffettOfftaskBehaviorKindergarten2020; @wongStudentEngagementIts2024]. En comparación, la evidencia sobre el vínculo entre la AR emocional de niñas/os de edad escolar en contextos naturalistas y el desempeño académico parece no ser abundante, pero generalmente coinciden en que el control de las emociones favorece el éxito académico [@andresEmotionRegulationAcademic2017; @grazianoRoleEmotionRegulation2007; @slotPreschoolersCognitiveEmotional2017]. Quizás una de las diferencias más llamativas entre los resultados ambos estudios es que, a diferencia de lo ocurrido en el segundo estudio, la prevalencia del nivel de afectividad neutra &mdash;que puede considerarse un indicador comportamental de los procesos de alostasis (i.e., equilibrio estable a lo largo de cambios en las presiones del entorno)&mdash;, no se haya asociado con otras medidas del funcionamiento autorregulatorio  y el desempeño académico en el primer estudio. Una razón posible es que la baja resolución temporal de la variable en la codificación en vivo no haya permitido registrar cambios del estado afectivo con el mismo nivel de granularidad que la codificación por video (cualquier evidencia de valencias positivas o negativas a lo largo del intervalo de 40 segundos eclipsaba la presencia del tono neutro durante el mismo periodo, mientras que en la anotación de los videos se obtuvo mayor precisión y confiabilidad). Alternativamente, las diferencias en la AR del tono afectivo podrían destacarse más en el segundo estudio por la amplitud del rango etario de esa muestra.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Pasando al análisis de modulación por factores individuales y contextuales, los predictores socioambientales del desempeño académico que modularon la asociación entre las medidas de AR y de desempeño académico en ambos estudios, por su inclusión como covariables en los modelos multivariados, fueron la edad de las niñas/os y el nivel educativo materno. Particularmente, en el estudio de los jardines también se destacan el nivel educativo paterno, la cantidad de libros y materiales didácticos disponibles en el hogar, la frecuencia semanal de eventos de lectura compartida y el nivel de caos doméstico reportados por las familias. En consonancia con algunos de estos resultados, la literatura apunta a que el efecto de estas asociaciones puede ser modulado por la edad, el sexo, el nivel socioeconómico, la calidad del clima áulico y de las prácticas de cuidado [@cortespascualRelationshipExecutiveFunctions2019; @dingMediatingRoleExecutive2024; @lawsonMetaanalysisRelationshipSocioeconomic2018; @rimm-kaufmanContributionChildrensSelfregulation2009; @stuckeEarlyChildhoodExecutive2024]. Sin embargo, contrario a lo esperado, en los análisis de interacciones simples no se apreció un efecto de moderación generalizado de la edad de los participantes y el nivel educativo materno sobre la asociación entre AR y desempeño académico.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Pasando al análisis de modulación por factores individuales y contextuales, los predictores socioambientales del desempeño académico que modularon la asociación entre las medidas de AR y de desempeño académico en ambos estudios, por su inclusión como covariables en los modelos multivariados, fueron la edad de las niñas/os y el nivel educativo materno. Particularmente, en el estudio de los jardines también se destacan el nivel educativo paterno, la cantidad de libros y materiales didácticos disponibles en el hogar, la frecuencia semanal de eventos de lectura compartida y el nivel de caos doméstico reportados por las familias. En consonancia con algunos de estos resultados, la literatura apunta a que el efecto de estas asociaciones puede ser modulado por la edad, el sexo, el nivel socioeconómico, la calidad del clima áulico y de las prácticas de cuidado [@cortespascualRelationshipExecutiveFunctions2019; @dingMediatingRoleExecutive2024; @lawsonMetaanalysisRelationshipSocioeconomic2018; @rimm-kaufmanContributionChildrensSelfregulation2009; @stuckeEarlyChildhoodExecutive2024]. Sin embargo, contrario a lo esperado, en los análisis de interacciones simples no se apreció un efecto de moderación generalizado de la edad de los participantes o del nivel educativo materno sobre la asociación entre AR y desempeño académico.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Por último, los resultados de los modelos anidados multivariados dejan entrever que los métodos ecológicos aportan información distintiva del desarrollo autorregulatorio que complementa el valor predictivo que los puntajes de pruebas controladas tiene sobre el desempeño académico, mejorando significativamente el porcentaje de la varianza explicado. En sintonía con esta idea, algunos autores han señalado que las intervenciones que buscan mejorar el funcionamiento ejecutivo mediante el entrenamiento en la resolución de este tipo de tareas no muestran efectos de transferencia sostenidos hacia el desempeño académico porque se advierte que las tareas de FFEE tienen baja relevancia contextual [@niebaumWhyDoesntExecutive2023]. Entonces, podría especularse que los métodos ecológicos se ofrecen como una vía idónea para identificar blancos de intervención y evaluar la AR, ya que estos fundamentalmente nos acercan a los acontecimientos del mundo real que cimientan el valor adaptativo del comportamiento.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Por último, los resultados de los modelos anidados multivariados dejan entrever que los métodos ecológicos pueden aportar información distintiva del desarrollo autorregulatorio que complementa el valor predictivo que los puntajes de pruebas controladas tiene sobre el desempeño académico, mejorando el porcentaje de la varianza explicado. En sintonía con esta idea, algunos autores han señalado que las intervenciones que buscan mejorar el funcionamiento ejecutivo mediante el entrenamiento en la resolución de este tipo de tareas no muestran efectos de transferencia sostenidos hacia el desempeño académico porque se advierte que las tareas de FFEE tienen baja relevancia contextual [@niebaumWhyDoesntExecutive2023]. Entonces, podría especularse que los métodos ecológicos se ofrecen como una vía idónea para identificar blancos de intervención y evaluar la AR, ya que estos fundamentalmente nos acercan a los acontecimientos del mundo real que cimientan el valor adaptativo del comportamiento.
 
 \newpage
 
@@ -4528,7 +4663,7 @@ Este trabajo tuvo como finalidad estudiar el desarrollo autorregulatorio durante
 
 Existe una multiplicidad de razones que limitan la generalizabilidad de los resultados de estos estudios, o que al menos pueden poner en duda su validez. En primer lugar, al haber adoptado un diseño no experimental y transversal &mdash;sin modulación controlada de las variables intervinientes ni medidas repetidas para los distintos enfoques de medición&mdash;, no es posible atribuir causalidad ni describir la variación intraindividual en las asociaciones estudiadas a lo largo del tiempo. Las inferencias de estos estudios tienen un alcance correlacional, acotado al momento singular de muestreo. Segundo, si bien la población objetivo eran las infancias neurotípicas del AMBA, el reclutamiento de los participantes siguió un esquema de conveniencia. En consecuencia, es importante que futuros estudios tengan diseños longitudinales y usen técnicas que garanticen la representatividad de la muestra.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En segundo lugar, la elección de los instrumentos de acercamiento a los constructos teóricos puede ser criticada. Por un lado, las restricciones en los tiempos y modalidades de adquisición de los datos condicionaron notablemente la operacionalización de las variables, de modo que al simplificar el número y el tipo de mediciones pudo haberse incurrido en un reduccionismo excesivo de la AR y el desempeño académico. La batería de pruebas controladas no representa la totalidad de paradigmas experimentales que pueden ser utilizados para evaluar FFEE en esta población, como tampoco lo son las escalas de reporte ni los procedimientos e indicadores observacionales seleccionados para captar las manifestaciones de la AR en actividades didácticas y lúdicas. De igual manera, los subtests de *Problemas aplicados* y *Comprensión de oraciones* de la batería Woodcock-Muñoz son solo una manera posible de operacionalizar el desempeño académico, a pesar de su prevalencia en la literatura [@abu-hamourUseWoodcockJohnsonTests2012; @dombrowskiHierarchicalExploratoryFactor2018]. Aunque las escalas de reporte docente aportan información importante sobre competencias blandas que pueden considerarse parte del currículo académico, en este trabajo se optó por clasificarlas bajo la esfera de la AR.  Si bien se optó por utilizar medidas estandarizadas de conocimientos y habilidades en dominios específicos que permiten comparar el desempeño académico individual de los participantes, también se podrían haber contemplado los informes o las evaluaciones administradas por las propias instituciones educativas. A pesar de que podrían no haber sido contrastables ni sencillas de obtener, representan el enfoque cualitativo que este trabajo no tiene. Sería valioso que futuros estudios busquen incorporar la perspectiva infantil y comunitaria en la operacionalización de los constructos que se proponen evaluar. En este sentido, podría ser beneficioso adoptar metodologías como la investigación-acción participativa, en especial bajo el marco de estudios transculturales. La taxonomía de los procesos autorregulatorios es un tema complejo y &mdash;debido a la versatilidad que la AR presenta como meta-constructo, la superposición conceptual de sus subconstructos y la existencia de evidencia empírica contradictoria&mdash;, la distinción precisa de sus componentes latentes en términos universalistas resulta improbable [@doebelFutureResearchExecutive2023]. En el contexto de las observaciones ecológicas de este trabajo, el intento de operacionalizar aspectos puros o discretos de funciones que no son directamente observables y que en la vida real se ponen en juego de manera concertada, puede ser considerado artificioso. Si bien este trabajo se centra en las medidas de proporción de periodos de observación en los que se registraron indicadores, también sería deseable ahondar en la estructura temporal del comportamiento durante las interacciones naturalistas [@xuFindingStructureTime2020].
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En segundo lugar, la elección de los instrumentos de acercamiento a los constructos teóricos puede ser criticada. Por un lado, las restricciones en los tiempos y modalidades de adquisición de los datos condicionaron notablemente la operacionalización de las variables, de modo que al simplificar el número y el tipo de mediciones pudo haberse incurrido en un reduccionismo excesivo de la AR y el desempeño académico. La batería de pruebas controladas no representa la totalidad de paradigmas experimentales que pueden ser utilizados para evaluar FFEE en esta población, como tampoco lo son las escalas de reporte ni los procedimientos e indicadores observacionales seleccionados para captar las manifestaciones de la AR en actividades didácticas y lúdicas. De igual manera, los subtests de *Problemas aplicados* y *Comprensión de oraciones* de la batería Woodcock-Muñoz son solo una manera posible de operacionalizar el desempeño académico, a pesar de su prevalencia en la literatura [@abu-hamourUseWoodcockJohnsonTests2012; @dombrowskiHierarchicalExploratoryFactor2018]. Aunque las escalas de reporte docente aportan información importante sobre competencias blandas que pueden considerarse parte del currículo académico, en este trabajo se optó por clasificarlas bajo la esfera de la AR.  Si bien se optó por utilizar medidas estandarizadas de conocimientos y habilidades en dominios específicos que permiten comparar el desempeño académico individual de los participantes, también se podrían haber contemplado los informes o las evaluaciones administradas por las propias instituciones educativas. A pesar de que podrían no haber sido contrastables ni sencillas de obtener, representan el enfoque cualitativo que este trabajo no tiene. Sería valioso que futuros estudios busquen incorporar la perspectiva infantil y comunitaria en la operacionalización de los constructos que se proponen evaluar. En este sentido, podría ser beneficioso adoptar metodologías como la investigación-acción participativa, en especial bajo el marco de estudios transculturales. La taxonomía de los procesos autorregulatorios es un tema complejo y &mdash;debido a la versatilidad que la AR presenta como meta-constructo, la superposición conceptual de sus subconstructos y la existencia de evidencia empírica contradictoria&mdash;, la distinción precisa de sus componentes en términos universalistas resulta improbable [@doebelFutureResearchExecutive2023]. En el contexto de las observaciones ecológicas de este trabajo, el intento de operacionalizar aspectos puros o discretos de funciones que no son directamente observables y que en la vida real se ponen en juego de manera concertada, puede ser considerado artificioso. Si bien este trabajo se centra en las medidas de proporción de periodos de observación en los que se registraron indicadores, también sería deseable ahondar en la estructura temporal del comportamiento durante las interacciones naturalistas [@xuFindingStructureTime2020].
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En tercer lugar, debido a los bajos índices de acuerdo de buena parte de las variables observacionales, no se puede descartar la posibilidad de que las definiciones de los indicadores hayan sido ambiguas o que la capacitación de los operadores y el monitoreo continuo de las fuentes de desacuerdo haya sido insuficiente. A esto se le añaden las condiciones adversas para la adquisición de los datos, como el ruido y los imprevistos que &mdash;a diferencia de lo que ocurre en un laboratorio&mdash;, son frecuentes en contextos áulicos. Al no poder contar con registros audiovisuales de lo acontecido en las escuelas ni el permiso para compartir los videos de las interacciones en el museo, los hallazgos de este estudio no son enteramente reproducibles. Por otro lado, no se realizó un análisis temático de actos de habla ni gestos comunicativos desde categorías vinculadas a las prácticas de crianza, estrategias de enseñanza, ni mecanismos de regulación de la atención, las emociones o la cognición. De igual manera, el análisis de moderadores contextuales podría haberse visto beneficiado por el uso de más instrumentos para cuantificar la calidad del clima áulico [@piantaFeaturesPreKindergartenPrograms2005] y del hogar [@bradleyHOMEInventory2012]. 
 
