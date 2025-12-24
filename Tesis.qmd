@@ -131,13 +131,13 @@ Analizar las asociaciones entre distintos abordajes de evaluación del funcionam
 
 ## 5.2 Objetivos específicos
 
-(A) Desarrollar y poner a prueba un sistema de observación ecológica del comportamiento autorregulatorio en contextos cotidianos de juego y aprendizaje.
+(A) Desarrollar y poner a prueba un sistema de observación ecológica del comportamiento autorregulado en contextos cotidianos de juego y aprendizaje.
 
 (B) Analizar asociaciones entre el desempeño en las tareas de laboratorio, las conductas reportadas por adultos y aquellas observadas directamente durante el registro de actividades cotidianas.
 
 (C) Analizar asociaciones entre el funcionamiento autorregulatorio (valorado a través de pruebas de laboratorio, reportes y la codificación de observaciones) y el desempeño académico. 
 
-(D) Identificar y analizar moduladores individuales (e.g., edad, sexo) y contextuales (i.e., condiciones de vida, recursos y estresores sociales del hogar, y características de los procesos áulicos), sobre las asociaciones entre medidas del funcionamiento autorregulatorio y del desempeño académico.
+(D) Identificar y analizar moduladores individuales (e.g., edad, sexo) y contextuales (e.g., condiciones de vida, recursos y estresores sociales del hogar, y características de los procesos áulicos), sobre las asociaciones entre medidas del funcionamiento autorregulatorio y del desempeño académico.
 
 ## 5.3 Hipótesis
 
@@ -151,9 +151,9 @@ Analizar las asociaciones entre distintos abordajes de evaluación del funcionam
 
 # 6. Metodología
 
-El diseño de esta propuesta corresponde a uno cuantitativo, no experimental, sincrónico y de alcance correlacional [@hernandezsampieriMetodologiaInvestigacion1991]. El muestreo se realizó por conveniencia y no fue aleatorizado. Si bien el proyecto no fue pre-registrado en un repositorio público, se adjuntan los planes de tesis presentados ante las comisiones evaluadoras de CONICET (2019) y de la Universidad Nacional de Córdoba (2020) (ver Anexos [x1](https://drive.google.com/file/d/109NkXaps7HTcqsVNH5t_GmV_L8htGRAh/view?usp=sharing) y [x2](https://docs.google.com/document/d/1-l0ONbftO635i6IQ-q-JN1PINcAx37N-mPgAcbwobEo/edit?usp=sharing), respectivamente). Se declara que, debido a comentarios de evaluadores y a contingencias en la implementación de las actividades del proyecto, se modificaron aspectos del plan de trabajo que no estaban correctamente fundamentados o cuya factibilidad se vio afectada, tales como el muestreo, instrumentos de medición, hipótesis de trabajo y procedimientos analíticos.
+El diseño de esta propuesta corresponde a uno cuantitativo, no experimental, sincrónico y de alcance correlacional [@hernandezsampieriMetodologiaInvestigacion1991]. El muestreo se realizó por conveniencia y no fue aleatorizado. Si bien el proyecto no fue pre-registrado en un repositorio público, se adjuntan los planes de tesis presentados ante las comisiones evaluadoras de CONICET (2019) y de la Universidad Nacional de Córdoba (2020) (ver Anexos [A1](https://drive.google.com/file/d/109NkXaps7HTcqsVNH5t_GmV_L8htGRAh/view?usp=sharing) y [A2](https://docs.google.com/document/d/1-l0ONbftO635i6IQ-q-JN1PINcAx37N-mPgAcbwobEo/edit?usp=sharing), respectivamente). Se declara que, debido a comentarios de evaluadores y a contingencias en la implementación de las actividades del proyecto, se modificaron aspectos del plan de trabajo que no estaban correctamente fundamentados o cuya factibilidad se vio afectada, tales como el muestreo, instrumentos de medición, hipótesis de trabajo y procedimientos analíticos.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A lo largo del desarrollo del proyecto se realizaron diferentes convocatorias a estudiantes de grado de las carreras de psicologia, psicopedagogia y afines, de aquí en más denominados como *operadores*, para efectuar actividades vinculadas a la recolección y el procesamiento de los datos (ver Anexos [A1](https://drive.google.com/file/d/1mO7OkvZQ7xjxT53L4IfgVZQ3LJzVcjbq/view?usp=drive_link) y [A2](https://drive.google.com/file/d/1w0gXJ4wwghZkvCr9H-N17efzEBcbYFMN/view?usp=drive_link)). Tales convocatorias se hicieron en el marco de prácticas de investigación e incluyeron una capacitación previa y la supervisión continua durante la realización de las tareas en campo y en el laboratorio. En total participaron 33 estudiantes entre los años 2023 y 2024.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A lo largo del desarrollo del proyecto se realizaron diferentes convocatorias a estudiantes de grado de las carreras de psicologia, psicopedagogia y afines, de aquí en más denominados como *operadores*, para efectuar actividades vinculadas a la recolección y el procesamiento de los datos (ver Anexos [B1](https://drive.google.com/file/d/1mO7OkvZQ7xjxT53L4IfgVZQ3LJzVcjbq/view?usp=drive_link) y [B2](https://drive.google.com/file/d/1w0gXJ4wwghZkvCr9H-N17efzEBcbYFMN/view?usp=drive_link)). Tales convocatorias se hicieron en el marco de prácticas de investigación e incluyeron una capacitación previa y la supervisión continua durante la realización de las tareas en campo y en el laboratorio. En total participaron 33 estudiantes entre los años 2023 y 2024.
 
 ## 6.1 Participantes
 
@@ -210,9 +210,9 @@ mjnp2 <- mj$ID[mj$ID %in% unlist(select(filter(pk, nux2vp == "p"), ID))]
 
 ```
 
-Dado que los primeros años previstos para la recolección de datos se vieron afectados por el aislamiento obligatorio de la pandemia de COVID-19, el plan se dividió en dos estudios complementarios, con la proyección de minimizar el riesgo de no lograr reclutar una muestra de participantes lo suficientemente númerosa en instituciones educativas (ver Figuras \hyperref[fig:1]{1} y \hyperref[fig:2]{2}). En paralelo al trabajo en el contexto escolar, se aprovechó el espacio provisto por las autoridades de un museo público del área metropolitana de Buenos Aires (AMBA), en el contexto de un programa de extensión comunitaria, para efectuar actividades acordes con la propuesta (ver Anexos [A3](https://drive.google.com/file/d/1xUGMxXR1VKYRYvTkP2C7YD9jDjesBrzv/view?usp=drive_link) y [A4](https://drive.google.com/file/d/1VRlmRcWbowR7OpT6QSgxpKtmozjSahE3/view?usp=sharing)).
+Dado que los primeros años previstos para la recolección de datos se vieron afectados por el aislamiento obligatorio de la pandemia de COVID-19, el plan se dividió en dos estudios complementarios, con la proyección de minimizar el riesgo de no lograr reclutar una muestra de participantes lo suficientemente numerosa en instituciones educativas (ver Figuras \hyperref[fig:1]{1} y \hyperref[fig:2]{2}). En paralelo al trabajo en el contexto escolar, se aprovechó el espacio provisto por las autoridades de un museo público de la Ciudad Autónoma de Buenos Aires (CABA), en el contexto de un programa de extensión comunitaria, para efectuar actividades acordes con la propuesta (ver Anexos [B3](https://drive.google.com/file/d/1xUGMxXR1VKYRYvTkP2C7YD9jDjesBrzv/view?usp=drive_link) y [B4](https://drive.google.com/file/d/1VRlmRcWbowR7OpT6QSgxpKtmozjSahE3/view?usp=sharing)).
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los criterios generales de inclusión para los participantes fueron: (1) la ausencia de trastornos del neurodesarrollo; y (2) el español como lengua materna. Durante los años 2023 y 2024 se reclutaron dos cohortes provenientes de 14 salas de preescolar de cinco escuelas públicas del AMBA, de entre cuatro y cinco años de edad, sumando un total de `r nj` participantes (edad promedio = `r epj` años; `r pnj`% niñas). La muestra del museo se conformó a lo largo de nueve jornadas durante los meses de abril y octubre del año 2023, la cual incluyó a `r nm` participantes de entre cuatro y ocho años (edad promedio = `r epm` años; `r pnm`% niñas).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los criterios generales de inclusión para los participantes fueron: (1) el español como lengua materna; y (2) la ausencia de trastornos del neurodesarrollo. Durante los años 2023 y 2024 se reclutaron dos cohortes provenientes de 14 salas de preescolar de cinco escuelas públicas de CABA, de entre cuatro y cinco años de edad, sumando un total de `r nj` participantes (edad promedio = `r epj` años; `r pnj`% niñas). La muestra del museo se conformó a lo largo de nueve jornadas durante los meses de abril y octubre del año 2023, la cual incluyó a `r nm` participantes de entre cuatro y ocho años (edad promedio = `r epm` años; `r pnm`% niñas).
 
 \newpage
 
@@ -295,9 +295,9 @@ plot_grid(
 
 ## 6.2 Consideraciones éticas
 
-Los procedimientos implementados fueron evaluados y aprobados por el Ministerio de Educación del Gobierno de la Ciudad Autónoma de Buenos Aires y por el Comité de Ética del CEMIC (Protocolo N° 1197, ver Anexo [B1](https://drive.google.com/file/d/1KNlmeriZQrfGHRq1iL2-3mh8ZGRtOf1E/view?usp=drive_link)). Se contemplaron las recomendaciones de la American Psychological Association [@americanpsychologicalassociationEthicalPrinciplesPsychologists2002], Ethical Research Involving Children (ERIC-UNICEF) [@grahamEthicalResearchInvolving2013], los principios establecidos por la Convención Internacional sobre los Derechos del Niño/a y lo establecido en la Ley Nacional N° 26061 de Protección Integral de los Derechos de Niñas, Niños y Adolescentes. Ninguna de las actividades de este estudio implicaron riesgos a la salud ni la vulneración de los derechos de los participantes. 
+Los procedimientos implementados fueron evaluados y aprobados por el Ministerio de Educación del Gobierno de la Ciudad Autónoma de Buenos Aires y por el Comité de Ética del CEMIC (Protocolo N° 1197, ver Anexo [C1](https://drive.google.com/file/d/1KNlmeriZQrfGHRq1iL2-3mh8ZGRtOf1E/view?usp=drive_link)). Se contemplaron las recomendaciones de la American Psychological Association [@americanpsychologicalassociationEthicalPrinciplesPsychologists2002], Ethical Research Involving Children (ERIC-UNICEF) [@grahamEthicalResearchInvolving2013], los principios establecidos por la Convención Internacional sobre los Derechos del Niño/a y lo establecido en la Ley Nacional N° 26061 de Protección Integral de los Derechos de Niñas, Niños y Adolescentes. Ninguna de las actividades de este estudio implicaron riesgos a la salud ni la vulneración de los derechos de los participantes. 
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Durante la conformación de las muestras, los miembros del grupo de investigación se presentaron con las autoridades escolares, docentes y adultos responsables para informarles acerca de los objetivos y las actividades del estudio. Las niñas/os fueron invitados a participar mediante su asentimiento verbal y los adultos firmaron consentimientos que expresaban el carácter voluntario de la participación y la posibilidad de retirarse en cualquier instancia (ver Anexos [B2](https://drive.google.com/file/d/1RfpeF3Hk9qyFuizmkwO1tGEOEQxubJNT/view?usp=sharing) y [B3](https://drive.google.com/file/d/1hpSRWFN1PoLlegRs_F9-F7LtSN6vmlOF/view?usp=sharing)). Respecto a las actividades en el aula, se solicitó la autorización de las autoridades escolares y docentes. Sólo se recolectaron datos de los participantes autorizados, a quienes se les asignó un código alfanumérico arbitrario para que no sean identificables, en conformidad con la Ley N° 25.326 de protección de datos personales (Habeas data). Las bases de datos y el material videográfico se almacenan en la UNA y solo los investigadores abocados a este proyecto pueden acceder a los mismos.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Durante la conformación de las muestras, los miembros del grupo de investigación se presentaron con las autoridades escolares, docentes y adultos responsables para informarles acerca de los objetivos y las actividades del estudio. Las niñas/os fueron invitados a participar mediante su asentimiento verbal y los adultos firmaron consentimientos que expresaban el carácter voluntario de la participación y la posibilidad de retirarse en cualquier instancia (ver Anexos [C2](https://drive.google.com/file/d/1RfpeF3Hk9qyFuizmkwO1tGEOEQxubJNT/view?usp=sharing) y [C3](https://drive.google.com/file/d/1hpSRWFN1PoLlegRs_F9-F7LtSN6vmlOF/view?usp=sharing)). Respecto a las actividades en el aula, se solicitó la autorización de las autoridades escolares y docentes. Sólo se recolectaron datos de los participantes autorizados, a quienes se les asignó un código alfanumérico arbitrario para que no sean identificables, en conformidad con la Ley N° 25.326 de protección de datos personales (Habeas data). Las bases de datos y el material videográfico se almacenan en la UNA y solo los investigadores abocados a este proyecto pueden acceder a los mismos.
 
 ## 6.3 Estudio 1: Jardines
 
@@ -4696,33 +4696,33 @@ El desarrollo del control voluntario de la propia conducta cobra especial trasce
 # 12. Material suplementario
 
 \centering
-**Anexo Ø: Planificación del proyecto**
+**Anexo A: Planificación del proyecto**
 \raggedright
-[Ø1 - Plan de tesis CONICET](https://drive.google.com/file/d/109NkXaps7HTcqsVNH5t_GmV_L8htGRAh/view?usp=sharing)
+[A1 - Plan de tesis CONICET](https://drive.google.com/file/d/109NkXaps7HTcqsVNH5t_GmV_L8htGRAh/view?usp=sharing)
 
-[Ø2  - Plan de tesis UNC](https://docs.google.com/document/d/1-l0ONbftO635i6IQ-q-JN1PINcAx37N-mPgAcbwobEo/edit?usp=sharing)
+[A2  - Plan de tesis UNC](https://docs.google.com/document/d/1-l0ONbftO635i6IQ-q-JN1PINcAx37N-mPgAcbwobEo/edit?usp=sharing)
 
 \centering
-**Anexo A: Material de difusión**
+**Anexo B: Material de difusión**
 \raggedright
 
-[A1 - Panfleto la para convocatoria de operadores 2023](https://drive.google.com/file/d/1mO7OkvZQ7xjxT53L4IfgVZQ3LJzVcjbq/view?usp=drive_link)  
+[B1 - Panfleto la para convocatoria de operadores 2023](https://drive.google.com/file/d/1mO7OkvZQ7xjxT53L4IfgVZQ3LJzVcjbq/view?usp=drive_link)  
 
-[A2 - Panfleto la para convocatoria de operadores 2024](https://drive.google.com/file/d/1w0gXJ4wwghZkvCr9H-N17efzEBcbYFMN/view?usp=drive_link)
+[B2 - Panfleto la para convocatoria de operadores 2024](https://drive.google.com/file/d/1w0gXJ4wwghZkvCr9H-N17efzEBcbYFMN/view?usp=drive_link)
 
-[A3 - Video con descripción de las actividades en el museo](https://drive.google.com/file/d/1xUGMxXR1VKYRYvTkP2C7YD9jDjesBrzv/view?usp=drive_link)
+[B3 - Video con descripción de las actividades en el museo](https://drive.google.com/file/d/1xUGMxXR1VKYRYvTkP2C7YD9jDjesBrzv/view?usp=drive_link)
 
-[A4 - Video de cierre y agradecimiento para los participantes del estudio 2](https://drive.google.com/file/d/1VRlmRcWbowR7OpT6QSgxpKtmozjSahE3/view?usp=sharing)
+[B4 - Video de cierre y agradecimiento para los participantes del estudio 2](https://drive.google.com/file/d/1VRlmRcWbowR7OpT6QSgxpKtmozjSahE3/view?usp=sharing)
 
 \centering
-**Anexo B: Documentación del comité de ética**
+**Anexo C: Documentación del comité de ética**
 \raggedright
 
-[B1 - Formulario de aprobación](https://drive.google.com/file/d/1KNlmeriZQrfGHRq1iL2-3mh8ZGRtOf1E/view?usp=drive_link)
+[C1 - Formulario de aprobación](https://drive.google.com/file/d/1KNlmeriZQrfGHRq1iL2-3mh8ZGRtOf1E/view?usp=drive_link)
 
-[B2 - Hojas de información y consentimiento del Estudio 1](https://drive.google.com/file/d/1RfpeF3Hk9qyFuizmkwO1tGEOEQxubJNT/view?usp=sharing)  
+[C2 - Hojas de información y consentimiento del Estudio 1](https://drive.google.com/file/d/1RfpeF3Hk9qyFuizmkwO1tGEOEQxubJNT/view?usp=sharing)  
 
-[B3 - Hojas de información y consentimiento del Estudio 2](https://drive.google.com/file/d/1hpSRWFN1PoLlegRs_F9-F7LtSN6vmlOF/view?usp=sharing)  
+[C3 - Hojas de información y consentimiento del Estudio 2](https://drive.google.com/file/d/1hpSRWFN1PoLlegRs_F9-F7LtSN6vmlOF/view?usp=sharing)  
 
 \centering
 **Anexo C: Instrumentos de evaluación y reporte**
