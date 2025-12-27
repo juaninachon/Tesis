@@ -307,7 +307,7 @@ Se seleccionaron medidas para este estudio en función de su idoneidad para abor
 
 #### 6.3.1.1 Batería de FFEE y constructos vinculados a la AR
 
-Con la intención de minimizar el tiempo de evaluación en las escuelas, se implementó una batería digital diseñada por miembros del equipo de investigaión en colaboración con investigadores de la Universidad de Delft (Países Bajos) y NeuroUX (India) para su uso remoto en computadoras y dispositivos con pantalla táctil. La misma cuenta con antecedentes en el ámbito local y en una muestra dentro del mismo rango etario [@segretinOnLineAssessmentSelfRegulatory2021]. Incluye ocho pruebas estandarizadas, segmentadas en dos sesiones de cuatro pruebas cada una, con una duración aproximada de 15 minutos por sesión (ver Anexos [D1](https://neuroux-una.getneuroux.com/?prismicId=ZFip6RMAACgAaZFq&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=1&channel=mail&language=es) y [D2](https://neuroux-una.getneuroux.com/?prismicId=ZFiqRxMAAC0AaZMT&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=2&channel=mail&language=es)). 
+Con la intención de minimizar el tiempo de evaluación en las escuelas, se implementó una batería digital diseñada por miembros del equipo de investigación en colaboración con investigadores de la Universidad de Delft (Países Bajos) y NeuroUX (India) para su uso remoto en computadoras y dispositivos con pantalla táctil. La misma cuenta con antecedentes en el ámbito local y en una muestra dentro del mismo rango etario [@segretinOnLineAssessmentSelfRegulatory2021]. Incluye ocho pruebas estandarizadas, segmentadas en dos sesiones de cuatro pruebas cada una, con una duración aproximada de 15 minutos por sesión (ver Anexos [D1](https://neuroux-una.getneuroux.com/?prismicId=ZFip6RMAACgAaZFq&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=1&channel=mail&language=es) y [D2](https://neuroux-una.getneuroux.com/?prismicId=ZFiqRxMAAC0AaZMT&lang=es&mode=una_v2&userID=26d30a24-ac33-4e3e-99d8-5a6935e3314c&session=2&channel=mail&language=es)). 
 
 **Toca botón**
 
@@ -467,15 +467,16 @@ Durante la primera mitad de los ciclos lectivos 2023 y 2024 (un ciclo por cohort
 
 ### 6.3.3 Análisis estadístico {#sec-6.3.3}
 
-Todos los estadísticos se computaron en R (versión 4.4.1, ver \hyperref[fig:11]{Figura 11} y Anexo [G1](https://github.com/juaninachon/j2024/tree/main/0_material_tesis/Tesis.qmd)). Se efectuó la descripción univariada de todas las variables mediante el cálculo del tamaño muestral, media, mediana, desvío, rango y proporción de casos perdidos. Complementariamente, se visualizaron las distribuciones con histogramas de frecuencia. Los análisis bivariados consistieron en correlaciones de orden cero con los métodos de Pearson y Spearman, visualizadas en gráficos de dispersión, con el fin de explorar la asociación entre las distintas medidas e informar la construcción de modelos multivariados. En ningún caso se imputaron datos perdidos. 
+Todos los estadísticos se computaron en R (versión 4.4.1, ver \hyperref[fig:11]{Figura 11} y Anexo [G1](https://github.com/juaninachon/j2024/tree/main/0_material_tesis/Tesis.qmd)). Se efectuó la descripción univariada de todas las variables mediante el cálculo del tamaño muestral, media, mediana, desvío, rango y proporción de casos perdidos. Complementariamente, se visualizaron las distribuciones con histogramas de frecuencia. Los análisis bivariados consistieron en correlaciones de orden cero con los métodos de Pearson y Spearman, visualizadas en gráficos de dispersión, con el fin de explorar la asociación entre las distintas medidas e informar la construcción de modelos multivariados. En ningún caso se imputaron datos perdidos, ya que gran parte de las variables problemáticas, los faltantes exceden el 40%. Esto limita la aplicabilidad de los métodos de imputación, dificulta evaluar si los patrones de datos perdidos son aleatorios y aumenta considerablemente el riesgo de sesgo en los resultados [@dettoriSinMissingData2018; @rothMISSINGDATACONCEPTUAL1994; @woodsBestPracticesAddressing2024].
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La consistencia interna de las escalas se estimó con el coeficiente Alfa de Cronbach y, para calcular la confiabilidad de las medidas observacionales, se usaron los coeficientes Kappa de Cohen y Alfa de Krippendorf. Adicionalmente, se verificó la homogeneidad de las cohortes y de los grupos que completaron las pruebas de manera presencial y remota con la prueba U de Mann-Whitney y el método de Levene.
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Buscando constatar la convergencia entre las distintas fuentes de información, condensar la gran extensión de la matriz de datos y poner a prueba las hipótesis de asociación con el desempeño académico y moderación por factores sociodemográficos, se ajustaron modelos de regresión lineal multivariada. El proceso de formulación de los modelos siguió una lógica de decantación, a partir de la cual se seleccionaron covariables &mdash;predictores candidatos&mdash; para cada tipo de instrumento que hubieran mostrado resultados estadísticamente significativos en los análisis bivariados con las medidas de desempeño académico (p < 0.01). En caso de encontrar predictores que estuvieran altamente correlacionados entre sí (ρ > 0.5), se filtraron las variables con menor valor predictivo y cantidad de observaciones, para evitar multicolinealidad y baja potencia estadística en los modelos. Como regla general, se evitó incluir un número excesivo de variables independientes de modo que los modelos tuvieran al menos de 10 observaciones (n) por cada parámetro estimado. Los supuestos de linealidad de los predictores, homocedasticidad y normalidad de los residuos se pusieron a prueba individualmente para cada modelo y, en caso de hallar contravenciones, se abandonó el modelo si estas no podían corregirse manipulando la escala de las variables independientes (estandarizándolas o aplicándoles transformaciones logarítmicas).
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso particular de los puntajes de la batería de FFEE, se exploró el análisis de componentes principales para extraer una medida compuesta, siguiendo el método de scree para determinar el número de componentes apropiados (i.e., aquellos con eigenvalues mayores a 1). Sin embargo, debido a la alta proporción de casos perdidos, únicamente se tuvo en cuenta el desempeño en las pruebas de la sesión 1.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el caso particular de los puntajes de la batería de FFEE, se exploró el análisis de componentes principales (PCA) para extraer una medida compuesta, siguiendo el criterio de Kaiser-Meyer-Olkin (KMO), el  test de esfericidad de Bartlett y el método de scree para determinar el número de variables y componentes apropiados. Se retuvieron conjuntos de variables significativamente asociadas con un KMO mayor a 0.5 y componentes con eigenvalues mayores a 1, que en total explican al menos el 40% de la varianza de cada variable. Debido a la proporción de casos perdidos en las pruebas de la sesión 2, solo las pruebas de la sesión 1 fueron tenidas en cuenta para el PCA.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En segunda instancia, se compararon modelos anidados con el método de análisis de varianza para determinar el conjunto de predictores más robusto para los datos disponibles. En cada caso, los modelos anidados tuvieron como variable dependiente al puntaje compuesto de desempeño académico y variables independientes fueron agrupadas en tres niveles con la misma cantidad de predictores, en la medida que el tamaño muestral lo permitiese. Los niveles de anidamiento se corresponden con las categorías *abordajes de laboratorio* (i.e., pruebas computarizadas de FFEE), *potenciales moderadores socioambientales* (e.g., edad, nivel educativo de los padres) y *abordajes ecológicos* (i.e., medidas de reporte e indicadores de las observaciones no participantes). El orden aditivo de los niveles reflejó la intención de verificar si la introducción de los potenciales moduladores socioambientales, seguido de las medidas ecológicas, producen mejoras significativas en los índices de ajuste y en el porcentaje de varianza explicado de un modelo de base cuyos únicos predictores son las variables independientes del nivel de abordajes de laboratorio. Por último, para poner a prueba efectos de moderación, se especificaron modelos de interacciones simples entre los potenciales moderadores socioambientales y los indicadores vinculados a la AR (i.e., puntaje compuesto de desempeño académico como variable dependiente, más dos variables independientes con su respectiva interacción). En esta instancia, las variables fueron centradas por sus valores promedios.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En segunda instancia, se compararon modelos anidados con el método de análisis de varianza para determinar el conjunto de predictores más robusto para los datos disponibles. En cada caso, los modelos anidados tuvieron como variable dependiente al puntaje compuesto de desempeño académico y variables independientes fueron agrupadas en tres niveles con la misma cantidad de predictores, en la medida que el tamaño muestral lo permitiese. Los niveles de anidamiento se corresponden con las categorías *abordajes de laboratorio* (i.e., pruebas computarizadas de FFEE), *potenciales moderadores socioambientales* (e.g., edad, nivel educativo de los padres) y *abordajes ecológicos* (i.e., medidas de reporte e indicadores de las observaciones no participantes). El orden aditivo de los niveles reflejó la intención de verificar si la introducción de los potenciales moduladores socioambientales, seguido de las medidas ecológicas, producen mejoras significativas en los índices de ajuste y en el porcentaje de varianza explicado de un modelo de base cuyos únicos predictores son las variables independientes del nivel de abordajes de laboratorio. Por último, para poner a prueba efectos de moderación, se especificaron modelos de regresión lineal con interacciones simples entre los potenciales moderadores socioambientales y los indicadores vinculados a la AR (i.e., puntaje compuesto de desempeño académico como variable dependiente, más dos variables independientes &mdash;una vinculada a la AR y la otra a factores socioambientales&mdash; con su respectiva interacción). En esta instancia, las escalas de las variables independientes fueron centradas por sus valores promedios. Se seleccionaron los mismos predictores que atravesaron el filtro de los análisis previos.
+
 
 \phantomsection
 \addcontentsline{lof}{figure}{{11. Vinculación entre los instrumentos, procedimientos analíticos y objetivos del proyecto}}
@@ -532,7 +533,7 @@ Durante el 2023, se llevaron a cabo nueve jornadas de evaluaciones en el museo. 
 
 ![](quarto/figuras/14boris.png){width=600 fig-align="center"}
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En paralelo, se ensayó la anotación asistida por distintos modelos de inteligencia artificial de acceso abierto (ver \hyperref[fig:15]{Figura 15} y Anexos [I1 a I5](#sec-I)). El audio fue diarizado con Pyannoter [@bredinPyannoteaudio21Speaker2023] y transcrito con Whisper [@radfordRobustSpeechRecognition2023]. Las transcripciones se tokenizaron (división de frases en palabras o unidades de significado) con el paquete koRpus [@michalkePackageKoRpus2021] para obtener índices de diversidad léxica. El procesamiento de los videos, acotado mediante el ajuste de la resolución a tres fotogramas de 1280x720 píxeles por segundo, consistió en la segmentación (distinción de los cuerpos de los participantes) con Segment Anything 2 [@raviSAM2Segment2024], y la estimación de poses corporales con MediaPipe para brazos, manos y cabeza [@lugaresiMediapipeFrameworkPerceiving2019]. La identificación de rasgos faciales, estimación de unidades de acción y la clasificación de expresiones emocionales en base al sistema FACS [@ekmanFacialActionCoding1978] usando los modelos Retinaface, Mobilefacenet, Xgb y Resmasknet, disponibles a través de PyFeat [@cheongPyFeatPythonFacial2023]. Se empleó Gaze-LLE [@ryanGazeLLEGazeTarget2024] para estimar la dirección de las miradas de los participantes en dos dimensiones, con lo cual se elaboró una medida de la sincronía atencional de la díada, definida como la intersección simultánea entre las coordenadas de las miradas de los participantes con un margen no mayor a 25 píxeles, o bien, como la superposición de los puntos de fijación de cada participante y los segmentos del rostro de su pareja. Se optó por descartar los videos en los que el reconocimiento facial fallara en más de un 25% de los fotogramas. Se descartaron todas aquellas detecciones que tuvieran un riesgo de alucinación (error) mayor a 0.5, o que en el transcurso del análisis exploratorio se identificaran claramente como errores.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En paralelo, se ensayó la anotación asistida por distintos modelos de inteligencia artificial de acceso abierto (ver \hyperref[fig:15]{Figura 15} y Anexos [I1 a I5](#sec-I)). El audio fue diarizado con Pyannoter [@bredinPyannoteaudio21Speaker2023] y transcrito con Whisper [@radfordRobustSpeechRecognition2023]. Las transcripciones se tokenizaron (división de frases en palabras o unidades de significado) con el paquete koRpus [@michalkePackageKoRpus2021] para obtener índices de diversidad léxica. El procesamiento de los videos, acotado mediante el ajuste de la resolución a tres fotogramas de 1280x720 píxeles por segundo, consistió en la segmentación (distinción de los cuerpos de los participantes) con Segment Anything 2 [@raviSAM2Segment2024], y la estimación de poses corporales con MediaPipe para brazos, manos y cabeza [@lugaresiMediapipeFrameworkPerceiving2019]. La identificación de rasgos faciales, estimación de unidades de acción y la clasificación de expresiones emocionales en base al sistema FACS [@ekmanFacialActionCoding1978] usando los modelos Retinaface, Mobilefacenet, Xgb y Resmasknet, disponibles a través de PyFeat [@cheongPyFeatPythonFacial2023]. Se empleó Gaze-LLE [@ryanGazeLLEGazeTarget2024] para estimar la dirección de las miradas de los participantes en dos dimensiones, con lo cual se elaboró una medida de la sincronía atencional de la díada, definida como la intersección simultánea entre las coordenadas de las miradas de los participantes con un margen no mayor a 25 píxeles, o bien, como la superposición de los puntos de fijación de cada participante y los segmentos del rostro de su pareja. Se optó por descartar los videos en los que el reconocimiento facial fallara en más de un 25% de los fotogramas. Se descartaron todas aquellas detecciones que tuvieran un riesgo de alucinación (error) mayor a 0.5, o que en el transcurso del análisis exploratorio se identificaran claramente como errores. Se adoptaron estas soluciones de  compromiso para circunscribir algunas fuentes de error previsibles en el procesamiento del material, pero no se contó con parámetros de referencia al respecto.
 
 \newpage
 
@@ -1691,13 +1692,19 @@ x <- mergej |>
   select(all_of(scols)) %>%
   filter(complete.cases(.))
 
-psych::KMO(x)$MSA
-
+bart <- cortest.bartlett(cor(x), n = nrow(x))$p.value < 0.05
+kmo <- psych::KMO(x)$MSA
 x_scaled <- scale(x)
 x_mat <- as.matrix(x_scaled)
 pca <- prcomp(x_scaled, center = TRUE, scale. = TRUE)
 sfac <- which(pca$sdev^2>1) #eigenvalues > 1
-pvar <- round(sum((pca$sdev^2/len(pca$sdev))[sfac])*100, 0)  # proporción de varianza explicada por esos factores
+loadings <- pca$rotation[, sfac] %*% diag(pca$sdev[sfac])
+communalities <- rowSums(loadings^2)
+tb_10 <- as.data.frame(loadings)
+tb_10$comunalidades <- as.data.frame(communalities)[,1]
+colnames(tb_10)[1:2] <- c("PC1", "PC2")
+
+pvar <- round(sum((pca$sdev^2/len(pca$sdev))[sfac])*100, 0)
 
 for (i in rev(sfac)) {
   vlab <- paste0("NUX_PCA", i)
@@ -1727,13 +1734,39 @@ for (i in seq_len(nrow(rr))) {
 
 ```
 
-En primer lugar, se realizó un análisis de componentes principales con los puntajes de las pruebas *Toca botón*, *No encaja*, *Juego de memoria* y *Bloques de corsi (orden directo)*, del cual se obtuvieron dos componentes que de manera combinada explican el `r pvar`% de la varianza en los puntajes de estas pruebas (37% y 26%, respectivamente) (ver Figuras ta y da).
+En primer lugar, se realizó un PCA con los puntajes de las pruebas *Toca botón*, *No encaja*, *Juego de memoria* y *Bloques de corsi (orden directo)*, del cual se obtuvieron dos componentes (KMO = `r kmo`; Bartlett ~*p-val*~ > 0.001) que de manera combinada explican el `r pvar`% de la varianza en los puntajes de estas pruebas (37% y 26%, respectivamente) (ver \hyperref[tab:1x]{Tabla 10} y Figuras \hyperref[fig:16]{16} y \hyperref[fig:17]{17}).
 
 \phantomsection
-\addcontentsline{lof}{figure}{{x.Gráfico de scree del análisis de componentes principales - muestra jardines}}
-\label{fig:x}
+\addcontentsline{lot}{table}{{10. Análisis de componentes principales (cargas y comunalidades) -  muestra jardines}}
+\label{tab:10}
+**Tabla 10**  
+*Análisis de componentes principales (cargas y comunalidades) -  muestra jardines.*
 
-**Figura x**  
+```{r}
+#| label: t pca j
+#| results: 'asis'
+
+Hmisc::latex(
+  tb_10,
+  file = "",
+  caption = NULL,
+  rowlabel = "",
+  label = NULL,
+  na.blank = TRUE,
+  booktabs = TRUE,
+  ctable = FALSE,
+  lines.page = 4000,
+  #size = "scriptsize",
+  numeric.dollar=FALSE,
+  sanitize = FALSE    
+)
+```
+
+\phantomsection
+\addcontentsline{lof}{figure}{{16.Gráfico de scree del análisis de componentes principales - muestra jardines}}
+\label{fig:16}
+
+**Figura 16**  
 *Gráfico de scree del análisis de componentes principales - muestra jardines.*
 ```{r}
 #| label: scree j
@@ -1750,10 +1783,10 @@ sp +
 ```
 
 \phantomsection
-\addcontentsline{lof}{figure}{{y. Gráfico de dispersión (biplot) de los componentes principales - muestra jardines}}
-\label{fig:y}
+\addcontentsline{lof}{figure}{{17. Gráfico de dispersión (biplot) de los componentes principales - muestra jardines}}
+\label{fig:17}
 
-**Figura y**  
+**Figura 17**  
 *Gráfico de dispersión (biplot) de los componentes principales - muestra jardines.*
 
 ```{r}
@@ -1768,7 +1801,7 @@ bp + ggtitle(NULL)
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los análisis de correlación mostraron que las asociaciones más significativas entre las distintas fuentes de información (p < 0.001) fueron aquellas entre las escalas de reporte docente y las medidas observacionales de involucramiento, prosocialidad y disruptividad (ver \hyperref[tab:10]{Tabla 10} y Anexo [G2](https://docs.google.com/spreadsheets/d/1-Tp8uRE9F3eze7nm-MwBx4CnbuMV209OzMqoAs5ozTc/edit?usp=sharing)). El tamaño de estos efectos fue moderado (0.30 ≤ |$\rho$| ≤ 0.50) y variado según el tipo de actividad observada. En segundo plano, se identificó un grupo de asociaciones menos pronunciadas (0.001 ≤ p < 0.01, 0.20 ≤ |$\rho$| ≤ 0.35) entre los puntajes y los tiempos medios de reacción de algunas de las pruebas de FFEE y las escalas de reporte materno y docente. 
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los valores de las dos dimensiones obtenidas del análisis componentes principales no se asociaron significativamente con ninguna de las variables de interés, de modo que no se tuvieron en cuenta en los análisis posteriores. 
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los valores de las dos dimensiones obtenidas del PCA no se asociaron significativamente con ninguna de las variables de interés, de modo que no se tuvieron en cuenta en los análisis posteriores. 
 
 \phantomsection
 \addcontentsline{lot}{table}{{10. Matriz de correlaciones reducida sobre indicadores del funcionamiento autorregulatorio -  muestra jardines}}
@@ -2308,7 +2341,7 @@ cat("\\normalsize\n")
 \textit{Nota}: RSS = Suma Residual de Cuadrados.
 \normalsize
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En último lugar, se ajustaron modelos con interacciones simples para poner a prueba las hipotesis de moderación de aspectos socioambientales sobre la asociación entre AR y desempeño académico. Debido a la cantidad de combinaciones posibles, aquí también se seleccionó una variable por tipo de instrumento y dos moderadores (i.e., edad del niño/a y nivel de educación de la madre), para un total de seis modelos. Para explorar modelos aquí no reportados, referirse a la herramienta de visualización de datos (Anexo [G3](https://juaninachon.shinyapps.io/Tesis)). De estos seis modelos (ver tablas 17 a 22), el único efecto de moderación significativo se encontró entre el reporte docente de cooperatividad y el nivel educativo materno (β = .298, p = .009).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En último lugar, se ajustaron modelos con interacciones simples para poner a prueba las hipótesis de moderación de aspectos socioambientales sobre la asociación entre AR y desempeño académico. Debido a la cantidad de combinaciones posibles, aquí también se seleccionó una variable por tipo de instrumento y dos moderadores (i.e., edad del niño/a y nivel de educación de la madre), para un total de seis modelos. Para explorar modelos aquí no reportados, referirse a la herramienta de visualización de datos (Anexo [G3](https://juaninachon.shinyapps.io/Tesis)). De estos seis modelos (ver tablas 17 a 22), el único efecto de moderación significativo se encontró entre el reporte docente de cooperatividad y el nivel educativo materno (β = .298, p = .009).
 
 ```{r}
 #| label: t17 modelos de interacciones simples
@@ -4018,14 +4051,19 @@ x <- mergem |>
   select(all_of(scols)) %>%
   filter(complete.cases(.))
 
-cortest.bartlett(cor(x), n = nrow(x))
-KMO(x)
+bart <- cortest.bartlett(cor(x), n = nrow(x))$p.value < 0.05
+kmo <- psych::KMO(x)$MSA
 
 x_scaled <- scale(x)
-KMO(x_scaled)
 x_mat <- as.matrix(x_scaled)
 pca <- prcomp(x_scaled, center = TRUE, scale. = TRUE)
 sfac <- which(pca$sdev^2>1) #eigenvalues > 1
+loadings <- pca$rotation[, sfac] %*% diag(pca$sdev[sfac])
+communalities <- rowSums(loadings^2)
+tb_x0 <- as.data.frame(loadings)
+tb_x0$comunalidades <- as.data.frame(communalities)[,1]
+colnames(tb_x0)[1] <- c("PC1")
+
 pvar <- round(sum((pca$sdev^2/len(pca$sdev))[sfac])*100, 0) # proporción de varianza explicada por esos factores
 
 for (i in rev(sfac)) {
@@ -4059,13 +4097,39 @@ for (i in seq_len(nrow(rr))) {
 #write.csv(corr_fullm, "corrm.csv")  
 ```
 
-En este caso, el análisis de componentes principales de los puntajes de la sesión 1 de la batería de FFEE derivó en una única dimensión que explica el `r pvar`% de la varianza en esta muestra (ver Figuras pa y ca).
+En este caso, el PCA de los puntajes de la sesión 1 de la batería de FFEE derivó en una única dimensión (KMO = `r kmo`; Bartlett ~*p-val*~ > 0.001) que explica el `r pvar`% de la varianza en esta muestra (ver \hyperref[tab:x0]{Tabla x0} y Figuras \hyperref[fig:18]{18} y \hyperref[fig:19]{19}).
 
 \phantomsection
-\addcontentsline{lof}{figure}{{x.Gráfico de scree del análisis de componentes principales - muestra museo}}
-\label{fig:x}
+\addcontentsline{lot}{table}{{x0. Análisis de componentes principales (cargas y comunalidades) -  muestra museo}}
+\label{tab:x0}
+**Tabla x0**  
+*Análisis de componentes principales (cargas y comunalidades) -  muestra museo.*
 
-**Figura z**  
+```{r}
+#| label: t pca m
+#| results: 'asis'
+
+Hmisc::latex(
+  tb_x0,
+  file = "",
+  caption = NULL,
+  rowlabel = "",
+  label = NULL,
+  na.blank = TRUE,
+  booktabs = TRUE,
+  ctable = FALSE,
+  lines.page = 4000,
+  #size = "scriptsize",
+  numeric.dollar=FALSE,
+  sanitize = FALSE    
+)
+```
+
+\phantomsection
+\addcontentsline{lof}{figure}{{18.Gráfico de scree del análisis de componentes principales - muestra museo}}
+\label{fig:18}
+
+**Figura 18**  
 *Gráfico de scree del análisis de componentes principales - muestra museo.*
 ```{r}
 #| label: scree m
@@ -4082,10 +4146,10 @@ sp +
 ```
 
 \phantomsection
-\addcontentsline{lof}{figure}{{y. Gráfico de dispersión (biplot) de los componentes principales - muestra museo}}
-\label{fig:y}
+\addcontentsline{lof}{figure}{{19. Gráfico de dispersión (biplot) de los componentes principales - muestra museo}}
+\label{fig:19}
 
-**Figura a**  
+**Figura 19**  
 *Gráfico de dispersión (biplot) de los componentes principales - muestra museo.*
 
 ```{r}
