@@ -123,7 +123,7 @@ Respecto a los métodos de evaluación, las investigaciones en el área han veri
 
 # 5. Objetivos
 
-Esta propuesta plantea analizar la autorregulación de grupos de niñas/os en proceso de transición a la escolaridad primaria, a partir de la comparación y combinación de información individual sobre el desempeño en medidas directas del funcionamiento ejecutivo; reportes indirectos de adultos sobre las conductas habituales, los antecedentes de salud, el temperamento y las condiciones habitacionales; y la observación de las conductas de juego y aprendizaje tal cual estas pueden acontecer en diferentes contextos ecológicos (e.g., aula, hogar). Hasta el momento, existen relativamente pocos estudios que combinen estos abordajes, por lo cual se espera que el trabajo represente un avance sustancial en los métodos de observación ecológica que se utilizan en Argentina para investigar los procesos autorregulatorios. Además de proveer mayor evidencia sobre el progreso del área de estudio, se aspira a que este trabajo proporcione herramientas que beneficien a los esfuerzos de la ciencia ciudadana, ayudando a identificar procesos en los cuales la intervención comunitaria pueda resultar en una mejora consistente de la calidad del cuidado que reciben las infancias.
+Esta propuesta plantea analizar la autorregulación de grupos de niñas/os en proceso de transición a la escolaridad primaria, a partir de la comparación y combinación de información individual sobre el desempeño en medidas directas del funcionamiento ejecutivo; reportes indirectos de adultos sobre las conductas habituales, los antecedentes de salud, el temperamento y las condiciones habitacionales; y la observación de las conductas de juego y aprendizaje tal cual estas pueden acontecer en diferentes contextos ecológicos (e.g., aula, hogar). Hasta el momento, existen relativamente pocos estudios que combinen estos abordajes, por lo cual se espera que el trabajo represente un avance sustancial en los métodos de observación ecológicos que se utilizan en Argentina para investigar los procesos autorregulatorios. Además de proveer mayor evidencia sobre el progreso del área de estudio, se aspira a que este trabajo proporcione herramientas que beneficien a los esfuerzos de la ciencia ciudadana, ayudando a identificar procesos en los cuales la intervención comunitaria pueda resultar en una mejora consistente de la calidad del cuidado que reciben las infancias.
 
 ## 5.1 Objetivo general
 
@@ -131,7 +131,7 @@ Analizar las asociaciones entre distintos abordajes de evaluación del funcionam
 
 ## 5.2 Objetivos específicos
 
-(A) Desarrollar y poner a prueba un sistema de observación ecológica del comportamiento autorregulado en contextos cotidianos de juego y aprendizaje.
+(A) Desarrollar y poner a prueba un sistema de observación ecológico del comportamiento autorregulado en contextos cotidianos de juego y aprendizaje.
 
 (B) Analizar asociaciones entre el desempeño en las tareas de laboratorio, las conductas reportadas por adultos y aquellas observadas directamente durante el registro de actividades cotidianas.
 
@@ -682,7 +682,6 @@ Hmisc::latex(
   longtable = TRUE,
   rowlabel = "Variable",
   booktabs = TRUE,
-
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -700,7 +699,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l", "r", "r", "r"),
   lines.page = 4000
 )
@@ -816,7 +814,6 @@ Hmisc::latex(
   longtable = TRUE,
   rowlabel = "Variable",
   booktabs = TRUE,
-
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -834,7 +831,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l", "r", "r", "r"),
   lines.page = 4000
 )
@@ -915,7 +911,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("c", "r", "r", "r"),
   lines.page = 4000
 )
@@ -1026,7 +1021,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -1104,7 +1098,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -1241,7 +1234,6 @@ Hmisc::latex(
   longtable = TRUE,
   rowlabel = "Variable",
   booktabs = TRUE,
-
   col.just = c("r", "r"),
   lines.page = 4000
 )
@@ -1479,7 +1471,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r"),
   lines.page = 4000
 )
@@ -1554,7 +1545,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r", "r", "r"),
   lines.page = 4000,
   numeric.dollar=FALSE, sanitize=TRUE
@@ -1637,7 +1627,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r", "r", "r"),
   lines.page = 4000,
   numeric.dollar=FALSE, sanitize=TRUE
@@ -1683,7 +1672,7 @@ sfac <- which(pca$sdev^2>1) #eigenvalues > 1
 loadings <- pca$rotation[, sfac] %*% diag(pca$sdev[sfac])
 communalities <- rowSums(loadings^2)
 t10 <- as.data.frame(loadings)
-t10$comunalidades <- as.data.frame(communalities)[,1]
+t10$Comunalidades <- as.data.frame(communalities)[,1]
 colnames(t10)[1:2] <- c("PC1", "PC2")
 t10 <- t10 |> 
   mutate(across(where(is.numeric), ~round(.x, digits = 3))) %>%
@@ -1738,23 +1727,22 @@ Hmisc::latex(
   file = "", 
   longtable = TRUE,
   rowlabel = "",
-  booktabs = TRUE,
-  col.just = c("r","r", "r"),
+  booktabs = TRUE,col.just = c("r","r", "r"),
   lines.page = 4000
 )  
 cat("\\normalsize\n")
 ```
 
 \phantomsection
-\addcontentsline{lof}{figure}{{16.Gráfico de scree del ACP - muestra jardines}}
+\addcontentsline{lof}{figure}{{16.Gráfico de scree del PCA - muestra jardines}}
 \label{fig:16}
 
 **Figura 16**  
-*Gráfico de scree del ACP - muestra jardines.*
+*Gráfico de scree del PCA - muestra jardines.*
 ```{r}
 #| label: scree j
 #| fig-align: 'center'
-#| fig.height: 3
+#| fig.height: 4
 #| results: 'asis'
 
 sp <- fviz_eig(pca, choice = "eigenvalue", addlabels=TRUE)
@@ -1775,7 +1763,7 @@ sp +
 ```{r}
 #| label: biplot j
 #| fig-align: 'center'
-#| fig.height: 3
+#| fig.height: 4
 #| results: 'asis'
 
 bp <- fviz_pca_biplot(pca, label = "var")
@@ -1790,9 +1778,6 @@ bp + ggtitle(NULL)
 **Tabla 11**  
 *Matriz de correlaciones reducida sobre indicadores del funcionamiento autorregulatorio - muestra\
 jardines.*
-
-\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (*p* < 0.001). Formato: [Rho de Spearman, (p), n].
-
 
 \begin{landscape}
 
@@ -1850,7 +1835,7 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
-cat("\\scriptsize\n")
+
 Hmisc::latex(
   select(lower_tri, 1:6),
   file = "",
@@ -1859,12 +1844,14 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
+  insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE    
 )
-cat("\\normalsize\n")
+
 ```
 
 \newpage
@@ -1872,7 +1859,7 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_2
 #| results: 'asis'
-cat("\\scriptsize\n")
+
 Hmisc::latex(
   select(lower_tri, c(1, 7:12)),
   file = "",
@@ -1881,12 +1868,13 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-cat("\\normalsize\n")
+
 ```
 
 \newpage
@@ -1894,7 +1882,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_3
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 13:18)),
   file = "",
@@ -1903,12 +1890,12 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   sanitize = FALSE    
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1916,7 +1903,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_4
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 19:25)),
   file = "",
@@ -1925,13 +1911,13 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   bottomrule = "\\bottomrule",
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1939,22 +1925,21 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_5
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
-  select(lower_tri, c(1, 26:32)),
+  select(lower_tri, c(1, 26:31)),
   file = "",
   caption = NULL,
   rowlabel = "",
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   bottomrule = "\\bottomrule",
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1962,22 +1947,21 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_6
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
-  select(lower_tri, c(1, 33:39)),
+  select(lower_tri, c(1, 32:38)),
   file = "",
   caption = NULL,
   rowlabel = "",
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   bottomrule = "\\bottomrule",
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -1985,22 +1969,21 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t11_7
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
-  select(lower_tri, c(1, 40:42)),
+  select(lower_tri, c(1, 39:42)),
   file = "",
   caption = NULL,
   rowlabel = "",
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   bottomrule = "\\bottomrule",
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \end{landscape}
@@ -2129,7 +2112,7 @@ lmtable <- function(lmobj) {
   )
 
   fit_row <- tibble(
-    Predictor = c("R²", "R² Ajustado", "n"),
+    Predictor = c("\\emph{R²}", "\\emph{R²} ajustado", "\\emph{n}"),
     `B` = c(r2, r2_adj, n_obs),
     `β` = as.character(rep("", 3)),
     `SE` = as.character(rep("", 3)),
@@ -2162,7 +2145,6 @@ lmtable <- function(lmobj) {
     booktabs = TRUE,
     ctable = FALSE,
     lines.page = 4000,
-  
     numeric.dollar = FALSE,
     col.just = c("l", "r", "r", "r", "r", "r"),
     sanitize = FALSE
@@ -2267,7 +2249,7 @@ lmtable(m3j)
 lmtable(m4j)
 ```
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Por otro lado, la comparación entre los modelos anidados apunta a que este último modelo presenta un ajuste significativamente mejor que los dos más simples, y que tanto la consideración de factores sociodemográficos como del comportamiento en el contexto áulico mejoran la predicción del desempeño académico, por encima del porcentaje de la varianza explicado sólo por los puntajes de las pruebas de FFEE (R2 = .501, Chi2(74) = 4.356 , p = .016) (ver \hyperref[tab:17]{Tabla 17}).
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Por otro lado, la comparación entre los modelos anidados apunta a que este último modelo presenta un ajuste significativamente mejor que los dos más simples, y que tanto la consideración de factores sociodemográficos como del comportamiento en el contexto áulico mejoran la predicción del desempeño académico, por encima del porcentaje de la varianza explicado sólo por los puntajes de las pruebas de FFEE (R² = .501, Chi²(74) = 4.356 , p = .016) (ver \hyperref[tab:17]{Tabla 17}).
 
 \phantomsection
 \addcontentsline{lot}{table}{{17. Ajuste y comparación de modelos anidados - muestra jardines.}}
@@ -2290,6 +2272,7 @@ for (i in seq_along(colnames(t17_1))){
 }
 
 t17_1$Modelo <- c("Nivel 1", "Nivel 2", "Nivel 3")
+colnames(t17_1)[2:6] <- c("\\emph{AIC}", "\\emph{BIC}", "\\emph{R²}", "\\emph{R²} ajustado", "\\emph{RMSE}")
 cat("\\scriptsize\n")
 Hmisc::latex(
   t17_1,
@@ -2303,7 +2286,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
@@ -2324,7 +2306,7 @@ t17_2 <- anova(m2j, m3j, m4j) |>
   mutate(across(where(is.numeric), ~ round(., 3))) |>
   select(-c(4,5))
 
-colnames(t17_2) <- c("Modelo", "Grados de libertad", "\\emph{RSS}", "\\emph{Chi2}", "\\emph{p}")
+colnames(t17_2) <- c("Modelo", "Grados de libertad", "\\emph{RSS}", "\\emph{Chi²}", "\\emph{p}")
 
 t17_2[1] <- t17_1$Modelo
 cat("\\scriptsize\n")
@@ -2340,7 +2322,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
@@ -2601,7 +2582,6 @@ Hmisc::latex(
   longtable = TRUE,
   rowlabel = "Variable",
   booktabs = TRUE,
-
   col.just = c("r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -2619,7 +2599,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l", "r", "r", "r"),
   lines.page = 4000
 )
@@ -2787,7 +2766,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l", "l", rep("r",7)),
   lines.page = 4000
 )
@@ -2989,7 +2967,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
@@ -3187,7 +3164,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
@@ -3352,7 +3328,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
@@ -3482,7 +3457,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = TRUE,
   col.just = c("l", "l", "l", rep("r",7))
@@ -3556,7 +3530,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r", "r", "r", "r", "r", "r"),
   lines.page = 4000
 )
@@ -3655,7 +3628,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l","r", "r"),
   lines.page = 4000
 )
@@ -3916,7 +3888,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "l","r", "r"),
   lines.page = 4000
 )  
@@ -4036,7 +4007,6 @@ Hmisc::latex(
   rowlabel = "",
   rowname = NULL,
   booktabs = TRUE,
-
   col.just = c("l", "r", "r"),
   lines.page = 4000,
 )
@@ -4105,7 +4075,7 @@ sfac <- which(pca$sdev^2>1) #eigenvalues > 1
 loadings <- pca$rotation[, sfac] %*% diag(pca$sdev[sfac])
 communalities <- rowSums(loadings^2)
 t34 <- as.data.frame(loadings)
-t34$comunalidades <- as.data.frame(communalities)[,1]
+t34$Comunalidades <- as.data.frame(communalities)[,1]
 colnames(t34)[1] <- c("PC1")
 rownames(t34) <- rownames(pca$rotation)
 t34 <- t34 |>
@@ -4123,7 +4093,7 @@ for (i in rev(sfac)) {
     )
 }
 
-colnames(mergem)[163] <- "NeuroUX - PCA"
+colnames(mergem)[163] <- "NeuroUX - PC1"
 
 cmmx <- colnames(mergem) |> as.data.frame()
 
@@ -4161,6 +4131,7 @@ cat("\\scriptsize\n")
 Hmisc::latex(
   t34,
   file = "", 
+  rowlabel = "",
   longtable = TRUE,
   booktabs = TRUE,
   col.just = c("r", "r"),
@@ -4170,15 +4141,15 @@ cat("\\normalsize\n")
 ```
 
 \phantomsection
-\addcontentsline{lof}{figure}{{18.Gráfico de scree del ACP - muestra museo}}
+\addcontentsline{lof}{figure}{{18.Gráfico de scree del PCA - muestra museo}}
 \label{fig:18}
 
 **Figura 18**  
-*Gráfico de scree del ACP - muestra museo.*
+*Gráfico de scree del PCA - muestra museo.*
 ```{r}
 #| label: scree m
 #| fig-align: 'center'
-#| fig.height: 3
+#| fig.height: 4
 #| results: 'asis'
 
 sp <- fviz_eig(pca, choice = "eigenvalue", addlabels=TRUE)
@@ -4199,7 +4170,7 @@ sp +
 ```{r}
 #| label: biplot m
 #| fig-align: 'center'
-#| fig.height: 3
+#| fig.height: 4
 #| #| results: 'asis'
 
 bp <- fviz_pca_biplot(pca, label = "var")
@@ -4264,7 +4235,6 @@ lower_tri <- add_column(as.data.frame(lower_tri), rownames(lower_tri), .before =
 rownames(lower_tri) <- 1:nrow(lower_tri)
 colnames(lower_tri)[1] <- "."
 
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, 1:7),
   file = "",
@@ -4273,13 +4243,14 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   bottomrule = "\\bottomrule",
+  insert.bottom = "\\textit{Nota}: solo se incluyen correlaciones significativas (p < 0.05) de variables con al menos una correlación altamente significativa (p < 0.001). \\\\  Formato: [Rho de Spearman, (p), n].",
   sanitize = FALSE  
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4287,7 +4258,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t35_2
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 8:13)),
   file = "",
@@ -4296,12 +4266,12 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   sanitize = FALSE    
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4309,7 +4279,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t35_3
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 14:19)),
   file = "",
@@ -4318,12 +4287,12 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   lines.page = 4000,
   numeric.dollar=FALSE,
   sanitize = FALSE    
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4331,7 +4300,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t35_4
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 20:26)),
   file = "",
@@ -4340,6 +4308,7 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   longtable = FALSE,
   lines.page = 4000,
@@ -4348,7 +4317,6 @@ Hmisc::latex(
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \newpage
@@ -4356,7 +4324,6 @@ cat("\\normalsize\n")
 ```{r}
 #| label: t35_5
 #| results: 'asis'
-cat("\\scriptsize\n")
 Hmisc::latex(
   select(lower_tri, c(1, 27:32)),
   file = "",
@@ -4365,6 +4332,7 @@ Hmisc::latex(
   label = NULL,
   na.blank = TRUE,
   booktabs = TRUE,
+  size = "small",
   ctable = FALSE,
   longtable = FALSE,
   lines.page = 4000,
@@ -4373,7 +4341,6 @@ Hmisc::latex(
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
-cat("\\normalsize\n")
 ```
 
 \end{landscape}
@@ -4449,9 +4416,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
-  # table.env = TRUE,
-  # table.env.opts = "H",
   numeric.dollar=FALSE,
   sanitize = FALSE
 )
@@ -4470,13 +4434,13 @@ cat("\\normalsize\n")
 #| label: t37 modelo lineal 3 m
 #| results: 'asis'
 
-m5m <- lm(data = clean_names(mergem), compuesto_woodcock ~ neuro_ux_pca + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a)
+m5m <- lm(data = clean_names(mergem), compuesto_woodcock ~ neuro_ux_pc1 + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a)
 lmtable(m5m)
 ```
 
 #### 7.2.3.3 Modulación de las asociaciones entre medidas del funcionamiento autorregulatorio y del desempeño académico por aspectos individuales y contextuales
 
-Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3.3](#sec-6.3.3) y [7.1.2.3](#sec-7.1.2.3)), se definió una estructura de modelos anidados tomando de base a la dimensión principal obtenida del análisis de componentes de la batería de FFEE (ver \hyperref[tab:38]{Tabla 38}) y añadiendo términos para los factores socioambientales (edad de la niña/o y educación materna) (ver \hyperref[tab:39]{Tabla 39}) y los indicadores comportamentales (reporte del temperamento y observables relevados del juego semiestructurado)(ver \hyperref[tab:40]{Tabla 40}). 
+Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3.3](#sec-6.3.3) y [7.1.2.3](#sec-7.1.2.3)), se definió una estructura de modelos anidados tomando de base a la dimensión principal obtenida del análisis de componentes de la batería de FFEE (ver \hyperref[tab:38]{Tabla 38}) y añadiendo términos para los factores socioambientales (edad de la niña/o y educación materna) (ver \hyperref[tab:39]{Tabla 39}) y los indicadores comportamentales (reporte del temperamento y observables relevados del juego semiestructurado) (ver \hyperref[tab:40]{Tabla 40}). 
 
 ```{=latex}
 \begin{center}
@@ -4517,23 +4481,23 @@ Haciendo eco de los procedimientos analíticos del estudio 1 (ver Apartados [6.3
 
 bam <- clean_names(mergem) |>
   select(
-    compuesto_woodcock, neuro_ux_pca, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
+    compuesto_woodcock, neuro_ux_pc1, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
   )
 bam <- filter(bam, complete.cases(bam))
 
 m6m <- lm(
   data = bam,
-  compuesto_woodcock ~ neuro_ux_pca
+  compuesto_woodcock ~ neuro_ux_pc1
 )
 
 m7m <- lm(
   data = bam,
-  compuesto_woodcock ~ neuro_ux_pca + edad_anos + educacion_de_la_madre
+  compuesto_woodcock ~ neuro_ux_pc1 + edad_anos + educacion_de_la_madre
 )
 
 m8m <- lm(
   data = bam,
-  compuesto_woodcock ~ neuro_ux_pca + edad_anos + educacion_de_la_madre + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a
+  compuesto_woodcock ~ neuro_ux_pc1 + edad_anos + educacion_de_la_madre + cbq_esfuerzo_de_control + obs_afec_neutra_nino_a
 )
 
 lmtable(m6m)
@@ -4588,6 +4552,8 @@ for (i in seq_along(colnames(t41_1))){
 }
 
 t41_1$Modelo <- c("Nivel 1", "Nivel 2", "Nivel 3")
+colnames(t41_1)[2:6] <- c("\\emph{AIC}", "\\emph{BIC}", "\\emph{R²}", "\\emph{R²} ajustado", "\\emph{RMSE}")
+
 cat("\\scriptsize\n")
 Hmisc::latex(
   t41_1,
@@ -4601,7 +4567,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
@@ -4623,7 +4588,7 @@ t41_2 <- anova(m6m, m7m, m8m) |>
   mutate(across(where(is.numeric), ~ round(., 3))) |>
   select(-c(4,5))
 
-colnames(t41_2) <- c("Modelo", "Grados de libertad", "RSS", "Chi2", "p")
+colnames(t41_2) <- c("Modelo", "Grados de libertad", "\\emph{RSS}", "\\emph{Chi²}", "\\emph{p}")
 
 t41_2[1] <- t41_1$Modelo
 cat("\\scriptsize\n")
@@ -4639,7 +4604,6 @@ Hmisc::latex(
   booktabs = TRUE,
   ctable = FALSE,
   lines.page = 4000,
-
   numeric.dollar = FALSE,
   sanitize = FALSE
 )
@@ -4659,19 +4623,19 @@ cat("\\normalsize\n")
 bmi <- sapply(
   clean_names(mergem) |>
   select(
-    compuesto_woodcock, neuro_ux_pca, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
+    compuesto_woodcock, neuro_ux_pc1, cbq_esfuerzo_de_control, obs_afec_neutra_nino_a,  edad_anos, educacion_de_la_madre
   ),
   function(x) scale(x, scale = FALSE)
   ) |>
   as.data.frame()
 
 m5m <- lm(
-  formula = compuesto_woodcock ~ neuro_ux_pca + edad_anos + neuro_ux_pca * edad_anos,
+  formula = compuesto_woodcock ~ neuro_ux_pc1 + edad_anos + neuro_ux_pc1 * edad_anos,
   data = bmi
 ) 
 
 m6m <- lm(
-  formula = compuesto_woodcock ~ neuro_ux_pca + educacion_de_la_madre + neuro_ux_pca * educacion_de_la_madre,
+  formula = compuesto_woodcock ~ neuro_ux_pc1 + educacion_de_la_madre + neuro_ux_pc1 * educacion_de_la_madre,
   data = bmi
 )
 
@@ -4794,7 +4758,74 @@ lmtable(m10m)
 ```
 # 8. Discusión
 
-Este trabajo tuvo como finalidad estudiar el desarrollo autorregulatorio durante la etapa de transición a la escolaridad primaria, su vínculo con el desempeño académico y las condiciones de vida de las infancias en nuestra comunidad. Adicionalmente, se buscó contrastar tres enfoques de evaluación de los procesos autorregulatorios: las pruebas controladas de FFEE, el reporte de cuidadores de la conducta habitual de las niñas/os y medidas observacionales del comportamiento en contextos cotidianos. Para ello fue necesario recabar información sobre métodos observacionales e indicadores comportamentales conceptualmente vinculados a aspectos del funcionamiento autorregulatorio. Ese proceso culminó en el diseño de dos procedimientos de observación no participante, uno de los cuales se implementó en salas de cinco años de jardines de infantes y el otro, durante actividades de juego diádico semiestructurado en un museo.
+Este trabajo tuvo como finalidad estudiar el desarrollo autorregulatorio durante la etapa de transición a la escolaridad primaria, su vínculo con el desempeño académico y las condiciones de vida de las infancias en nuestra comunidad (ver \hyperref[tab:48]{Tabla 48}). Adicionalmente, se buscó contrastar tres enfoques de evaluación de los procesos autorregulatorios: las pruebas controladas de FFEE, el reporte de cuidadores de la conducta habitual de las niñas/os y medidas observacionales del comportamiento en contextos cotidianos. Para ello fue necesario recabar información sobre métodos observacionales e indicadores comportamentales conceptualmente vinculados a aspectos del funcionamiento autorregulatorio. Ese proceso culminó en el diseño de dos procedimientos de observación no participante, uno de los cuales se implementó en salas de cinco años de jardines de infantes y el otro, durante actividades de juego diádico semiestructurado en un museo.
+
+\phantomsection
+\addcontentsline{lot}{table}{{48. Síntesis de resultados.}}
+\label{tab:48}
+**Tabla 48**  
+*Síntesis de resultados*
+
+```{=latex}
+\small
+\setlongtables
+
+\begin{longtable}{%
+  p{0.30\textwidth}
+  p{0.20\textwidth}
+  p{0.50\textwidth}}
+\toprule
+\multicolumn{1}{c}{Objetivos específicos} &
+\multicolumn{1}{c}{Hipótesis asociadas} &
+\multicolumn{1}{c}{Resultados principales}
+\tabularnewline
+\midrule
+\endhead
+
+\midrule
+\endfoot
+
+(A) Desarrollar y poner a prueba un sistema de observación ecológico del comportamiento autorregulado en contextos cotidianos de juego y aprendizaje. &
+- &
+\begin{itemize}\itemsep0pt
+\item Se diseñaron e implementaron dos procedimientos observacionales, uno en contextos áulicos y otro en situaciones de juego diádico.
+\item Los niveles de acuerdo entre observadores sobre los indicadores conductuales fueron variados.
+\end{itemize}
+\tabularnewline
+
+(B) Analizar asociaciones entre el desempeño en las tareas de laboratorio, las conductas reportadas por adultos y aquellas observadas directamente durante el registro de actividades cotidianas. &
+(1) Se encontrarán asociaciones convergentes leves entre las distintas fuentes de información del funcionamiento autorregulatorio.
+&
+\begin{itemize}\itemsep0pt
+\item En ambos estudios se obtuvieron correlaciones significativas de efecto leve a moderado entre los distintos grupos de instrumentos.
+\item En el contexto aúlico, se destaca la convergencia entre el reporte docente y la observación directa de conductas prosociales y disruptivas.
+\item La expresividad emocional y el nivel de involucramiento observado durante actividades de juego diádico se asoció con el reporte materno del temperamento y con el desempeño en algunas tareas de FFEE.
+\end{itemize}
+\tabularnewline
+
+(C) Analizar asociaciones entre el funcionamiento autorregulatorio y el desempeño académico. &
+(2) Las medidas del funcionamiento autorregulatorio serán predictores significativos del desempeño académico y se asociarán con condiciones socioambientales favorables.
+&
+\begin{itemize}\itemsep0pt
+\item Tanto el desempeño en tareas de FFEE como el reporte docente de habilidades sociales y la observación directa de la expresividad emocional y el involucramiento resultaron ser predictores significativos de los puntajes en las pruebas de conocimientos de lengua y matemática.
+\item La edad de los niños/as, el nivel educativo materno, la disponibilidad de recursos didácticos y la frecuencia de actividades de lectura compartida en el hogar se asociaron positivamente con varias de las medidas de AR y desempeño académico.
+\end{itemize}
+\tabularnewline
+
+(D) Identificar y analizar moduladores individuales y contextuales, sobre las asociaciones entre medidas del funcionamiento autorregulatorio y del desempeño académico. &
+(3) Se espera que los aspectos individuales y contextuales modulen la magnitud de la asociación entre funcionamiento autorregulatorio y desempeño académico.
+&
+\begin{itemize}\itemsep0pt
+\item La inclusión de la edad y el nivel educativo materno en modelos multivariados disminuye el valor predictivo de algunas de las medidas de AR sobre las de desempeño académico.
+\item No se registraron efectos significativos de interación/moderación entre estos tipos de variables.
+\end{itemize}
+\tabularnewline
+
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+\normalsize
+```
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Los resultados de la validación de las medidas observacionales fueron mixtos. Por un lado, los niveles de acuerdo entre jueces &mdash;tanto para codificación en vivo en los jardines como para la codificación de los videos del museo&mdash;, fueron subóptimos, con algunas excepciones. Esto apunta a la posible presencia de errores sistemáticos en la definición de los indicadores y/o en la interpretación que los operadores hacían de ellos. A pesar de ello, correlaciones estadísticamente significativas entre los indicadores observacionales y las medidas correspondientes a los otros enfoques de evaluación de la AR indican que los procedimientos mencionados cuentan con algún grado de validez convergente. 
 
@@ -4816,7 +4847,7 @@ Este trabajo tuvo como finalidad estudiar el desarrollo autorregulatorio durante
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Acerca del desempeño en pruebas de FFEE, en el estudio de los jardines, el puntaje en la prueba *Toca botón* se asoció positivamente al nivel de involucramiento observado en clase. A su vez, en el estudio del museo, el puntajes en la pruebas de *No encaja* y *Corsi* se asoció positivamente a los niveles de sincronía afectiva y atencional observados durante las actividades de armado de figuras de papel. De igual manera, los puntajes en *Corsi* se asociaron positivamente al nivel de involucramiento observado en las niñas/os a lo largo de las actividades de juego diádico. Existe evidencia empírica que vincula el desempeño en pruebas de FFEE con la aptitud escolar y las manifestaciones cotidianas de la regulación de la atención, fundamentalmente con el nivel de involucramiento en clase, habilidades sociales y problemas de conducta [@blairRelatingEffortfulControl2007; @moffettOfftaskBehaviorKindergarten2020; @rimm-kaufmanContributionChildrensSelfregulation2009; @slotPreschoolersCognitiveEmotional2017; @stuckeEarlyChildhoodExecutive2024]. Sin embargo, en este trabajo esta asociación no se apreció de manera generalizada. No todas las pruebas mostraron correlaciones significativas y en los casos afirmativos, los tamaños de efecto fueron modestos. Si bien es razonable considerar que las pruebas de laboratorio y las observaciones ecológicas en alguna medida capturan aspectos que son causados por los mismos procesos autorregulatorios subyacentes, la variación específica en cada contexto invita a pensar en modelos más complejos donde no todos los procesos cobran la misma relevancia situacional y en los que participan factores o constructos diferenciados que condicionan o modulan la expresión de los fenómenos autorregulatorios.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Con respecto a la validez predictiva de los enfoques de medición de la AR sobre las pruebas de desempeño académico, en el estudio de los jardines los predictores significativos fueron los puntajes de las pruebas *Toca botón*, *No encaja*, *Corsi* y *Simón*; el reporte docente de habilidades sociales (principalmente las subescalas de *Cooperatividad* e *Independencia social*); y las observación directa del involucramiento y las interacciones prosociales con docentes, sobre todo durante las actividades estructuradas en torno a la exposición docente. Asimismo, en el estudio del museo, los predictores significativos fueron los puntajes en las pruebas *Toca botón*, *No encaja*, *Juego de memoria*, *Corsi* y *Simón*; los registros observacionales individuales y diádicos de expresiones afectivas neutras durante *Avioncito* y el nivel de involucramiento que los niños/as exhibieron durante *Paloma*. En la última década se han publicado trabajos meta-analíticos que respaldan la postura de que las tareas de FFEE &mdash;en particular las que evalúan memoria de trabajo&mdash;, predicen el desempeño académico en áreas de lengua y matemática, con un tamaño de efecto que ronda *$\rho$* ≃ 0.3 [@cortespascualRelationshipExecutiveFunctions2019; @spiegelRelationsExecutiveFunctions2021]. De manera similar, existe evidencia a favor del vínculo entre el reporte docente de aspectos sociales y comportamentales de la AR y el desempeño académico [@bryceRelationshipsExecutiveFunctions2015; @fitzpatrickToddlerWorkingMemory2012; @rimm-kaufmanContributionChildrensSelfregulation2009; @sudkampAccuracyTeachersJudgments2012]. Por otra parte, también hay antecedentes que corroboran la asociación entre el nivel de involucramiento y el desempeño académico [@moffettOfftaskBehaviorKindergarten2020; @wongStudentEngagementIts2024]. En comparación, la evidencia sobre el vínculo entre la AR emocional de niñas/os de edad escolar en contextos naturalistas y el desempeño académico parece no ser abundante, pero generalmente coinciden en que el control de las emociones favorece el éxito académico [@andresEmotionRegulationAcademic2017; @grazianoRoleEmotionRegulation2007; @slotPreschoolersCognitiveEmotional2017]. Quizás una de las diferencias más llamativas entre los resultados ambos estudios es que, a diferencia de lo ocurrido en el segundo estudio, la prevalencia del nivel de afectividad neutra &mdash;que puede considerarse un indicador comportamental de los procesos de alostasis (i.e., equilibrio estable a lo largo de cambios en las presiones del entorno)&mdash;, no se haya asociado con otras medidas del funcionamiento autorregulatorio  y el desempeño académico en el primer estudio. Una razón posible es que la baja resolución temporal de la variable en la codificación en vivo no haya permitido registrar cambios del estado afectivo con el mismo nivel de granularidad que la codificación por video (cualquier evidencia de valencias positivas o negativas a lo largo del intervalo de 40 segundos eclipsaba la presencia del tono neutro durante el mismo periodo, mientras que en la anotación de los videos se obtuvo mayor precisión y confiabilidad). Alternativamente, las diferencias en la AR del tono afectivo podrían destacarse más en el segundo estudio por la amplitud del rango etario de esa muestra.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Con respecto a la validez predictiva de los enfoques de medición de la AR sobre las pruebas de desempeño académico, en el estudio de los jardines los predictores significativos fueron los puntajes de las pruebas *Toca botón*, *No encaja*, *Corsi* y *Simón*; el reporte docente de habilidades sociales (principalmente las subescalas de *Cooperatividad* e *Independencia social*); y las observación directa del involucramiento y las interacciones prosociales con docentes, sobre todo durante las actividades estructuradas en torno a la exposición docente. Asimismo, en el estudio del museo, los predictores significativos fueron los puntajes en las pruebas *Toca botón*, *No encaja*, *Juego de memoria*, *Corsi* y *Simón*; los registros observacionales individuales y diádicos de expresiones afectivas neutras durante *Avioncito* y el nivel de involucramiento que los niños/as exhibieron durante *Paloma*. En la última década se han publicado trabajos meta-analíticos que respaldan la postura de que las tareas de FFEE &mdash;en particular las que evalúan memoria de trabajo&mdash;, predicen el desempeño académico en áreas de lengua y matemática, con un tamaño de efecto que ronda *$\rho$* $\approx$ 0.3 [@cortespascualRelationshipExecutiveFunctions2019; @spiegelRelationsExecutiveFunctions2021]. De manera similar, existe evidencia a favor del vínculo entre el reporte docente de aspectos sociales y comportamentales de la AR y el desempeño académico [@bryceRelationshipsExecutiveFunctions2015; @fitzpatrickToddlerWorkingMemory2012; @rimm-kaufmanContributionChildrensSelfregulation2009; @sudkampAccuracyTeachersJudgments2012]. Por otra parte, también hay antecedentes que corroboran la asociación entre el nivel de involucramiento y el desempeño académico [@moffettOfftaskBehaviorKindergarten2020; @wongStudentEngagementIts2024]. En comparación, la evidencia sobre el vínculo entre la AR emocional de niñas/os de edad escolar en contextos naturalistas y el desempeño académico parece no ser abundante, pero generalmente coinciden en que el control de las emociones favorece el éxito académico [@andresEmotionRegulationAcademic2017; @grazianoRoleEmotionRegulation2007; @slotPreschoolersCognitiveEmotional2017]. Quizás una de las diferencias más llamativas entre los resultados ambos estudios es que, a diferencia de lo ocurrido en el segundo estudio, la prevalencia del nivel de afectividad neutra &mdash;que puede considerarse un indicador comportamental de los procesos de alostasis (i.e., equilibrio estable a lo largo de cambios en las presiones del entorno)&mdash;, no se haya asociado con otras medidas del funcionamiento autorregulatorio  y el desempeño académico en el primer estudio. Una razón posible es que la baja resolución temporal de la variable en la codificación en vivo no haya permitido registrar cambios del estado afectivo con el mismo nivel de granularidad que la codificación por video (cualquier evidencia de valencias positivas o negativas a lo largo del intervalo de 40 segundos eclipsaba la presencia del tono neutro durante el mismo periodo, mientras que en la anotación de los videos se obtuvo mayor precisión y confiabilidad). Alternativamente, las diferencias en la AR del tono afectivo podrían destacarse más en el segundo estudio por la amplitud del rango etario de esa muestra.
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Pasando al análisis de modulación por factores individuales y contextuales, los predictores socioambientales del desempeño académico que modularon la asociación entre las medidas de AR y de desempeño académico en ambos estudios, por su inclusión como covariables en los modelos multivariados, fueron la edad de las niñas/os y el nivel educativo materno. Particularmente, en el estudio de los jardines también se destacan el nivel educativo paterno, la cantidad de libros y materiales didácticos disponibles en el hogar, la frecuencia semanal de eventos de lectura compartida y el nivel de caos doméstico reportados por las familias. En consonancia con algunos de estos resultados, la literatura apunta a que el efecto de estas asociaciones puede ser modulado por la edad, el sexo, el nivel socioeconómico, la calidad del clima áulico y de las prácticas de cuidado [@cortespascualRelationshipExecutiveFunctions2019; @dingMediatingRoleExecutive2024; @lawsonMetaanalysisRelationshipSocioeconomic2018; @rimm-kaufmanContributionChildrensSelfregulation2009; @stuckeEarlyChildhoodExecutive2024]. Sin embargo, contrario a lo esperado, en los análisis de interacciones simples no se apreció un efecto de moderación generalizado de la edad de los participantes o del nivel educativo materno sobre la asociación entre AR y desempeño académico.
 
@@ -4834,7 +4865,7 @@ Existe una multiplicidad de razones que limitan la generalizabilidad de los resu
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Es importante fomentar el desarrollo de procedimientos de adquisición sofisticados que permitan mejorar la granularidad y la calidad de los datos. Se considera que incorporar medidas objetivas de la activación fisiológica (e.g., ritmo cardiaco, conductancia) podría ayudar a profundizar el conocimiento sobre el rol de la AR emocional en situaciones de aprendizaje y su vínculo con el control atencional y el involucramiento. Pese a que se notó una mejora en la confiabilidad de los indicadores codificados manualmente en los videos del museo, los intentos de codificación asistida por algoritmos de inteligencia artificial no rindieron grandes frutos, presumiblemente porque en el procesamiento del material no se anticiparon las condiciones de adquisición que favorecen el uso efectivo de estos modelos (e.g, la posición y distancia relativa entre los participantes y las cámaras, diferencias en la operacionalización de las expresiones emocionales, calidad de las fuentes de audio, etc). Además de incrementar la fidelidad en la reconstrucción de las escenas comportamentales, es deseable evaluar si estos resultados pueden generalizarse a más contextos de observación (e.g., distintas situaciones de aprendizaje, rutinas del hogar, interacciones en espacios públicos, contextos hospitalario, transporte etc).
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Quizás la amenaza más sustancial a la validez interna y a la generalizabilidad de estos resultados sea la baja cantidad de participantes. Aun cuando un tamaño muestral superior a 97 casos es apropiado para ajustar modelos lineales multivariados de hasta cinco covariables y detectar valores de *R2* iguales o superiores al 13%, con un nivel de significación del 0.05 y una potencia de 0.80 [@abersonPowerAnalysisRegression2022], la pérdida de datos producto del elevado desgaste muestral en los cuestionarios y pruebas autoadministradas por las familias dificultó sostener los números proyectados para los análisis previstos. Por ejemplo, de acuerdo a los objetivos del proyecto, hubiese sido deseable poder construir modelos de ecuaciones estructurales con variables latentes para agrupar conceptualmente a los distintos enfoques de medición. Además, los contratiempos en la adquisición remota motivaron un viraje hacia la administración presencial de la batería de FFEE, hecho que también amenaza la validez interna de esas medidas, según los resultados del análisis de homogeneidad. Por todos estos motivos, este trabajo debe ser juzgado como una serie de estudios exploratorios, sin enormes pretenciones de generalizabilidad, pero que tal vez aporte datos que sirvan para calibrar las expectativas de proyectos venideros.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Quizás la amenaza más sustancial a la validez interna y a la generalizabilidad de estos resultados sea la baja cantidad de participantes. Aun cuando un tamaño muestral superior a 97 casos es apropiado para ajustar modelos lineales multivariados de hasta cinco covariables y detectar valores de *R²* iguales o superiores al 13%, con un nivel de significación del 0.05 y una potencia de 0.80 [@abersonPowerAnalysisRegression2022], la pérdida de datos producto del elevado desgaste muestral en los cuestionarios y pruebas autoadministradas por las familias dificultó sostener los números proyectados para los análisis previstos. Por ejemplo, de acuerdo a los objetivos del proyecto, hubiese sido deseable poder construir modelos de ecuaciones estructurales con variables latentes para agrupar conceptualmente a los distintos enfoques de medición. Además, los contratiempos en la adquisición remota motivaron un viraje hacia la administración presencial de la batería de FFEE, hecho que también amenaza la validez interna de esas medidas, según los resultados del análisis de homogeneidad. Por todos estos motivos, este trabajo debe ser juzgado como una serie de estudios exploratorios, sin enormes pretenciones de generalizabilidad, pero que tal vez aporte datos que sirvan para calibrar las expectativas de proyectos venideros.
 
 \newpage
 
