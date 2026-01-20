@@ -316,6 +316,9 @@ server <- function(input, output, session) {
         select(input$variable_datos) %>%
         na.omit()
     ) %>%
+      mutate(
+        n = as.integer(n)
+      ) %>%
       select(-c(vars, mad, trimmed, se))
   }, options = list(pageLength = 10))
 
