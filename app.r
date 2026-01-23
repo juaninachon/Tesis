@@ -107,12 +107,12 @@ ui <- navbarPage(
           "lm_2", "Seleccione los predictores:",
           multiple = TRUE,
           choices = colnames(datos) %>% setdiff(., c("Estudio")),
-          selected = NULL
+          selected = c("Edad años", "NeuroUX – Bloques de Corsi (orden directo) - Puntaje", "Observación Jardines - Involucramiento en actividades")
         ),
         checkboxGroupInput(
           "group_filter_3", "Muestras:",
           choices = unique(datos$Estudio),
-          selected = unique(datos$Estudio)
+          selected = "jardines"
         )
       ),
       mainPanel(
@@ -137,18 +137,18 @@ ui <- navbarPage(
           "nlm_2", "Seleccione los predictores del modelo base:",
           multiple = TRUE,
           choices = colnames(datos) %>% setdiff(., c("Estudio")),
-          selected = NULL
+          selected = c("Edad años", "NeuroUX – Bloques de Corsi (orden directo) - Puntaje")
         ),
         selectInput(
           "nlm_3", "Seleccione los predictores del modelo extendido:",
           multiple = TRUE,
           choices = colnames(datos) %>% setdiff(., c("Estudio")),
-          selected = NULL
+          selected = c("Observación Jardines - Involucramiento en actividades")
         ),
         checkboxGroupInput(
           "group_filter_4", "Muestras:",
           choices = unique(datos$Estudio),
-          selected = unique(datos$Estudio)
+          selected = "jardines"
         )
       ),
       mainPanel(
