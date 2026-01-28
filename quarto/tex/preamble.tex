@@ -20,6 +20,9 @@
 
 \usepackage{array}
 
+\usepackage{atbegshi}
+\AtBeginShipoutFirst{\thispagestyle{empty}}
+
 \DeclareLanguageMapping{spanish}{spanish-apa}
 % --- Hanging indent + spacing ---
 \AtBeginBibliography{%
@@ -79,19 +82,29 @@
   {\normalfont\bfseries\itshape}
   {}{0pt}{}
 
-% Level 4: Indented, Bold, Title Case, Ending with a Period. 
-\titleformat{\paragraph}[runin]
+% Level 4 — now BLOCK, not run-in
+\titleformat{\paragraph}
   {\normalfont\bfseries}
-  {}{0pt}{}[.] 
+  {}{0pt}{}
 
-% Level 5: Indented, Bold Italic, Title Case, Ending with a Period. 
-\titleformat{\subparagraph}[runin]
+% Level 5 — now BLOCK, not run-in
+\titleformat{\subparagraph}
   {\normalfont\bfseries\itshape}
-  {}{0pt}{}[.] 
+  {}{0pt}{}
 
+% % Level 4: Indented, Bold, Title Case, Ending with a Period. 
+% \titleformat{\paragraph}[runin]
+%   {\normalfont\bfseries}
+%   {}{0pt}{}[.] 
+
+% % Level 5: Indented, Bold Italic, Title Case, Ending with a Period. 
+% \titleformat{\subparagraph}[runin]
+%   {\normalfont\bfseries\itshape}
+%   {}{0pt}{}[.] 
+  
 % Make sure paragraphs after run-in headings start on same line
-\titlespacing*{\paragraph}{\parindent}{1ex}{1em}
-\titlespacing*{\subparagraph}{\parindent}{1ex}{1em}
+% \titlespacing*{\paragraph}{\parindent}{1ex}{1em}
+% \titlespacing*{\subparagraph}{\parindent}{1ex}{1em}
 
 
 \renewcommand{\arraystretch}{1.0}
