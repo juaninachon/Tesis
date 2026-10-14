@@ -2,4 +2,4 @@
 
 Shinyapp: https://juaninachon.shinyapps.io/Tesis/
 
-Contacto: jnachon@cemic.edu.ar
+Contacto: juaninachon@gmail.com

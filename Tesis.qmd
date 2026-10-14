@@ -30,9 +30,9 @@ format:
     lof: false
     lot: false
     linestretch: 2
-    mainfont: Arial
-    sansfont: Arial
-    monofont: Arial
+    mainfont: Liberation Sans
+    sansfont: Liberation Sans
+    monofont: Liberation Mono
     fontsize: 10pt
     geometry:
       - inner=1in
@@ -115,7 +115,7 @@ El constructo *autorregulación* denomina a un conjunto de procesos y habilidade
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;En el presente, la proliferación de algoritmos de monitoreo artificial permite imaginar que la recolección de datos observacionales a gran escala podría ofrecer una solución a la escasez de datos naturalistas objetivos, y al problema de la validez ecológica de las evaluaciones [@priceEcologicalValidityPediatric2003]. La codificación de cientas de horas de audio y video lograría articular los resultados de pruebas estandarizadas con la expresión cotidiana del funcionamiento autorregulatorio, a través de múltiples edades y contextos culturales [@ramakrishnanAutomatedClassroomObservation2019; @woolvertonExplorationCriticalExamination2021]. Estas herramientas, muchas de las cuales se han popularizado bajo licencias de acceso abierto, pueden &mdash;por ejemplo&mdash; asistir en la detección y el rastreo de varios participantes en una toma de video, diarizar y transcribir el habla, estimar la postura de la cabeza y otras partes del cuerpo en relación a un sistema de coordenadas tridimensionales, y ayudar a clasificar expresiones faciales y secuencias de movimientos. Sin embargo, aún no es claro cuáles son las limitaciones y el alcance de estos modelos en el estudio del comportamiento infantil, sobre todo en ambientes donde existen menos posibilidades de ejercer un control riguroso de las condiciones bajo las cuales se obtienen los datos. Dentro de los pocos estudios sobre desarrollo infantil en los que se utilizan estos métodos, buena parte se ha enfocado en explorar la viabilidad de técnicas de clasificación de audio y video para caracterizar el ambiente y las dinámicas vocales, la semántica, los gestos, la postura y la proxemia de niños/as y adultos en el hogar o la escuela. En algunos casos, se han extendiendo hacia un análisis multimodal que incorpora medidas del ritmo cardiaco, la actividad neurofisiológica y el seguimiento de la mirada [@gamaAutomaticInfant2D2025;@michelettiValidatingModelDetect2022; @tanakaMultimodalMeasurementMusic2025; @wassAnnualResearchReview2024]. Dada la incipiencia de estas aplicaciones en el campo de estudio del desarrollo infantil, resulta relevante continuar con esfuerzos exploratorios y de validación, sobre todo en poblaciones subrepresentadas en la literatura. 
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La interdependencia en los procesos de socialización y desarrollo motiva a explorar cómo los sistemas de normas y valores propios de las comunidades locales inciden en las capacidades autorregulatorias de sus niños/as [@lansfordAnnualResearchReview2022]. En Argentina, se han realizado estudios que principalmente describen patrones de interacción de díadas durante actividades de juego y lectura compartida, en el hogar y en la escuela, analizando su impacto sobre la adquisición del lenguaje [@mareovichInteraccionMadrebebeHogar2024; @pizarrolabordaLenguajeEducadorasLosas2019; @quirogaComposicionLexicaVocabulario2023; @rosembergActivityContextsChilddirected2023; @sartoriSecuenciasPreguntaRespuesta2021]. No obstante, estos abordajes se podrían extender a más escenas de la vida cotidiana y a la evaluación del vínculo entre la conducta que allí acontese y otros instrumentos de medición del funcionamiento autorregulatorio, profundizando así el conocimiento sobre estos fenómenos [@doebelRethinkingExecutiveFunction2020; @obradovicContextualConsiderationsPractical2024].
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;La interdependencia en los procesos de socialización y desarrollo motiva a explorar cómo los sistemas de normas y valores propios de las comunidades locales inciden en las capacidades autorregulatorias de sus niños/as [@lansfordAnnualResearchReview2022]. En Argentina, se han realizado estudios que principalmente describen patrones de interacción de díadas durante actividades de juego y lectura compartida, en el hogar y en la escuela, analizando su impacto sobre la adquisición del lenguaje [@mareovichInteraccionMadrebebeHogar2024; @pizarrolabordaLenguajeEducadorasLosas2019; @quirogaComposicionLexicaVocabulario2023; @rosembergActivityContextsChilddirected2023; @sartoriSecuenciasPreguntaRespuesta2021]. No obstante, estos abordajes se podrían extender a más escenas de la vida cotidiana y a la evaluación del vínculo entre la conducta que allí acontece y otros instrumentos de medición del funcionamiento autorregulatorio, profundizando así el conocimiento sobre estos fenómenos [@doebelRethinkingExecutiveFunction2020; @obradovicContextualConsiderationsPractical2024].
 
 # 5. Objetivos
 
@@ -147,7 +147,7 @@ El constructo *autorregulación* denomina a un conjunto de procesos y habilidade
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;El diseño de esta propuesta corresponde a uno cuantitativo, no experimental, sincrónico y de alcance correlacional [@hernandezsampieriMetodologiaInvestigacion1991]. El muestreo se realizó por conveniencia y no fue aleatorizado. Si bien el proyecto no fue pre-registrado en un repositorio público, se adjuntan los planes de tesis presentados ante las comisiones evaluadoras de CONICET (2019) y de la Universidad Nacional de Córdoba (2020) (ver Anexos [A1](https://github.com/juaninachon/Tesis/blob/main/anexos/A1_PlanCONICET2019.pdf) y [A2](https://github.com/juaninachon/Tesis/blob/main/anexos/A2_PlanUNC.pdf), respectivamente). Se declara que, debido a comentarios de evaluadores y a contingencias en la implementación de las actividades del proyecto, se modificaron aspectos del plan de trabajo que no estaban correctamente fundamentados o cuya factibilidad se vio afectada, tales como el muestreo, instrumentos de medición, hipótesis de trabajo y procedimientos analíticos.
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A lo largo del desarrollo del proyecto se realizaron diferentes convocatorias a estudiantes de grado de las carreras de psicologia, psicopedagogia y afines, de aquí en más denominados como *operadores*, para efectuar actividades vinculadas a la recolección y el procesamiento de los datos (ver Anexos [B1](https://github.com/juaninachon/Tesis/blob/main/anexos/B1_Flyer2023.jpeg) y [B2](https://github.com/juaninachon/Tesis/blob/main/anexos/B2_Flyer2024.pdf)). Tales convocatorias se hicieron en el marco de prácticas de investigación e incluyeron una capacitación previa y la supervisión continua durante la realización de las tareas en campo y en el laboratorio. En total participaron 33 estudiantes entre los años 2023 y 2024.
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A lo largo del desarrollo del proyecto se realizaron diferentes convocatorias a estudiantes de grado de las carreras de psicología, psicopedagogia y afines, de aquí en más denominados como *operadores*, para efectuar actividades vinculadas a la recolección y el procesamiento de los datos (ver Anexos [B1](https://github.com/juaninachon/Tesis/blob/main/anexos/B1_Flyer2023.jpeg) y [B2](https://github.com/juaninachon/Tesis/blob/main/anexos/B2_Flyer2024.pdf)). Tales convocatorias se hicieron en el marco de prácticas de investigación e incluyeron una capacitación previa y la supervisión continua durante la realización de las tareas en campo y en el laboratorio. En total participaron 33 estudiantes entre los años 2023 y 2024.
 
 ## 6.1 Participantes
 
@@ -170,13 +170,14 @@ pckgs <- c(
   "parameters",
   "broom",
   "gvlma",
-  "factoextra"
+  "factoextra",
+  "dplyr"
 )
 invisible(capture.output(lapply(pckgs, require, character.only = TRUE)))
 len <- base::length
 
 pk <- read.csv("data/submuestras.csv") |>
- filter(inc == 1)
+ dplyr::filter(inc == 1)
  
 mj <- filter(pk, Muestra == "Jardines") |>
   select(c(
@@ -4779,7 +4780,7 @@ lmtable(m10m)
 &
 \begin{itemize}\itemsep0pt
 \item La inclusión de covariables como la edad y el nivel educativo materno en modelos multivariados disminuyó el valor predictivo de las medidas de la AR sobre el desempeño académico.
-\item No se registraron efectos significativos de interación/moderación entre estos tipos de variables.
+\item No se registraron efectos significativos de interacción/moderación entre estos tipos de variables.
 \end{itemize}
 \tabularnewline
 
